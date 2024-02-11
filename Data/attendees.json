@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Veronica",
+        "age": 23,
+        "allergies": ["vegan", "pineapple"],
+        "attending": true,
+        "image": "https://images.unsplash.com/photo-1664575602554-2087b04935a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "John",
+        "age": 41,
+        "allergies": [],
+        "attending": true,
+        "image": "https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Ted",
+        "age": 30,
+        "allergies": ["cats"],
+        "attending": false,
+        "image": "https://plus.unsplash.com/premium_photo-1676998931046-3050b6adb962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Lola",
+        "age": 45,
+        "allergies": ["eggs"],
+        "attending": true,
+        "image": "https://images.unsplash.com/photo-1664575600850-c4b712e6e2bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZlbWFsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Claire",
+        "age": 21,
+        "allergies": [],
+        "attending": true,
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGZlbWFsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Rosa",
+        "age": 35,
+        "allergies": ["nuts"],
+        "attending": false,
+        "image": "https://plus.unsplash.com/premium_photo-1674068280035-5e9c586859e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGZlbWFsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Fred",
+        "age": 33,
+        "allergies": [],
+        "attending": true,
+        "image": "https://images.unsplash.com/photo-1623666996666-6a71ec53ff42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3R1ZGVudCUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    }
+]
