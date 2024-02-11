@@ -1,0 +1,152 @@
+[
+    {
+        "title" : "The fellowship of the ring",
+        "author" : "J.R.R Tolkien",
+        "pages" : 432,
+        "genre" : "fantasy"
+    },
+    {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "pages": 320,
+        "genre": "fantasy"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "pages": 281,
+        "genre": "fiction"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "pages": 328,
+        "genre": "dystopian"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "pages": 279,
+        "genre": "romance"
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "pages": 180,
+        "genre": "fiction"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "pages": 277,
+        "genre": "fiction"
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "pages": 310,
+        "genre": "fantasy"
+    },
+    {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "pages": 374,
+        "genre": "dystopian"
+    },
+    {
+        "title": "The Lord of the Rings: The Two Towers",
+        "author": "J.R.R. Tolkien",
+        "pages": 352,
+        "genre": "fantasy"
+    },
+    {
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "pages": 454,
+        "genre": "mystery"
+    },
+    {
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "pages": 672,
+        "genre": "mystery"
+    },
+    {
+        "title": "Gone with the Wind",
+        "author": "Margaret Mitchell",
+        "pages": 1037,
+        "genre": "historical fiction"
+    },
+    {
+        "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "author": "C.S. Lewis",
+        "pages": 208,
+        "genre": "fantasy"
+    },
+    {
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "pages": 216,
+        "genre": "science fiction"
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "pages": 197,
+        "genre": "fiction"
+    },
+    {
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "pages": 552,
+        "genre": "historical fiction"
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "pages": 288,
+        "genre": "dystopian"
+    },
+    {
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "pages": 287,
+        "genre": "post-apocalyptic"
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "pages": 253,
+        "genre": "gothic fiction"
+    },
+    {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "pages": 447,
+        "genre": "horror"
+    },
+    {
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "pages": 371,
+        "genre": "historical fiction"
+    },
+    {
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "pages": 387,
+        "genre": "fantasy"
+    },
+    {
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "pages": 443,
+        "genre": "non-fiction"
+    },
+    {
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "pages": 369,
+        "genre": "science fiction"
+    }
+]
