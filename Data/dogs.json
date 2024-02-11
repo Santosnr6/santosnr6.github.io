@@ -1,0 +1,226 @@
+[
+    {
+    "name": "Molly",
+    "sex": "female",
+    "breed": "briard",
+    "img": "https://images.dog.ceo/breeds/briard/n02105251_6840.jpg",
+    "present": false,
+    "age": 4,
+    "chipNumber": "IEH455006",
+    "owner": {
+        "name": "Anna",
+        "lastName": "Gustafsson",
+        "phoneNumber": "0765678892"
+        }
+    },
+    {
+        "name": "Buddy",
+        "sex": "male",
+        "breed": "golden retriever",
+        "img": "https://images.dog.ceo/breeds/retriever-golden/n02099601_670.jpg",
+        "present": true,
+        "age": 2,
+        "chipNumber": "GHT789012",
+        "owner": {
+            "name": "John",
+            "lastName": "Smith",
+            "phoneNumber": "0789012345"
+        }
+    },
+    {
+        "name": "Luna",
+        "sex": "female",
+        "breed": "labrador",
+        "img": "https://images.dog.ceo/breeds/labrador/n02099712_6778.jpg",
+        "present": true,
+        "age": 3,
+        "chipNumber": "RTY456789",
+        "owner": {
+            "name": "Emily",
+            "lastName": "Jones",
+            "phoneNumber": "0712345678"
+        }
+    },
+    {
+        "name": "Max",
+        "sex": "male",
+        "breed": "German shepherd",
+        "img": "https://images.dog.ceo/breeds/germanshepherd/n02106662_7789.jpg",
+        "present": false,
+        "age": 5,
+        "chipNumber": "KLP123456",
+        "owner": {
+            "name": "David",
+            "lastName": "Brown",
+            "phoneNumber": "0798765432"
+        }
+    },
+    {
+        "name": "Charlie",
+        "sex": "male",
+        "breed": "poodle",
+        "img": "https://images.dog.ceo/breeds/poodle/n02113712_5642.jpg",
+        "present": true,
+        "age": 1,
+        "chipNumber": "PLM345678",
+        "owner": {
+            "name": "Sophie",
+            "lastName": "Taylor",
+            "phoneNumber": "0765432109"
+        }
+    },
+    {
+        "name": "Sadie",
+        "sex": "female",
+        "breed": "beagle",
+        "img": "https://images.dog.ceo/breeds/beagle/n02088364_733.jpg",
+        "present": false,
+        "age": 6,
+        "chipNumber": "QWE987654",
+        "owner": {
+            "name": "Michael",
+            "lastName": "Johnson",
+            "phoneNumber": "0723456789"
+        }
+    },
+    {
+        "name": "Rocky",
+        "sex": "male",
+        "breed": "boxer",
+        "img": "https://images.dog.ceo/breeds/boxer/n02108089_7832.jpg",
+        "present": true,
+        "age": 4,
+        "chipNumber": "ASD234567",
+        "owner": {
+            "name": "Jessica",
+            "lastName": "Martinez",
+            "phoneNumber": "0789012345"
+        }
+    },
+    {
+        "name": "Cooper",
+        "sex": "male",
+        "breed": "Border Collie",
+        "img": "https://images.dog.ceo/breeds/collie-border/n02106166_6968.jpg",
+        "present": true,
+        "age": 3,
+        "chipNumber": "ZXC765432",
+        "owner": {
+            "name": "Sarah",
+            "lastName": "Clark",
+            "phoneNumber": "0712345678"
+        }
+    },
+    {
+        "name": "Lucy",
+        "sex": "female",
+        "breed": "Siberian Husky",
+        "img": "https://images.dog.ceo/breeds/husky/n02110185_17251.jpg",
+        "present": false,
+        "age": 2,
+        "chipNumber": "CVB123456",
+        "owner": {
+            "name": "Daniel",
+            "lastName": "Walker",
+            "phoneNumber": "0798765432"
+        }
+    },
+    {
+        "name": "Bailey",
+        "sex": "female",
+        "breed": "Shih Tzu",
+        "img": "https://images.dog.ceo/breeds/shihtzu/n02086240_11482.jpg",
+        "present": true,
+        "age": 5,
+        "chipNumber": "POI098765",
+        "owner": {
+            "name": "Rachel",
+            "lastName": "Evans",
+            "phoneNumber": "0765432109"
+        }
+    },
+    {
+        "name": "Max",
+        "sex": "male",
+        "breed": "Dachshund",
+        "img": "https://images.dog.ceo/breeds/dachshund/n02107130_11826.jpg",
+        "present": true,
+        "age": 2,
+        "chipNumber": "MNB876543",
+        "owner": {
+            "name": "Jennifer",
+            "lastName": "Rodriguez",
+            "phoneNumber": "0712345678"
+        }
+    },
+    {
+        "name": "Lola",
+        "sex": "female",
+        "breed": "French Bulldog",
+        "img": "https://images.dog.ceo/breeds/bulldog-french/n02108915_10837.jpg",
+        "present": false,
+        "age": 3,
+        "chipNumber": "POK654321",
+        "owner": {
+            "name": "Ryan",
+            "lastName": "Garcia",
+            "phoneNumber": "0798765432"
+        }
+    },
+    {
+        "name": "Rocky",
+        "sex": "male",
+        "breed": "Rottweiler",
+        "img": "https://images.dog.ceo/breeds/rottweiler/n02106550_5764.jpg",
+        "present": true,
+        "age": 4,
+        "chipNumber": "KJI234567",
+        "owner": {
+            "name": "Jessica",
+            "lastName": "Perez",
+            "phoneNumber": "0765432109"
+        }
+    },
+    {
+        "name": "Milo",
+        "sex": "male",
+        "breed": "Labrador Retriever",
+        "img": "https://images.dog.ceo/breeds/labrador/n02099712_1920.jpg",
+        "present": true,
+        "age": 1,
+        "chipNumber": "ABC123456",
+        "owner": {
+            "name": "Emma",
+            "lastName": "Wilson",
+            "phoneNumber": "0712345678"
+        }
+    },
+    {
+        "name": "Bella",
+        "sex": "female",
+        "breed": "Pomeranian",
+        "img": "https://images.dog.ceo/breeds/pomeranian/n02112018_14563.jpg",
+        "present": false,
+        "age": 2,
+        "chipNumber": "DEF234567",
+        "owner": {
+            "name": "Oliver",
+            "lastName": "Brown",
+            "phoneNumber": "0798765432"
+        }
+    },
+    {
+        "name": "Charlie",
+        "sex": "male",
+        "breed": "Pug",
+        "img": "https://images.dog.ceo/breeds/pug/n02110958_2629.jpg",
+        "present": true,
+        "age": 3,
+        "chipNumber": "GHI345678",
+        "owner": {
+            "name": "Sophia",
+            "lastName": "Martinez",
+            "phoneNumber": "0765432109"
+        }
+    }
+]
