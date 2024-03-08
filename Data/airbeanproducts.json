@@ -1,0 +1,39 @@
+{
+    "menu" : [
+        {
+            "id" : 1,
+            "title" : "Bryggkaffe",
+            "desc" : "En klassisk och pålitlig kopp kaffe, bryggd på månadens utvalda bönor."
+        },
+        {
+            "id" : 2,
+            "title" : "Caffè Doppio",
+            "desc" : "En dubbel espresso för de dagar då en enkel kopp inte riktigt räcker till."
+        },
+        {
+            "id" : 3,
+            "title" : "Cappuccino",
+            "desc" : "En balanserad blandning av espresso, ångad mjölk och krämigt skum."
+        },
+        {
+            "id" : 4,
+            "title" : "Latte Macchiato",
+            "desc" : "Ett konstnärligt lager av mjölk och espresso, med en skvätt av kärlek."
+        },
+        {
+            "id" : 5,
+            "title" : "Kaffe Latte",
+            "desc" : "En harmonisk förening av kaffe och mjölk, för en len och krämig smakupplevelse."
+        },
+        {
+            "id" : 6,
+            "title" : "Cortado",
+            "desc" : "En kort men kraftfull espresso med en liten mängd ångad mjölk för att mjuka upp smaken."
+        }, 
+        {
+            "id" : 7,
+            "title" : "Santos Special",
+            "desc" : "Som en omfamning från din favoritfilt, fast i dryckesform." 
+        }
+    ]
+}

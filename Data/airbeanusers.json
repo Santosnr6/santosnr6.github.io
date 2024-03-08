@@ -1,0 +1,34 @@
+{
+    "users" : [
+        {
+            "username" : "jesper123",
+            "password" : "fisnils123",
+            "role" : "admin"
+        },
+        {
+            "username" : "bradpitt",
+            "password" : "fightclub9",
+            "role" : "user"
+        },
+        {
+            "username" : "fotbollskungen",
+            "password" : "legomast3r",
+            "role" : "user"
+        },
+        {
+            "username" : "bergwallz",
+            "password" : "ilovepizza",
+            "role" : "user"
+        },
+        {
+            "username" : "tumlaren",
+            "password" : "magont456",
+            "role" : "admin"
+        },
+        {
+            "username" : "frivillig",
+            "password" : "gasmage123",
+            "role" : "user"
+        }
+    ]
+}
