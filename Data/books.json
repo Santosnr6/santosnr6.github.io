@@ -3,150 +3,175 @@
         "title" : "The fellowship of the ring",
         "author" : "J.R.R Tolkien",
         "pages" : 432,
-        "genre" : "fantasy"
+        "genre" : "fantasy",
+        "about": "En episk berättelse om en broderskapets resa för att förstöra en ond ring och rädda Midgård från mörkrets krafter."
     },
     {
         "title": "Harry Potter and the Philosopher's Stone",
         "author": "J.K. Rowling",
         "pages": 320,
-        "genre": "fantasy"
+        "genre": "fantasy",
+        "about": "En ung trollkarl, Harry Potter, upptäcker sin arv och en värld av magi när han börjar på Hogwarts skola för häxkonster och trolldom."
     },
     {
         "title": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "pages": 281,
-        "genre": "fiction"
+        "genre": "fiction",
+        "about": "En gripande skildring av rasism och orättvisa genom ögonen på en ung flicka och hennes far, en modig advokat som kämpar för rättvisa."
     },
     {
         "title": "1984",
         "author": "George Orwell",
         "pages": 328,
-        "genre": "dystopian"
+        "genre": "dystopian",
+        "about": "En dystopisk framtid där regeringen styr varje aspekt av människors liv och ensamhet och övervakning är normen."
     },
     {
         "title": "Pride and Prejudice",
         "author": "Jane Austen",
         "pages": 279,
-        "genre": "romance"
+        "genre": "romance",
+        "about": "En klassisk kärlekshistoria där Elizabeth Bennet navigerar genom de sociala konventionerna i det tidiga 1800-talets England för att finna sann kärlek."
     },
     {
         "title": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "pages": 180,
-        "genre": "fiction"
+        "genre": "fiction",
+        "about": "En fängslande berättelse om dekadens och tomhet i 1920-talets Amerika, sedd genom ögonen på den mystiske Jay Gatsby."
     },
     {
         "title": "The Catcher in the Rye",
         "author": "J.D. Salinger",
         "pages": 277,
-        "genre": "fiction"
+        "genre": "fiction",
+        "about": "En ung mans resa genom alienation och vuxenhetens värld, fylld med sinnesstörningar och en längtan efter äkthet."
     },
     {
         "title": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "pages": 310,
-        "genre": "fantasy"
+        "genre": "fantasy",
+        "about": "En äventyrsfylld resa av en hobbit som heter Bilbo Baggins, när han går med en grupp dvärgar för att återta deras hem från en drake."
     },
     {
         "title": "The Hunger Games",
         "author": "Suzanne Collins",
         "pages": 374,
-        "genre": "dystopian"
+        "genre": "dystopian",
+        "about": "I en framtid där ungdomar kämpar till döden i en årlig strid för underhållning, utmanar en flicka vid namn Katniss Everdeen reglerna och systemet."
     },
     {
         "title": "The Lord of the Rings: The Two Towers",
         "author": "J.R.R. Tolkien",
         "pages": 352,
-        "genre": "fantasy"
+        "genre": "fantasy",
+        "about": "I den andra delen av Sagan om ringen står broderskapet inför ökade faror när de strävar efter att förgöra ringen och besegra Sauron."
     },
     {
         "title": "The Da Vinci Code",
         "author": "Dan Brown",
         "pages": 454,
-        "genre": "mystery"
+        "genre": "mystery",
+        "about": "En spännande katt-och-råtta jakt genom konst, historia och religion när en symbolistisk professor och en kryptolog spårar en dödlig hemlighet."
     },
     {
         "title": "The Girl with the Dragon Tattoo",
         "author": "Stieg Larsson",
         "pages": 672,
-        "genre": "mystery"
+        "genre": "mystery",
+        "about": "En mörk och komplex deckare där journalisten Mikael Blomkvist och hackeran Lisbeth Salander förenas för att lösa en gammal familjehemlighet."
     },
     {
         "title": "Gone with the Wind",
         "author": "Margaret Mitchell",
         "pages": 1037,
-        "genre": "historical fiction"
+        "genre": "historical fiction",
+        "about": "En episk saga om kärlek, förlust och överlevnad under det amerikanska inbördeskriget, med Scarlett O'Hara i centrum för stormen."
     },
     {
         "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
         "author": "C.S. Lewis",
         "pages": 208,
-        "genre": "fantasy"
+        "genre": "fantasy",
+        "about": "Fyra syskon upptäcker en magisk värld bakom en garderob där de måste kämpa mot en ond häxa med hjälp av lejonet Aslan."
     },
     {
         "title": "The Hitchhiker's Guide to the Galaxy",
         "author": "Douglas Adams",
         "pages": 216,
-        "genre": "science fiction"
+        "genre": "science fiction",
+        "about": "En absurd och underhållande resa genom rymden där jordens enda överlevande, Arthur Dent, utforskar universum med sin udda följeslagare."
     },
     {
         "title": "The Alchemist",
         "author": "Paulo Coelho",
         "pages": 197,
-        "genre": "fiction"
+        "genre": "fiction",
+        "about": "En inspirerande berättelse om en herdpojkes resa för att upptäcka sin öde och uppfylla sina drömmar, ledd av en mystisk alchemist."
     },
     {
         "title": "The Book Thief",
         "author": "Markus Zusak",
         "pages": 552,
-        "genre": "historical fiction"
+        "genre": "historical fiction",
+        "about": "Berättad av Döden, följer denna gripande historia en flicka som stjäl böcker och delar kärlek och hopp i Nazityskland under andra världskriget."
     },
     {
         "title": "Brave New World",
         "author": "Aldous Huxley",
         "pages": 288,
-        "genre": "dystopian"
+        "genre": "dystopian",
+        "about": "I en framtid där mänskligheten är kontrollerad och lyckliggjord genom droger och manipulation, ifrågasätter en man det totalitära samhällets värden."
     },
     {
         "title": "The Road",
         "author": "Cormac McCarthy",
         "pages": 287,
-        "genre": "post-apocalyptic"
+        "genre": "post-apocalyptic",
+        "about": "I en ödelagd värld kämpar en far och hans son för att överleva och bevara sin mänsklighet medan de vandrar genom en öde landskap."
     },
     {
         "title": "The Picture of Dorian Gray",
         "author": "Oscar Wilde",
         "pages": 253,
-        "genre": "gothic fiction"
+        "genre": "gothic fiction",
+        "about": "En ung man förbannar sitt porträtt för att bevara sin ungdomsamhet medan han själv fördärvas av synd och dekadens."
     },
     {
         "title": "The Shining",
         "author": "Stephen King",
         "pages": 447,
-        "genre": "horror"
+        "genre": "horror",
+        "about": "En familj isoleras på ett ödsligt hotell under vintern, där faderns mentala förfall och hotellets onda närvaro hotar att förgöra dem alla."
     },
     {
         "title": "The Kite Runner",
         "author": "Khaled Hosseini",
         "pages": 371,
-        "genre": "historical fiction"
+        "genre": "historical fiction",
+        "about": "En gripande berättelse om vänskap, förlåtelse och återfödelse, som spänner över årtionden och kulturer i ett krigshärjat Afghanistan."
     },
     {
         "title": "The Night Circus",
         "author": "Erin Morgenstern",
         "pages": 387,
-        "genre": "fantasy"
+        "genre": "fantasy",
+        "about": "En magisk cirkus dyker upp över natten och blir skådeplatsen för en intensivt romantisk strid mellan två unga illusionister."
     },
     {
         "title": "Sapiens: A Brief History of Humankind",
         "author": "Yuval Noah Harari",
         "pages": 443,
-        "genre": "non-fiction"
+        "genre": "non-fiction",
+        "about": "En djupdykning i mänsklighetens evolution och historia, som utforskar hur kultur, religion och teknologi har format vår värld."
     },
     {
         "title": "The Martian",
         "author": "Andy Weir",
         "pages": 369,
-        "genre": "science fiction"
+        "genre": "science fiction",
+        "about": "Efter att ha blivit strandsatt på Mars kämpar astronauten Mark Watney för att överleva genom uppfinningsrikedom och uthållighet."
     }
 ]
