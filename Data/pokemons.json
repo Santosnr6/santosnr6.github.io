@@ -250,5 +250,1121 @@
      "image": "https://static.wikia.nocookie.net/pokemon/images/0/0b/028Sandslash.png/revision/latest/scale-to-width-down/200?cb=20140328192555",
      "info": "Introduced in Generation I, and an Ice/Steel-type Pokémon introduced in Generation VII which is exclusive to Pokémon Moon. Sandslash evolves from Sandshrew at level 22, and Alolan Sandslash evolves from Alolan Sandshrew when an Ice Stone is used on it.",
      "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/e/e7/028.png/revision/latest?cb=20230419013345"
+  },
+  {
+    "name": "Nidoran♀",
+    "id": "#0029",
+    "japanese": "ニドラン♀",
+    "type": ["poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/0/0c/029Nidoran.png/revision/latest/scale-to-width-down/200?cb=20200620223947",
+    "info": "Nidoran♀ is a small, quadruped, rodent-like Pokémon. It is the female counterpart to Nidoran♂ and is one of the first known Pokémon capable of being either male or female.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/c/c6/029.png/revision/latest?cb=20230419013400"
+  },
+  {
+    "name": "Nidorina",
+    "id": "#0030",
+    "japanese": "ニドリーナ",
+    "type": ["poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/e/eb/030Nidorina.png/revision/latest/scale-to-width-down/200?cb=20140328192743",
+    "info": "Nidorina evolves from Nidoran♀ starting at level 16 and evolves into Nidoqueen when exposed to a Moon Stone.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/3/39/030.png/revision/latest?cb=20230419013422"
+  },
+  {
+    "name": "Nidoqueen",
+    "id": "#0031",
+    "japanese": "ニドクイン",
+    "type": ["poison", "ground"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/e/e1/031Nidoqueen.png/revision/latest/scale-to-width-down/200?cb=20200731134047",
+    "info": "Nidoqueen is a large, bipedal, blue Pokémon with distinct reptilian features. Its body is covered with scales, and its shoulders, lower legs, and lower jaw are adorned with pronounced spikes.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/74/031.png/revision/latest?cb=20230419013453"
+  },
+  {
+    "name": "Nidoran♂",
+    "id": "#0032",
+    "japanese": "ニドラン♂",
+    "type": ["poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/8c/032Nidoran.png/revision/latest/scale-to-width-down/200?cb=20200620223956",
+    "info": "Nidoran♂ is a small, quadruped, rodent-like Pokémon. It is the male counterpart to Nidoran♀ and is one of the first known Pokémon capable of being either male or female.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/a8/032.png/revision/latest?cb=20230419013511"
+  },
+  {
+    "name": "Nidorino",
+    "id": "#0033",
+    "japanese": "ニドリーノ",
+    "type": ["poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/0/03/033Nidorino.png/revision/latest/scale-to-width-down/200?cb=20140328192812",
+    "info": "Nidorino evolves from Nidoran♂ starting at level 16 and evolves into Nidoking when exposed to a Moon Stone.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/0/00/033.png/revision/latest?cb=20230419013534"
+  },
+  {
+    "name": "Nidoking",
+    "id": "#0034",
+    "japanese": "ニドキング",
+    "type": ["poison", "ground"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/1/16/034Nidoking.png/revision/latest/scale-to-width-down/200?cb=20200731134107",
+    "info": "Nidoking is a large, bipedal, purple Pokémon with distinct reptilian features. Its body is covered with scales, and its shoulders, lower legs, and lower jaw are adorned with pronounced spikes.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/0/01/034.png/revision/latest?cb=20230419013603"
+  },
+  {
+    "name": "Clefairy",
+    "id": "#0035",
+    "japanese": "ピッピ",
+    "type": ["fairy"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/6/6d/035Clefairy.png/revision/latest/scale-to-width-down/200?cb=20140328192827",
+    "info": "Clefairy is a small, round, pink, star-shaped Pokémon with a vaguely humanoid appearance. It is said to appear when the full moon shines.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/aa/035.png/revision/latest?cb=20230419013630"
+  },
+  {
+    "name": "Clefable",
+    "id": "#0036",
+    "japanese": "ピクシー",
+    "type": ["fairy"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/4f/036Clefable.png/revision/latest/scale-to-width-down/200?cb=20140328192918",
+    "info": "Clefable evolves from Clefairy when exposed to a Moon Stone. Clefable is known for its acute hearing and ability to walk silently.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/f/f8/036.png/revision/latest?cb=20230419013652"
+  },
+  {
+    "name": "Vulpix",
+    "id": "#0037",
+    "japanese": "ロコン",
+    "type": ["fire"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/5b/037Vulpix.png/revision/latest/scale-to-width-down/200?cb=20140328192938",
+    "info": "Vulpix is a small, quadruped, fox-like Pokémon with a reddish-brown pelt and six orange tails.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/4a/037.png/revision/latest?cb=20230419013714"
+  },
+  {
+    "name": "Ninetales",
+    "id": "#0038",
+    "japanese": "キュウコン",
+    "type": ["fire"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/3e/038Ninetales.png/revision/latest/scale-to-width-down/200?cb=20140328193000",
+    "info": "Ninetales evolves from Vulpix when exposed to a Fire Stone. It is known for its nine long, luxurious tails and mystical powers.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/69/038.png/revision/latest?cb=20230419013741"
+  },
+  {
+    "name": "Jigglypuff",
+    "id": "#0039",
+    "japanese": "プリン",
+    "type": ["normal", "fairy"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/3e/039Jigglypuff.png/revision/latest/scale-to-width-down/200?cb=20200620223950",
+    "info": "Jigglypuff is known for its singing ability, putting its opponents to sleep with its lullabies. It evolves from Igglybuff when leveled up with high friendship and evolves into Wigglytuff when exposed to a Moon Stone.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/3/32/039.png/revision/latest?cb=20230418012031"
+  },
+  {
+    "name": "Wigglytuff",
+    "id": "#0040",
+    "japanese": "プクリン",
+    "type": ["normal", "fairy"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/7/79/040Wigglytuff.png/revision/latest/scale-to-width-down/200?cb=20200620224023",
+    "info": "Wigglytuff is the evolved form of Jigglypuff when exposed to a Moon Stone. Its body is very elastic, and by inhaling deeply, it can inflate itself seemingly without end.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/26/040.png/revision/latest?cb=20230418012055"
+  },
+  {
+    "name": "Zubat",
+    "id": "#0041",
+    "japanese": "ズバット",
+    "type": ["poison", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/c/cd/041Zubat.png/revision/latest/scale-to-width-down/200?cb=20200620224056",
+    "info": "Zubat lives in dark caves and avoids sunlight. It evolves into Golbat starting at level 22.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/70/041.png/revision/latest?cb=20230418012440"
+  },
+  {
+    "name": "Golbat",
+    "id": "#0042",
+    "japanese": "ゴルバット",
+    "type": ["poison", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/43/042Golbat.png/revision/latest/scale-to-width-down/200?cb=20200620224132",
+    "info": "Golbat evolves from Zubat at level 22 and evolves into Crobat when leveled up with high friendship. It attacks its prey with sharp fangs and sucks their blood.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/8/80/042.png/revision/latest?cb=20230418012508"
+  },
+  {
+    "name": "Oddish",
+    "id": "#0043",
+    "japanese": "ナゾノクサ",
+    "type": ["grass", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/87/043Oddish.png/revision/latest/scale-to-width-down/200?cb=20200620224207",
+    "info": "Oddish buries itself in the soil to absorb nutrients and evolves into Gloom starting at level 21.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/23/043.png/revision/latest?cb=20230418013247"
+  },
+  {
+    "name": "Gloom",
+    "id": "#0044",
+    "japanese": "クサイハナ",
+    "type": ["grass", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/7/75/044Gloom.png/revision/latest/scale-to-width-down/200?cb=20200620224244",
+    "info": "Gloom evolves from Oddish at level 21 and can evolve into Vileplume when exposed to a Leaf Stone or into Bellossom when exposed to a Sun Stone.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/3/3b/044.png/revision/latest?cb=20230418013312"
+  },
+  {
+    "name": "Vileplume",
+    "id": "#0045",
+    "japanese": "ラフレシア",
+    "type": ["grass", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/84/045Vileplume.png/revision/latest/scale-to-width-down/200?cb=20200620224316",
+    "info": "Vileplume is the evolved form of Gloom when exposed to a Leaf Stone. It releases toxic spores from the petals of its large flower.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/d/d5/045.png/revision/latest?cb=20230418013342"
+  },
+  {
+    "name": "Paras",
+    "id": "#0046",
+    "japanese": "パラス",
+    "type": ["bug", "grass"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/84/046Paras.png/revision/latest/scale-to-width-down/200?cb=20200620224348",
+    "info": "Paras is a bug and grass type Pokémon with mushrooms growing on its back. It evolves into Parasect starting at level 24.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/f/f4/046.png/revision/latest?cb=20230418013504"
+  },
+  {
+    "name": "Parasect",
+    "id": "#0047",
+    "japanese": "パラセクト",
+    "type": ["bug", "grass"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/56/047Parasect.png/revision/latest/scale-to-width-down/200?cb=20200620224421",
+    "info": "Parasect evolves from Paras at level 24. It is known for the large mushroom on its back, which is the result of parasitic growth.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/5/5b/047.png/revision/latest?cb=20230418013529"
+  },
+  {
+    "name": "Venonat",
+    "id": "#0048",
+    "japanese": "コンパン",
+    "type": ["bug", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/fb/048Venonat.png/revision/latest/scale-to-width-down/200?cb=20200620224457",
+    "info": "Venonat is covered in thick fur that is used to detect vibrations. It evolves into Venomoth starting at level 31.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/a6/048.png/revision/latest?cb=20230418013603"
+  },
+  {
+    "name": "Venomoth",
+    "id": "#0049",
+    "japanese": "モルフォン",
+    "type": ["bug", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/a/ae/049Venomoth.png/revision/latest/scale-to-width-down/200?cb=20200620224523",
+    "info": "Venomoth evolves from Venonat starting at level 31. It scatters toxic scales from its wings during battle.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/8/8b/049.png/revision/latest?cb=20230418013630"
+  },
+  {
+    "name": "Diglett",
+    "id": "#0050",
+    "japanese": "ディグダ",
+    "type": ["ground"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/f2/050Diglett.png/revision/latest/scale-to-width-down/200?cb=20200620224549",
+    "info": "Diglett lives underground and has a tendency to pop up from the ground in unexpected places. It evolves into Dugtrio starting at level 26.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/4d/050.png/revision/latest?cb=20230418014124"
+  },
+  {
+    "name": "Dugtrio",
+    "id": "#0051",
+    "japanese": "ダグトリオ",
+    "type": ["ground"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/57/051Dugtrio.png/revision/latest/scale-to-width-down/200?cb=20200620224613",
+    "info": "Dugtrio evolves from Diglett starting at level 26. It consists of three Diglett linked together.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/4b/051.png/revision/latest?cb=20230418014148"
+  },
+  {
+    "name": "Meowth",
+    "id": "#0052",
+    "japanese": "ニャース",
+    "type": ["normal"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/b/b3/052Meowth.png/revision/latest/scale-to-width-down/200?cb=20200620224639",
+    "info": "Meowth is known for its love of shiny objects and coins. It evolves into Persian starting at level 28.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/24/052.png/revision/latest?cb=20230418014214"
+  },
+  {
+    "name": "Persian",
+    "id": "#0053",
+    "japanese": "ペルシアン",
+    "type": ["normal"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/7/7d/053Persian.png/revision/latest/scale-to-width-down/200?cb=20200620224710",
+    "info": "Persian evolves from Meowth starting at level 28. It is known for its elegance and sophisticated nature.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/69/053.png/revision/latest?cb=20230418014242"
+  },
+  {
+    "name": "Psyduck",
+    "id": "#0054",
+    "japanese": "コダック",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/4f/054Psyduck.png/revision/latest/scale-to-width-down/200?cb=20200620224737",
+    "info": "Psyduck suffers from frequent headaches that can trigger intense psychic powers. It evolves into Golduck starting at level 33.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/2e/054.png/revision/latest?cb=20230418014707"
+  },
+  {
+    "name": "Golduck",
+    "id": "#0055",
+    "japanese": "ゴルダック",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/5e/055Golduck.png/revision/latest/scale-to-width-down/200?cb=20200620224803",
+    "info": "Golduck evolves from Psyduck starting at level 33. It is a strong swimmer and uses its psychic abilities to battle.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/46/055.png/revision/latest?cb=20230418014731"
+  },
+  {
+    "name": "Mankey",
+    "id": "#0056",
+    "japanese": "マンキー",
+    "type": ["fighting"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/0/0b/056Mankey.png/revision/latest/scale-to-width-down/200?cb=20200620224830",
+    "info": "Mankey is an aggressive Pokémon that becomes enraged quickly. It evolves into Primeape starting at level 28.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/c/cd/056.png/revision/latest?cb=20230418014832"
+  },
+  {
+    "name": "Primeape",
+    "id": "#0057",
+    "japanese": "オコリザル",
+    "type": ["fighting"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/d/d0/057Primeape.png/revision/latest/scale-to-width-down/200?cb=20200620224856",
+    "info": "Primeape evolves from Mankey starting at level 28. It is known for its uncontrollable rage.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/8/8e/057.png/revision/latest?cb=20230418014902"
+  },
+  {
+    "name": "Growlithe",
+    "id": "#0058",
+    "japanese": "ガーディ",
+    "type": ["fire"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/2/21/058Growlithe.png/revision/latest/scale-to-width-down/200?cb=20200620224923",
+    "info": "Growlithe is loyal and friendly, often used as a police dog in the Pokémon world. It evolves into Arcanine when exposed to a Fire Stone.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/41/058.png/revision/latest?cb=20230418014933"
+  },
+  {
+    "name": "Arcanine",
+    "id": "#0059",
+    "japanese": "ウインディ",
+    "type": ["fire"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/43/059Arcanine.png/revision/latest/scale-to-width-down/200?cb=20200620224950",
+    "info": "Arcanine evolves from Growlithe when exposed to a Fire Stone. It is known for its speed and majestic appearance.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/78/059.png/revision/latest?cb=20230418015002"
+  },
+  {
+    "name": "Poliwag",
+    "id": "#0060",
+    "japanese": "ニョロモ",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/8a/060Poliwag.png/revision/latest/scale-to-width-down/200?cb=20200620225019",
+    "info": "Poliwag is a tadpole Pokémon with a distinctive spiral on its belly. It evolves into Poliwhirl starting at level 25.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/a7/060.png/revision/latest?cb=20230418015027"
+  },
+  {
+    "name": "Poliwhirl",
+    "id": "#0061",
+    "japanese": "ニョロゾ",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/4d/061Poliwhirl.png/revision/latest/scale-to-width-down/200?cb=20200620225047",
+    "info": "Poliwhirl evolves from Poliwag starting at level 25. It can evolve into either Poliwrath when exposed to a Water Stone or Politoed when traded while holding a King's Rock.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/0/0c/061.png/revision/latest?cb=20230418015055"
+  },
+  {
+    "name": "Poliwrath",
+    "id": "#0062",
+    "japanese": "ニョロボン",
+    "type": ["water", "fighting"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/f9/062Poliwrath.png/revision/latest/scale-to-width-down/200?cb=20200620225115",
+    "info": "Poliwrath evolves from Poliwhirl when exposed to a Water Stone. It is a skilled swimmer and fighter.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/a8/062.png/revision/latest?cb=20230418015121"
+  },
+  {
+    "name": "Abra",
+    "id": "#0063",
+    "japanese": "ケーシィ",
+    "type": ["psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/55/063Abra.png/revision/latest/scale-to-width-down/200?cb=20200620225140",
+    "info": "Abra is known for its ability to teleport. It evolves into Kadabra starting at level 16.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/8/87/063.png/revision/latest?cb=20230418015145"
+  },
+  {
+    "name": "Kadabra",
+    "id": "#0064",
+    "japanese": "ユンゲラー",
+    "type": ["psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/3b/064Kadabra.png/revision/latest/scale-to-width-down/200?cb=20200620225206",
+    "info": "Kadabra evolves from Abra starting at level 16. It evolves into Alakazam when traded. Kadabra has powerful psychic abilities.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/8/84/064.png/revision/latest?cb=20230418015210"
+  },
+  {
+    "name": "Alakazam",
+    "id": "#0065",
+    "japanese": "フーディン",
+    "type": ["psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/3c/065Alakazam.png/revision/latest/scale-to-width-down/200?cb=20200620225233",
+    "info": "Alakazam evolves from Kadabra when traded. It is known for its incredible intelligence and psychic powers.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/c/c3/065.png/revision/latest?cb=20230418015231"
+  },
+  {
+    "name": "Machop",
+    "id": "#0066",
+    "japanese": "ワンリキー",
+    "type": ["fighting"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/0/0b/066Machop.png/revision/latest/scale-to-width-down/200?cb=20200620225258",
+    "info": "Machop is a strong and muscular Pokémon. It evolves into Machoke starting at level 28.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/60/066.png/revision/latest?cb=20230418015256"
+  },
+  {
+    "name": "Machoke",
+    "id": "#0067",
+    "japanese": "ゴーリキー",
+    "type": ["fighting"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/2/2e/067Machoke.png/revision/latest/scale-to-width-down/200?cb=20200620225326",
+    "info": "Machoke evolves from Machop starting at level 28. It evolves into Machamp when traded. Machoke is known for its immense strength.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/40/067.png/revision/latest?cb=20230418015322"
+  },
+  {
+    "name": "Machamp",
+    "id": "#0068",
+    "japanese": "カイリキー",
+    "type": ["fighting"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/1/1b/068Machamp.png/revision/latest/scale-to-width-down/200?cb=20200620225352",
+    "info": "Machamp evolves from Machoke when traded. It has four arms and is capable of throwing powerful punches.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/af/068.png/revision/latest?cb=20230418015348"
+  },
+  {
+    "name": "Bellsprout",
+    "id": "#0069",
+    "japanese": "マダツボミ",
+    "type": ["grass", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/2/2c/069Bellsprout.png/revision/latest/scale-to-width-down/200?cb=20200620225417",
+    "info": "Bellsprout is a plant Pokémon with a bell-shaped flower. It evolves into Weepinbell starting at level 21.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/a1/069.png/revision/latest?cb=20230418015415"
+  },
+  {
+    "name": "Weepinbell",
+    "id": "#0070",
+    "japanese": "ウツドン",
+    "type": ["grass", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/3a/070Weepinbell.png/revision/latest/scale-to-width-down/200?cb=20200620225443",
+    "info": "Weepinbell evolves from Bellsprout starting at level 21. It evolves into Victreebel when exposed to a Leaf Stone.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/5/5f/070.png/revision/latest?cb=20230418015440"
+  },
+  {
+    "name": "Victreebel",
+    "id": "#0071",
+    "japanese": "ウツボット",
+    "type": ["grass", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/6/63/071Victreebel.png/revision/latest/scale-to-width-down/200?cb=20200620225512",
+    "info": "Victreebel evolves from Weepinbell when exposed to a Leaf Stone. It is known for its strong acid and carnivorous nature.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/0/0b/071.png/revision/latest?cb=20230418015508"
+  },
+  {
+    "name": "Tentacool",
+    "id": "#0072",
+    "japanese": "メノクラゲ",
+    "type": ["water", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/0/0e/072Tentacool.png/revision/latest/scale-to-width-down/200?cb=20200620225537",
+    "info": "Tentacool is a jellyfish Pokémon. It evolves into Tentacruel starting at level 30.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/4c/072.png/revision/latest?cb=20230418015532"
+  },
+  {
+    "name": "Tentacruel",
+    "id": "#0073",
+    "japanese": "ドククラゲ",
+    "type": ["water", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/fe/073Tentacruel.png/revision/latest/scale-to-width-down/200?cb=20200620225603",
+    "info": "Tentacruel evolves from Tentacool starting at level 30. It has numerous tentacles and is known for its powerful poison.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/27/073.png/revision/latest?cb=20230418015558"
+  },
+  {
+    "name": "Geodude",
+    "id": "#0074",
+    "japanese": "イシツブテ",
+    "type": ["rock", "ground"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/f8/074Geodude.png/revision/latest/scale-to-width-down/200?cb=20200620225628",
+    "info": "Geodude is a rock Pokémon that evolves into Graveler starting at level 25.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/d/d1/074.png/revision/latest?cb=20230418015623"
+  },
+  {
+    "name": "Graveler",
+    "id": "#0075",
+    "japanese": "ゴローン",
+    "type": ["rock", "ground"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/5d/075Graveler.png/revision/latest/scale-to-width-down/200?cb=20200620225656",
+    "info": "Graveler evolves from Geodude starting at level 25 and evolves into Golem when traded.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/e/e7/075.png/revision/latest?cb=20230418015649"
+  },
+  {
+    "name": "Golem",
+    "id": "#0076",
+    "japanese": "ゴローニャ",
+    "type": ["rock", "ground"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/1/1a/076Golem.png/revision/latest/scale-to-width-down/200?cb=20200620225723",
+    "info": "Golem evolves from Graveler when traded. It has a tough, rock-like body.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/d/d4/076.png/revision/latest?cb=20230418015714"
+  },
+  {
+    "name": "Ponyta",
+    "id": "#0077",
+    "japanese": "ポニータ",
+    "type": ["fire"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/6/65/077Ponyta.png/revision/latest/scale-to-width-down/200?cb=20200620225748",
+    "info": "Ponyta is a fire-type Pokémon resembling a horse. It evolves into Rapidash starting at level 40.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/c/cf/077.png/revision/latest?cb=20230418015740"
+  },
+  {
+    "name": "Rapidash",
+    "id": "#0078",
+    "japanese": "ギャロップ",
+    "type": ["fire"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/6/6a/078Rapidash.png/revision/latest/scale-to-width-down/200?cb=20200620225817",
+    "info": "Rapidash evolves from Ponyta starting at level 40. It is known for its incredible speed and fiery mane.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/44/078.png/revision/latest?cb=20230418015806"
+  },
+  {
+    "name": "Slowpoke",
+    "id": "#0079",
+    "japanese": "ヤドン",
+    "type": ["water", "psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/3f/079Slowpoke.png/revision/latest/scale-to-width-down/200?cb=20200620225841",
+    "info": "Slowpoke is a dual-type Water/Psychic Pokémon that evolves into Slowbro starting at level 37 or Slowking when traded holding a King's Rock.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/21/079.png/revision/latest?cb=20230418015832"
+  },
+  {
+    "name": "Slowbro",
+    "id": "#0080",
+    "japanese": "ヤドラン",
+    "type": ["water", "psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/4a/080Slowbro.png/revision/latest/scale-to-width-down/200?cb=20200620225908",
+    "info": "Slowbro evolves from Slowpoke starting at level 37. It is known for its relaxed nature and the Shellder that clamps onto its tail.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/8/84/080.png/revision/latest?cb=20230418015859"
+  },
+  {
+    "name": "Magnemite",
+    "id": "#0081",
+    "japanese": "コイル",
+    "type": ["electric", "steel"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/8d/081Magnemite.png/revision/latest/scale-to-width-down/200?cb=20200620225935",
+    "info": "Magnemite is an Electric/Steel-type Pokémon. It evolves into Magneton starting at level 30.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/60/081.png/revision/latest?cb=20230418015924"
+  },
+  {
+    "name": "Magneton",
+    "id": "#0082",
+    "japanese": "レアコイル",
+    "type": ["electric", "steel"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/d/d1/082Magneton.png/revision/latest/scale-to-width-down/200?cb=20200620230002",
+    "info": "Magneton evolves from Magnemite starting at level 30 and can evolve into Magnezone when leveled up in a special magnetic field.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/1/13/082.png/revision/latest?cb=20230418015950"
+  },
+  {
+    "name": "Farfetch'd",
+    "id": "#0083",
+    "japanese": "カモネギ",
+    "type": ["normal", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/89/083Farfetch%27d.png/revision/latest/scale-to-width-down/200?cb=20200620230029",
+    "info": "Farfetch'd is a Normal/Flying-type Pokémon known for carrying a leek. In Galar, it evolves into Sirfetch'd after landing three critical hits in a single battle.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/6f/083.png/revision/latest?cb=20230418020016"
+  },
+  {
+    "name": "Doduo",
+    "id": "#0084",
+    "japanese": "ドードー",
+    "type": ["normal", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/8d/084Doduo.png/revision/latest/scale-to-width-down/200?cb=20200620230055",
+    "info": "Doduo is a dual-type Normal/Flying Pokémon that evolves into Dodrio starting at level 31.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/2d/084.png/revision/latest?cb=20230418020041"
+  },
+  {
+    "name": "Dodrio",
+    "id": "#0085",
+    "japanese": "ドードリオ",
+    "type": ["normal", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/d/d3/085Dodrio.png/revision/latest/scale-to-width-down/200?cb=20200620230122",
+    "info": "Dodrio evolves from Doduo starting at level 31. It has three heads and is known for its incredible speed.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/d/d7/085.png/revision/latest?cb=20230418020107"
+  },
+  {
+    "name": "Seel",
+    "id": "#0086",
+    "japanese": "パウワウ",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/d/dd/086Seel.png/revision/latest/scale-to-width-down/200?cb=20200620230149",
+    "info": "Seel is a Water-type Pokémon that evolves into Dewgong starting at level 34.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/47/086.png/revision/latest?cb=20230418020133"
+  },
+  {
+    "name": "Dewgong",
+    "id": "#0087",
+    "japanese": "ジュゴン",
+    "type": ["water", "ice"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/1/1d/087Dewgong.png/revision/latest/scale-to-width-down/200?cb=20200620230217",
+    "info": "Dewgong evolves from Seel starting at level 34. It is a Water/Ice-type Pokémon known for its swimming abilities.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/20/087.png/revision/latest?cb=20230418020200"
+  },
+  {
+    "name": "Grimer",
+    "id": "#0088",
+    "japanese": "ベトベター",
+    "type": ["poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/7/7e/088Grimer.png/revision/latest/scale-to-width-down/200?cb=20200620230245",
+    "info": "Grimer is a Poison-type Pokémon that evolves into Muk starting at level 38. In Alola, it is a Poison/Dark-type.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/76/088.png/revision/latest?cb=20230418020227"
+  },
+  {
+    "name": "Muk",
+    "id": "#0089",
+    "japanese": "ベトベトン",
+    "type": ["poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/9/96/089Muk.png/revision/latest/scale-to-width-down/200?cb=20200620230314",
+    "info": "Muk evolves from Grimer starting at level 38. In Alola, Muk is a Poison/Dark-type Pokémon.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/e/e0/089.png/revision/latest?cb=20230418020254"
+  },
+  {
+    "name": "Shellder",
+    "id": "#0090",
+    "japanese": "シェルダー",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/4b/090Shellder.png/revision/latest/scale-to-width-down/200?cb=20200620230341",
+    "info": "Shellder is a Water-type Pokémon that evolves into Cloyster when exposed to a Water Stone.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/0/0b/090.png/revision/latest?cb=20230418020321"
+  },
+  {
+    "name": "Cloyster",
+    "id": "#0091",
+    "japanese": "パルシェン",
+    "type": ["water", "ice"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/47/091Cloyster.png/revision/latest/scale-to-width-down/200?cb=20200620230408",
+    "info": "Cloyster evolves from Shellder when exposed to a Water Stone. It is a dual-type Water/Ice Pokémon.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/f/f4/091.png/revision/latest?cb=20230418020348"
+  },
+  {
+    "name": "Gastly",
+    "id": "#0092",
+    "japanese": "ゴース",
+    "type": ["ghost", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/6/67/092Gastly.png/revision/latest/scale-to-width-down/200?cb=20200620230437",
+    "info": "Gastly is a Ghost/Poison-type Pokémon that evolves into Haunter starting at level 25, which evolves into Gengar when traded.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/1/11/092.png/revision/latest?cb=20230418020414"
+  },
+  {
+    "name": "Haunter",
+    "id": "#0093",
+    "japanese": "ゴースト",
+    "type": ["ghost", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/f7/093Haunter.png/revision/latest/scale-to-width-down/200?cb=20200620230504",
+    "info": "Haunter evolves from Gastly starting at level 25 and evolves into Gengar when traded. It is known for its mischievous and playful nature.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/d/d1/093.png/revision/latest?cb=20230418020440"
+  },
+  {
+    "name": "Gengar",
+    "id": "#0094",
+    "japanese": "ゲンガー",
+    "type": ["ghost", "poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/c/c6/094Gengar.png/revision/latest/scale-to-width-down/200?cb=20200620230534",
+    "info": "Gengar evolves from Haunter when traded. It is known for its shadowy and elusive nature.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/8/82/094.png/revision/latest?cb=20230418020507"
+  },
+  {
+    "name": "Onix",
+    "id": "#0095",
+    "japanese": "イワーク",
+    "type": ["rock", "ground"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/8a/095Onix.png/revision/latest/scale-to-width-down/200?cb=20200620230600",
+    "info": "Onix is a Rock/Ground-type Pokémon that evolves into Steelix when traded holding a Metal Coat.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/2d/095.png/revision/latest?cb=20230418020533"
+  },
+  {
+    "name": "Drowzee",
+    "id": "#0096",
+    "japanese": "スリープ",
+    "type": ["psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/51/096Drowzee.png/revision/latest/scale-to-width-down/200?cb=20200620230627",
+    "info": "Drowzee is a Psychic-type Pokémon that evolves into Hypno starting at level 26. It is known for its ability to put others to sleep.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/3/3a/096.png/revision/latest?cb=20230418020558"
+  },
+  {
+    "name": "Hypno",
+    "id": "#0097",
+    "japanese": "スリーパー",
+    "type": ["psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/87/097Hypno.png/revision/latest/scale-to-width-down/200?cb=20200620230654",
+    "info": "Hypno evolves from Drowzee starting at level 26. It is a Psychic-type Pokémon known for its hypnotic abilities.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/f/f5/097.png/revision/latest?cb=20230418020623"
+  },
+  {
+    "name": "Krabby",
+    "id": "#0098",
+    "japanese": "クラブ",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/7/7c/098Krabby.png/revision/latest/scale-to-width-down/200?cb=20200620230721",
+    "info": "Krabby is a Water-type Pokémon that evolves into Kingler starting at level 28. It is known for its strong pincers.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/66/098.png/revision/latest?cb=20230418020649"
+  },
+  {
+    "name": "Kingler",
+    "id": "#0099",
+    "japanese": "キングラー",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/d/d9/099Kingler.png/revision/latest/scale-to-width-down/200?cb=20200620230751",
+    "info": "Kingler evolves from Krabby starting at level 28. It is known for its immense pincers, which it uses to crush prey.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/e/e7/099.png/revision/latest?cb=20230418020715"
+  },
+  {
+    "name": "Voltorb",
+    "id": "#0100",
+    "japanese": "ビリリダマ",
+    "type": ["electric"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/f9/100Voltorb.png/revision/latest/scale-to-width-down/200?cb=20200620230818",
+    "info": "Voltorb is an Electric-type Pokémon that evolves into Electrode starting at level 30. It resembles a Poké Ball.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/44/100.png/revision/latest?cb=20230418020741"
+  },
+  {
+    "name": "Electrode",
+    "id": "#0101",
+    "japanese": "マルマイン",
+    "type": ["electric"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/81/101Electrode.png/revision/latest/scale-to-width-down/200?cb=20200620230844",
+    "info": "Electrode evolves from Voltorb starting at level 30. It is known for its high speed and tendency to explode.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/c/cd/101.png/revision/latest?cb=20230418020808"
+  },
+  {
+    "name": "Exeggcute",
+    "id": "#0102",
+    "japanese": "タマタマ",
+    "type": ["grass", "psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/41/102Exeggcute.png/revision/latest/scale-to-width-down/200?cb=20200620230910",
+    "info": "Exeggcute is a Grass/Psychic-type Pokémon that evolves into Exeggutor when exposed to a Leaf Stone.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/75/102.png/revision/latest?cb=20230418020834"
+  },
+  {
+    "name": "Exeggutor",
+    "id": "#0103",
+    "japanese": "ナッシー",
+    "type": ["grass", "psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/0/05/103Exeggutor.png/revision/latest/scale-to-width-down/200?cb=20200620230934",
+    "info": "Exeggutor evolves from Exeggcute when exposed to a Leaf Stone. In Alola, Exeggutor has a different form that is a Grass/Dragon-type.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/1/1b/103.png/revision/latest?cb=20230418020901"
+  },
+  {
+    "name": "Cubone",
+    "id": "#0104",
+    "japanese": "カラカラ",
+    "type": ["ground"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/f8/104Cubone.png/revision/latest/scale-to-width-down/200?cb=20200620231000",
+    "info": "Cubone is a Ground-type Pokémon that evolves into Marowak starting at level 28. It wears the skull of its deceased mother.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/0/04/104.png/revision/latest?cb=20230418020927"
+  },
+  {
+    "name": "Marowak",
+    "id": "#0105",
+    "japanese": "ガラガラ",
+    "type": ["ground"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/e/ee/105Marowak.png/revision/latest/scale-to-width-down/200?cb=20200620231024",
+    "info": "Marowak evolves from Cubone starting at level 28. In Alola, Marowak has a different form that is a Fire/Ghost-type.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/c/c2/105.png/revision/latest?cb=20230418020954"
+  },
+  {
+    "name": "Hitmonlee",
+    "id": "#0106",
+    "japanese": "サワムラー",
+    "type": ["fighting"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/1/19/106Hitmonlee.png/revision/latest/scale-to-width-down/200?cb=20200620231049",
+    "info": "Hitmonlee is a Fighting-type Pokémon that evolves from Tyrogue starting at level 20 if Tyrogue's Attack is higher than its Defense.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/0/04/106.png/revision/latest?cb=20230418021021"
+  },
+  {
+    "name": "Hitmonchan",
+    "id": "#0107",
+    "japanese": "エビワラー",
+    "type": ["fighting"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/3f/107Hitmonchan.png/revision/latest/scale-to-width-down/200?cb=20200620231114",
+    "info": "Hitmonchan is a Fighting-type Pokémon that evolves from Tyrogue starting at level 20 if Tyrogue's Defense is higher than its Attack.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/4c/107.png/revision/latest?cb=20230418021047"
+  },
+  {
+    "name": "Lickitung",
+    "id": "#0108",
+    "japanese": "ベロリンガ",
+    "type": ["normal"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/8d/108Lickitung.png/revision/latest/scale-to-width-down/200?cb=20200620231140",
+    "info": "Lickitung is a Normal-type Pokémon that evolves into Lickilicky when leveled up while knowing the move Rollout.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/a0/108.png/revision/latest?cb=20230418021113"
+  },
+  {
+    "name": "Koffing",
+    "id": "#0109",
+    "japanese": "ドガース",
+    "type": ["poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/f2/109Koffing.png/revision/latest/scale-to-width-down/200?cb=20200620231205",
+    "info": "Koffing is a Poison-type Pokémon that evolves into Weezing starting at level 35. It is known for emitting toxic gases.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/21/109.png/revision/latest?cb=20230418021140"
+  },
+  {
+    "name": "Weezing",
+    "id": "#0110",
+    "japanese": "マタドガス",
+    "type": ["poison"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/3b/110Weezing.png/revision/latest/scale-to-width-down/200?cb=20200620231229",
+    "info": "Weezing evolves from Koffing starting at level 35. It has a Galarian form that is a Poison/Fairy-type.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/a7/110.png/revision/latest?cb=20230418021206"
+  },
+  {
+    "name": "Rhyhorn",
+    "id": "#0111",
+    "japanese": "サイホーン",
+    "type": ["ground", "rock"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/57/111Rhyhorn.png/revision/latest/scale-to-width-down/200?cb=20200620231255",
+    "info": "Rhyhorn is a Ground/Rock-type Pokémon that evolves into Rhydon starting at level 42.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/60/111.png/revision/latest?cb=20230418021232"
+  },
+  {
+    "name": "Rhydon",
+    "id": "#0112",
+    "japanese": "サイドン",
+    "type": ["ground", "rock"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/0/0c/112Rhydon.png/revision/latest/scale-to-width-down/200?cb=20200620231320",
+    "info": "Rhydon evolves from Rhyhorn starting at level 42 and evolves into Rhyperior when traded holding a Protector.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/8/82/112.png/revision/latest?cb=20230418021259"
+  },
+  {
+    "name": "Chansey",
+    "id": "#0113",
+    "japanese": "ラッキー",
+    "type": ["normal"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/7/77/113Chansey.png/revision/latest/scale-to-width-down/200?cb=20200620231344",
+    "info": "Chansey is a Normal-type Pokémon that evolves from Happiny when leveled up while holding an Oval Stone during the day and evolves into Blissey when leveled up with high friendship.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/af/113.png/revision/latest?cb=20230418021325"
+  },
+  {
+    "name": "Tangela",
+    "id": "#0114",
+    "japanese": "モンジャラ",
+    "type": ["grass"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/5b/114Tangela.png/revision/latest/scale-to-width-down/200?cb=20200620231410",
+    "info": "Tangela is a Grass-type Pokémon that evolves into Tangrowth when leveled up while knowing Ancient Power.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/f/f7/114.png/revision/latest?cb=20230418021351"
+  },
+  {
+    "name": "Kangaskhan",
+    "id": "#0115",
+    "japanese": "ガルーラ",
+    "type": ["normal"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/8e/115Kangaskhan.png/revision/latest/scale-to-width-down/200?cb=20200620231435",
+    "info": "Kangaskhan is a Normal-type Pokémon. It does not evolve from or into any other Pokémon. It has a Mega Evolution.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/c/c5/115.png/revision/latest?cb=20230418021417"
+  },
+  {
+    "name": "Horsea",
+    "id": "#0116",
+    "japanese": "タッツー",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/5c/116Horsea.png/revision/latest/scale-to-width-down/200?cb=20200620231502",
+    "info": "Horsea is a Water-type Pokémon that evolves into Seadra starting at level 32. It can further evolve into Kingdra when traded holding a Dragon Scale.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/8/8e/116.png/revision/latest?cb=20230418021443"
+  },
+  {
+    "name": "Seadra",
+    "id": "#0117",
+    "japanese": "シードラ",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/41/117Seadra.png/revision/latest/scale-to-width-down/200?cb=20200620231527",
+    "info": "Seadra evolves from Horsea starting at level 32 and evolves into Kingdra when traded holding a Dragon Scale.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/2/2d/117.png/revision/latest?cb=20230418021510"
+  },
+  {
+    "name": "Goldeen",
+    "id": "#0118",
+    "japanese": "トサキント",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/a/ad/118Goldeen.png/revision/latest/scale-to-width-down/200?cb=20200620231554",
+    "info": "Goldeen is a Water-type Pokémon that evolves into Seaking starting at level 33. It is known for its beauty and elegance.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/f/f5/118.png/revision/latest?cb=20230418021536"
+  },
+  {
+    "name": "Seaking",
+    "id": "#0119",
+    "japanese": "アズマオウ",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/2/2b/119Seaking.png/revision/latest/scale-to-width-down/200?cb=20200620231609",
+    "info": "Seaking evolves from Goldeen starting at level 33. It is known for its powerful horn and swimming skills.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/0/05/119.png/revision/latest?cb=20230418021558"
+  },
+  {
+    "name": "Staryu",
+    "id": "#0120",
+    "japanese": "ヒトデマン",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/e/e8/120Staryu.png/revision/latest/scale-to-width-down/200?cb=20200620231623",
+    "info": "Staryu is a Water-type Pokémon that evolves into Starmie when exposed to a Water Stone. It is known for its star-shaped body and ability to regenerate.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/7d/120.png/revision/latest?cb=20230418021624"
+  },
+  {
+    "name": "Starmie",
+    "id": "#0121",
+    "japanese": "ヒトデマン",
+    "type": ["water", "psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/7/72/121Starmie.png/revision/latest/scale-to-width-down/200?cb=20200620231640",
+    "info": "Starmie evolves from Staryu when exposed to a Water Stone. It is known for its mystical appearance and its psychic powers.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/68/121.png/revision/latest?cb=20230418021645"
+  },
+  {
+    "name": "Mr. Mime",
+    "id": "#0122",
+    "japanese": "バリヤード",
+    "type": ["psychic", "fairy"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/7/74/122MrMime.png/revision/latest/scale-to-width-down/200?cb=20200620231654",
+    "info": "Mr. Mime is a Psychic/Fairy-type Pokémon that is known for its ability to create invisible barriers. It evolves into Mr. Rime in later generations.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/0/06/122.png/revision/latest?cb=20230418021704"
+  },
+  {
+    "name": "Scyther",
+    "id": "#0123",
+    "japanese": "ストライク",
+    "type": ["bug", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/2/23/123Scyther.png/revision/latest/scale-to-width-down/200?cb=20200620231710",
+    "info": "Scyther is a Bug/Flying-type Pokémon that evolves into Scizor when traded holding a Metal Coat. It is known for its sharp scythes and agility.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/5/5b/123.png/revision/latest?cb=20230418021719"
+  },
+  {
+    "name": "Starmie",
+    "id": "#0124",
+    "japanese": "ストライク",
+    "type": ["bug", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/2/23/123Scyther.png/revision/latest/scale-to-width-down/200?cb=20200620231710",
+    "info": "Scyther is a Bug/Flying-type Pokémon that evolves into Scizor when traded holding a Metal Coat. It is known for its sharp scythes and agility.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/5/5b/123.png/revision/latest?cb=20230418021719"
+  },
+  {
+    "name": "Jynx",
+    "id": "#0124",
+    "japanese": "ルージュラ",
+    "type": ["ice", "psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/35/124Jynx.png/revision/latest/scale-to-width-down/200?cb=20200620231724",
+    "info": "Jynx is an Ice/Psychic-type Pokémon known for its chilling presence and its ability to use psychic powers. It evolves from Smoochum.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/f/fd/124.png/revision/latest?cb=20230418021734"
+  },
+  {
+    "name": "Electabuzz",
+    "id": "#0125",
+    "japanese": "エレブー",
+    "type": ["electric"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/1/16/125Electabuzz.png/revision/latest/scale-to-width-down/200?cb=20200620231736",
+    "info": "Electabuzz is an Electric-type Pokémon known for its strong electric attacks. It evolves into Electivire when traded holding an Electirizer.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/a/a5/125.png/revision/latest?cb=20230418021749"
+  },
+  {
+    "name": "Magmar",
+    "id": "#0126",
+    "japanese": "ブーバー",
+    "type": ["fire"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/2/2d/126Magmar.png/revision/latest/scale-to-width-down/200?cb=20200620231754",
+    "info": "Magmar is a Fire-type Pokémon known for its fiery body and intense heat. It evolves into Magmortar when traded holding a Magmarizer.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/d/d1/126.png/revision/latest?cb=20230418021758"
+  },
+  {
+    "name": "Pinsir",
+    "id": "#0127",
+    "japanese": "カイロス",
+    "type": ["bug"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/36/127Pinsir.png/revision/latest/scale-to-width-down/200?cb=20200620231807",
+    "info": "Pinsir is a Bug-type Pokémon known for its powerful pincers. It does not evolve from or into any other Pokémon.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/d/d1/127.png/revision/latest?cb=20230418021807"
+  },
+  {
+    "name": "Tauros",
+    "id": "#0128",
+    "japanese": "ケンタロス",
+    "type": ["normal"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/46/128Tauros.png/revision/latest/scale-to-width-down/200?cb=20200620231823",
+    "info": "Tauros is a Normal-type Pokémon known for its aggression and strength. It has no evolutions.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/77/128.png/revision/latest?cb=20230418021821"
+  },
+  {
+    "name": "Magikarp",
+    "id": "#0129",
+    "japanese": "コイキング",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/f1/129Magikarp.png/revision/latest/scale-to-width-down/200?cb=20200620231839",
+    "info": "Magikarp is a Water-type Pokémon known for its weak stats and flopping behavior. It evolves into Gyarados at level 20.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/1/1f/129.png/revision/latest?cb=20230418021839"
+  },
+  {
+    "name": "Gyarados",
+    "id": "#0130",
+    "japanese": "ギャラドス",
+    "type": ["water", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/31/130Gyarados.png/revision/latest/scale-to-width-down/200?cb=20200620231854",
+    "info": "Gyarados evolves from Magikarp starting at level 20. It is known for its fierce temper and powerful attacks.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/40/130.png/revision/latest?cb=20230418021851"
+  },
+  {
+    "name": "Lapras",
+    "id": "#0131",
+    "japanese": "ラプラス",
+    "type": ["water", "ice"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/42/131Lapras.png/revision/latest/scale-to-width-down/200?cb=20200620231909",
+    "info": "Lapras is a Water/Ice-type Pokémon known for its gentle nature and ability to ferry people across water. It evolves from a Larvitar in later generations.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/1/1d/131.png/revision/latest?cb=20230418021903"
+  },
+  {
+    "name": "Ditto",
+    "id": "#0132",
+    "japanese": "メタモン",
+    "type": ["normal"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/80/132Ditto.png/revision/latest/scale-to-width-down/200?cb=20200620231921",
+    "info": "Ditto is a Normal-type Pokémon known for its ability to transform into other Pokémon. It is used in breeding and can evolve into a number of other Pokémon in later generations.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/5/58/132.png/revision/latest?cb=20230418021919"
+  },
+  {
+    "name": "Eevee",
+    "id": "#0133",
+    "japanese": "イーブイ",
+    "type": ["normal"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/6/6d/133Eevee.png/revision/latest/scale-to-width-down/200?cb=20200620231933",
+    "info": "Eevee is a Normal-type Pokémon known for its multiple evolutions. It can evolve into various types including Vaporeon, Jolteon, Flareon, and more.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/69/133.png/revision/latest?cb=20230418021932"
+  },
+  {
+    "name": "Vaporeon",
+    "id": "#0134",
+    "japanese": "シャワーズ",
+    "type": ["water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/0/0e/134Vaporeon.png/revision/latest/scale-to-width-down/200?cb=20200620231946",
+    "info": "Vaporeon is one of Eevee's evolutions, evolving when exposed to a Water Stone. It is known for its aquatic abilities and its elegant appearance.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/42/134.png/revision/latest?cb=20230418021945"
+  },
+  {
+    "name": "Jolteon",
+    "id": "#0135",
+    "japanese": "サンダース",
+    "type": ["electric"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/fd/135Jolteon.png/revision/latest/scale-to-width-down/200?cb=20200620231957",
+    "info": "Jolteon is another evolution of Eevee, evolving when exposed to an Electric Stone. It is known for its speed and electric attacks.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/0/03/135.png/revision/latest?cb=20230418021957"
+  },
+  {
+    "name": "Flareon",
+    "id": "#0136",
+    "japanese": "ブースター",
+    "type": ["fire"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/f/fd/136Flareon.png/revision/latest/scale-to-width-down/200?cb=20200620232010",
+    "info": "Flareon evolves from Eevee when exposed to a Fire Stone. It is known for its fiery temperament and powerful fire attacks.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/d/d5/136.png/revision/latest?cb=20230418022010"
+  },
+  {
+    "name": "Porygon",
+    "id": "#0137",
+    "japanese": "ポリゴン",
+    "type": ["normal"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/b/b4/137Porygon.png/revision/latest/scale-to-width-down/200?cb=20200620232022",
+    "info": "Porygon is a Normal-type Pokémon known for its digital, polygonal appearance. It can evolve into Porygon2 and Porygon-Z in later generations.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/5/5f/137.png/revision/latest?cb=20230418022023"
+  },
+  {
+    "name": "Omanyte",
+    "id": "#0138",
+    "japanese": "オムナイト",
+    "type": ["rock", "water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/5b/138Omanyte.png/revision/latest/scale-to-width-down/200?cb=20200620232032",
+    "info": "Omanyte is a Rock/Water-type Pokémon that evolves into Omastar. It is known for its spiral shell and ancient appearance.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/74/138.png/revision/latest?cb=20230418022036"
+  },
+  {
+    "name": "Omastar",
+    "id": "#0139",
+    "japanese": "オムスター",
+    "type": ["rock", "water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/b/b3/139Omastar.png/revision/latest/scale-to-width-down/200?cb=20200620232041",
+    "info": "Omastar evolves from Omanyte starting at level 40. It is known for its fossil origins and powerful tentacle attacks.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/67/139.png/revision/latest?cb=20230418022047"
+  },
+  {
+    "name": "Kabuto",
+    "id": "#0140",
+    "japanese": "カブト",
+    "type": ["rock", "water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/5/56/140Kabuto.png/revision/latest/scale-to-width-down/200?cb=20200620232057",
+    "info": "Kabuto is a Rock/Water-type Pokémon that evolves into Kabutops. It is known for its ancient, shell-like appearance.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/7f/140.png/revision/latest?cb=20230418022059"
+  },
+  {
+    "name": "Kabutops",
+    "id": "#0141",
+    "japanese": "カブトプス",
+    "type": ["rock", "water"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/e/e8/141Kabutops.png/revision/latest/scale-to-width-down/200?cb=20200620232110",
+    "info": "Kabutops evolves from Kabuto starting at level 40. It is known for its sharp, scythe-like claws and aggressive nature.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/41/141.png/revision/latest?cb=20230418022106"
+  },
+  {
+    "name": "Aerodactyl",
+    "id": "#0142",
+    "japanese": "プレシオス",
+    "type": ["rock", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/7/78/142Aerodactyl.png/revision/latest/scale-to-width-down/200?cb=20200620232122",
+    "info": "Aerodactyl is a Rock/Flying-type Pokémon known for its prehistoric appearance and flying abilities. It evolves from the Fossil Pokémon.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/7e/142.png/revision/latest?cb=20230418022116"
+  },
+  {
+    "name": "Snorlax",
+    "id": "#0143",
+    "japanese": "カビゴン",
+    "type": ["normal"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/3/36/143Snorlax.png/revision/latest/scale-to-width-down/200?cb=20200620232132",
+    "info": "Snorlax is a Normal-type Pokémon known for its enormous size and its tendency to sleep in inconvenient places. It evolves from Munchlax.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/e/ef/143.png/revision/latest?cb=20230418022123"
+  },
+  {
+    "name": "Articuno",
+    "id": "#0144",
+    "japanese": "フリーザー",
+    "type": ["ice", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/a/a8/144Articuno.png/revision/latest/scale-to-width-down/200?cb=20200620232146",
+    "info": "Articuno is a Legendary Ice/Flying-type Pokémon known for its majestic appearance and control over ice. It is often found in the game's Legendary encounters.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/6c/144.png/revision/latest?cb=20230418022135"
+  },
+  {
+    "name": "Zapdos",
+    "id": "#0145",
+    "japanese": "サンダー",
+    "type": ["electric", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/6/6e/145Zapdos.png/revision/latest/scale-to-width-down/200?cb=20200620232158",
+    "info": "Zapdos is a Legendary Electric/Flying-type Pokémon known for its powerful electric attacks. It is a key part of the trio of Legendary Birds.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/3/36/145.png/revision/latest?cb=20230418022147"
+  },
+  {
+    "name": "Moltres",
+    "id": "#0146",
+    "japanese": "ファイヤー",
+    "type": ["fire", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/d/dd/146Moltres.png/revision/latest/scale-to-width-down/200?cb=20200620232210",
+    "info": "Moltres is a Legendary Fire/Flying-type Pokémon known for its fiery plumage and ability to control flames. It completes the trio of Legendary Birds.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/42/146.png/revision/latest?cb=20230418022156"
+  },
+  {
+    "name": "Dratini",
+    "id": "#0147",
+    "japanese": "ドラゴン",
+    "type": ["dragon"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/8/84/147Dratini.png/revision/latest/scale-to-width-down/200?cb=20200620232224",
+    "info": "Dratini is a Dragon-type Pokémon that evolves into Dragonair starting at level 30. It is known for its serpentine form and is part of the Dragon family.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/4/4f/147.png/revision/latest?cb=20230418022201"
+  },
+  {
+    "name": "Dragonair",
+    "id": "#0148",
+    "japanese": "ハクリュー",
+    "type": ["dragon"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/4/4b/148Dragonair.png/revision/latest/scale-to-width-down/200?cb=20200620232239",
+    "info": "Dragonair evolves from Dratini starting at level 30 and evolves into Dragonite. It is known for its graceful appearance and dragon-like abilities.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/7/7b/148.png/revision/latest?cb=20230418022209"
+  },
+  {
+    "name": "Dragonite",
+    "id": "#0149",
+    "japanese": "カイリュー",
+    "type": ["dragon", "flying"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/6/6f/149Dragonite.png/revision/latest/scale-to-width-down/200?cb=20200620232255",
+    "info": "Dragonite evolves from Dragonair starting at level 55. It is known for its incredible strength and flying abilities, making it a powerful and versatile Pokémon.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/8/89/149.png/revision/latest?cb=20230418022219"
+  },
+  {
+    "name": "Mewtwo",
+    "id": "#0150",
+    "japanese": "ミュウツー",
+    "type": ["psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/a/a6/150Mewtwo.png/revision/latest/scale-to-width-down/200?cb=20200620232326",
+    "info": "Mewtwo is a Psychic-type Legendary Pokémon created from the DNA of Mew. It is known for its immense psychic powers and its role as a powerful antagonist in various Pokémon games and media.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/6/67/150.png/revision/latest?cb=20230418022235"
+  },
+  {
+    "name": "Mew",
+    "id": "#0151",
+    "japanese": "ミュウ",
+    "type": ["psychic"],
+    "image": "https://static.wikia.nocookie.net/pokemon/images/a/a0/151Mew.png/revision/latest/scale-to-width-down/200?cb=20200620232337",
+    "info": "Mew is a Psychic-type Mythical Pokémon known for its ability to learn any move and its role as a genetic ancestor of all Pokémon. It is often associated with rare and special events.",
+    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/e/e6/151.png/revision/latest?cb=20230418022244"
   }
 ]
