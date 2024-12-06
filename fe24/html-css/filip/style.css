@@ -732,7 +732,7 @@ body:has(.booking-form input:checked) .menu-overlay {
     width: 100%;
     height: 200px;
 
-    background-image: url("/assets/photos/02-day.jpg");
+    background-image: url("./assets/photos/02-day.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -822,7 +822,7 @@ body:has(.booking-form input:checked) .booking-results {
     gap: 2rem;
     align-items: center;
 
-    background-image: url("/assets/photos/09-night_en.jpg");
+    background-image: url("./assets/photos/09-night_en.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

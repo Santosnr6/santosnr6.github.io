@@ -387,7 +387,7 @@ Bilder som inte kommer från projektets bildbank är skapade med hjälp av Deep 
 
 .start-page {
   height: 100vh;
-  background: url(assets/bonzai-photos/33-bonzai-start-page.jpeg);
+  background: url('./assets/bonzai-photos/33-bonzai-start-page.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -438,7 +438,7 @@ Bilder som inte kommer från projektets bildbank är skapade med hjälp av Deep 
 /* === Slider images === */
 
 .slider {
-  background: url(assets/bonzai-photos/03-bonzai-lobby.jpeg), no-repeat;
+  background: url('./assets/bonzai-photos/03-bonzai-lobby.jpeg'), no-repeat;
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -704,7 +704,7 @@ Bilder som inte kommer från projektets bildbank är skapade med hjälp av Deep 
   line-height: 2rem;
 }
 .rooms__inner-list-item {
-  background-image: url(assets/icons/check.svg);
+  background-image: url('./assets/icons/check.svg');
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 1.5rem;
