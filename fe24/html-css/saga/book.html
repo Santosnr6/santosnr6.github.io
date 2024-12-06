@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonz.ai</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<div class="wrapper">
+    <!--HEADER-->
+    <header class="header-rooms">
+        <h1 class="header__title">Book</h1>
+        <nav class="header__sign-in">
+            <a class="header__sign-up" href="#">Sign up</a>
+            <button class="header__button">Sign in</button>
+        </nav>
+            <img class="header__logo-landscape" src="../assets/logo/bonz.ai-logo-white-landscape.png" alt="bonz.ai logo">
+            <!--DROPDOWN MENU-->
+            <nav class="header-dropdown">
+                <img class="header-dropdown__icon" src="../assets/photos/burgir.svg" alt="Icon for dropdown menu">
+                <section class="dropdown-content">
+                    <a class="dropdown-content__link" href="index.html">Home</a>
+                    <a class="dropdown-content__link" href="ourrooms.html">Our rooms</a>
+                    <a class="dropdown-content__link" href="book.html">Book</a>
+                    <a class="dropdown-content__link" href="#">My account</a>
+                </section>
+            </nav>
+    </header>
+    <!--MENU-->
+    <nav class="menu">
+        <a class="menu__link" href="index.html">Home</a>
+        <a class="menu__link" href="ourrooms.html">Our rooms</a>
+        <a class="menu__link--selected" href="book.html">Book</a>
+        <a class="menu__link" href="#">My account</a>
+    </nav>
+    <!--FIND ROOM-->
+    <section class="find-room">
+    <h1 class="find-room__title">Find the perfect room for you!</h1>
+    <p class="find-room__paragraph find-room__paragraph--web">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sit, fuga rerum possimus expedita, minus omnis reprehenderit voluptate non nihil doloribus! Neque harum unde ipsa corporis repellendus. Cumque, omnis reiciendis.</p>
+    <p class="find-room__paragraph find-room__paragraph--mobile">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora illum debitis inventore molestiae. Similique modi soluta recusandae amet, quasi nulla delectus. </p>
+    </section>
+    <!--FIND ROOM FORMS-->
+    <section class="main">
+        <form class="main__form-box">
+            <h2 class="form-box__title">General</h2>
+            <label class="form-box__label" for="check-in">Check in:
+            <input class="form-box__input" type="date" id="check-in" name="check-in" value="2024-12-01"></label>
+            <label class="form-box__label" for="check-out">Check out:
+            <input class="form-box__input" type="date" id="check-out" name="check-out" value="2024-12-07"></label>
+            <label class="form-box__label" for="adults">Adults (18y+):
+            <input class="form-box__input" type="number" id="adults" name="adults" value="2" min="1"></label>
+            <label class="form-box__label" for="kids">Kids (0-17y):
+            <input class="form-box__input" type="number" id="kids" name="kids" value="0" min="0"></label>
+        </form>
+        <form class="main__form-box">
+            <h2 class="form-box__title">Room</h2>
+            <label class="form-box__label" for="room-type">Room type:
+            <input class="form-box__input" type="text" id="room-type" name="room-type" value="Double room"></label>
+            <label class="form-box__label" for="bed">Bed preference:
+            <input class="form-box__input" type="text" id="bed" name="bed" value="King size"></label>
+            <label class="form-box__label" for="breakfast">Breakfast incl:
+            <input class="form-box__input" type="text" id="breakfast" name="breakfast" value="Yes"></label>
+            <label class="form-box__label" for="view">View:
+            <input class="form-box__input" type="text" id="view" name="view" value="Ocean"></label>
+        </form> 
+        <form class="main__form-box">
+            <h2 class="form-box__title">Contact Information</h2>
+            <label class="form-box__label" for="first-name">Fist name:
+            <input class="form-box__input" type="text" id="first-name" name="first-name" value="Karin"></label>
+            <label class="form-box__label" for="last-name">Last name:
+            <input class="form-box__input" type="text" id="last-name" name="last-name" value="Karinsson"></label>
+            <label class="form-box__label" for="phone-number">Phone number:
+            <input class="form-box__input" type="phone" id="phone-number" name="phone-number" value="0708372647"></label>
+            <label class="form-box__label" for="email-address">Email address:
+            <input class="form-box__input" type="email" id="email-address" name="email-address" value="karinkarinsson@email.com"></label>
+        </form> 
+        <button class="main__button">Search for rooms</button>
+    </section>
+    <!--ROOM RESULT-->
+    <article class="room-result-text">
+        <h3 class="room-result-text__subtitle">This is the best match for you:</h3>
+        <h2 class="room-result-text__title">"Future Suit"</h2>
+        <p class="room-result-text__paragraph room-result-text__paragraph--web">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sit, fuga rerum possimus expedita, minus omnis reprehenderit voluptate non nihil doloribus! Neque harum unde ipsa corporis repellendus. Cumque, omnis reiciendis. Repudiandae sit, fuga rerum possimus expedita. Cumque, omnis reiciendis. Repudiandae sit, fuga rerum possimus expedita. Fuga rerum possimus expedita </p>
+        <p class="room-result-text__paragraph room-result-text__paragraph--mobile">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora illum debitis inventore molestiae. Similique modi soluta recusandae amet, quasi nulla delectus. </p>
+        <button class="room-result-text__button">More info</button>
+    </article>
+    <!--ROOM RESULT GALLERY-->
+    <section class="room-result-gallery">
+        <img class="room-result-gallery__img1" src="../assets/photos/09-day.jpg" alt="View from patio">
+        <img class="room-result-gallery__img2" src="../assets/photos/08-night.jpg" alt="Fireplace and view">
+        <img class="room-result-gallery__img3" src="../assets/photos/04-night.jpg" alt="Bedroom">
+        <img class="room-result-gallery__img4" src="../assets/photos/05-night.jpg" alt="Livingroom">
+        <img class="room-result-gallery__img5" src="../assets/photos/06-day.jpg" alt="Hall/entrance">
+        <img class="room-result-gallery__img6" src="../assets/photos/07-day.jpg" alt="Livingroom from loft">
+    </section>
+    <button class="book-button">Book now</button>
+    <!--FOOTER-->
+    <footer class="footer">
+        <nav class="footer__address">
+        <h3 class="footer__title">Address</h3>
+        <a class="footer__link--address" href="#">Bonzairoad 22 street</a>
+        <a class="footer__link--phone" href="#">0802267437</a>
+        <a class="footer__link--email" href="#">bonzaimail@mail.com</a>
+    </nav>
+    <nav class="footer__information">
+        <h3 class="footer__title">Information</h3>
+        <a class="footer__link" href="#">About us</a>
+        <a class="footer__link" href="#">Terms & Conditions</a>
+        <a class="footer__link" href="#">Privacy Policy</a>
+    </nav>
+    <nav class="footer__my-account">
+        <h3 class="footer__title">My account</h3>
+        <a class="footer__link" href="#">My account</a>
+        <a class="footer__link" href="#">Newsletter</a>
+        <a class="footer__link" href="#">Singn up</a>
+    </nav>
+</footer>
+  
+</div>

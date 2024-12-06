@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <title>Bonz.ai</title>
+</head>
+<body>
+    <header class="header">
+        <a class="header__img-link" href="./index.html">
+            <img class="header__img" src="./assets/logo/bonz.ai-logo-black-portrait.png" alt="Logo of bonz.ai">
+        </a>
+        <nav class="header__navigation">
+            <button class="header__button header__button--display" aria-label="Menyknapp"></button>
+            <input class="header__checkbox" aria-label="Menyknapp" type="checkbox" name="hamburger-menu" id="hamburger-menu">
+            <ul class="header__unordered-list">
+                <li class="header__list-item">
+                    <a class="header__list-item-link" href="./search-rooms.html">Våra rum</a>
+                </li>
+                <li class="header__list-item">
+                    <a class="header__list-item-link" href="./our-hotel.html">Om hotellet</a>
+                </li>
+                <li class="header__list-item">
+                    <a class="header__list-item-link" href="#">AI rådgivning</a>
+                </li>
+                <li class="header__list-item">
+                    <a class="header__list-item-link" href="#">Restaurang</a>
+                </li>
+                <li class="header__list-item">
+                    <a class="header__list-item-link" href="#">Kontakta oss</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        
+        <!-- Main -->
+        <main class="main-content">
+            <h1 class="main-content__title">Det smarta hälsohotellet</h1>
+            <article class="main-content__grid">
+                <section class="main-content__container main-content__container--inner-grid main-content__container--span-7">
+                    <img class="main-content__img" src="./assets/images/ai1.jpg" alt="Person som tittar på en skärm som visar en glad robot">
+                    <img class="main-content__img" src="./assets/images/ai2.jpg" alt="Person på ett gym som tittar på en skärm som visar en glad robot">
+                </section>
+                <section class="main-content__container main-content__container--span-5">
+                    <h2 class="main-content__sub-title">Råd av AI</h2>
+                    <p class="main-content__text">Prata närhelst du vill med vår egna AI efter råd angående hälsa, kost, träning och mindfullness. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aspernatur quae alias assumenda quia vero sed culpa consectetur eos distinctio?
+                    </p>
+                </section>
+            </article>
+            
+            <article class="main-content__grid">
+                <section class="main-content__container main-content__container--span-5">
+                    <h2 class="main-content__sub-title">Eget minigym</h2>
+                    <p class="main-content__text">Varje rum har ett eget minigym för att ostört kunna prata med vår AI. Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
+                </section>
+                <img class="main-content__img main-content__img--span-7" src="./assets/images/gym2.jpg" alt="Litet rum med ett gym">
+            </article>
+            
+            <!-- Datumssökningsfältet i mitten av sidan -->
+            <section class="call-to-action">
+                <ul class="call-to-action__unordered-list">
+                    <li class="call-to-action__list-item">
+                        <a class="call-to-action__list-item-link" href="#">Boka AI</a>
+                    </li>
+                    <li class="call-to-action__list-item">
+                        <a class="call-to-action__list-item-link" href="#">Reservera bord</a>
+                    </li>
+                    <li class="call-to-action__list-item">
+                        <a class="call-to-action__list-item-link" href="#">Paketerbjudande</a>
+                    </li>
+                </ul>
+                <h3 class="call-to-action__title">Sök efter datum för rumsbokning</h3>
+                
+                <!-- Datumväljning, antar gäster och rum samt sökning -->
+                <form class="call-to-action__grid">
+                    <section class="call-to-action__inner-grid">
+                        <fieldset class="call-to-action__fieldset call-to-action__fieldset--grid-area-one">
+                            <legend class="call-to-action__legend" id="date-from">Datum från</legend>
+                            <input name="date-from" aria-labelledby="date-from" class="call-to-action__input" type="date">
+                        </fieldset>
+                        <fieldset class="call-to-action__fieldset call-to-action__fieldset--grid-area-two">
+                            <legend class="call-to-action__legend" id="number-of-guests">Antal gäster</legend>
+                            <input class="call-to-action__input" aria-labelledby="number-of-guests" type="number" min="1" max="7">
+                        </fieldset>
+                        <fieldset class="call-to-action__fieldset call-to-action__fieldset--grid-area-three">
+                            <legend class="call-to-action__legend" id="date-to">Datum till</legend>
+                            <input name="date-to" aria-labelledby="date-to" class="call-to-action__input" type="date">
+                        </fieldset>
+                        <fieldset class="call-to-action__fieldset call-to-action__fieldset--grid-area-four">
+                            <legend class="call-to-action__legend" id="number-of-rooms">Antal rum</legend>
+                            <input class="call-to-action__input" aria-labelledby="number-of-rooms" type="number" min="1" max="7">
+                        </fieldset>
+                        
+                    </section>
+                    <input class="call-to-action__input" type="submit" value="Sök">
+                </form>
+            </section>
+            
+            <article class="main-content__grid">
+                <section class="main-content__container main-content__container--span-5">
+                    <h2 class="main-content__sub-title">Grön restaurang</h2>
+                    <p class="main-content__text">Vår restaurang erbjuder grön och hälsosam mat. Nam, enim. Iusto sunt voluptates, nulla quod dolores labore nemo adipisci excepturi!</p>
+                </section>
+                <img class="main-content__img main-content__img--span-7" src="./assets/images/restaurant2.jpg" alt="Restaurangbord med tre fat med vegetariska rätter">
+            </article>
+            <article class="main-content__grid">
+                <section class="main-content__container main-content__container--span-5">
+                    <h2 class="main-content__sub-title">Färska grönsaker</h2>
+                    <p class="main-content__text">Vi har vårt eget växthus där vi odlar färska grönsaker året om. Itaque cupiditate earum architecto ratione adipisci recusandae alias aliquam odit natus animi, mollitia vero veritatis?</p>
+                </section>
+                <img class="main-content__img main-content__img--span-7" src="./assets/images/greenhouse2.jpg" alt="Färska grönsaker från växthus">
+            </article>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="footer-grid">
+            <section class="footer-grid__container footer-grid__container--grid-area-one">
+                <h3 class="footer-grid__title">Kontakta oss</h3>
+                <address>
+                    mejl@mejl@bonz.ai
+                </address>
+                <address>
+                    +46 (0)123- 456 78
+                </address>
+            </section>
+            <section class="footer-grid__container footer-grid__container--grid-area-two">
+                <img class="footer-grid__img footer-grid__img--width-50" src="./assets/logo/bonz.ai-logo-black-portrait-full.png" alt="Loggan för bonz.ai">
+            </section>
+            
+            <section class="footer-grid__container footer-grid__container--grid-area-three">
+                <h3 class="footer-grid__title">Följ oss på sociala medier</h3>
+                <img class="footer-grid__img" src="./assets/logo/facebook-logo.svg" alt="Loggan för facebook">
+                <img class="footer-grid__img" src="./assets/logo/instagram-logo.svg" alt="Loggan för instagram">
+                <img class="footer-grid__img" src="./assets/logo/x-logo.svg" alt="Loggan för x">
+                
+                <h3 class="footer-grid__title">Dela med dina vänner!</h3>
+                <img class="footer-grid__img" src="./assets/logo/facebook-logo.svg" alt="Loggan för facebook">
+                <img class="footer-grid__img" src="./assets/logo/instagram-logo.svg" alt="Loggan för instagram">
+                <img class="footer-grid__img" src="./assets/logo/x-logo.svg" alt="Loggan för x">
+            </section>
+        </footer>
+    </div>
+    
+</body>
+</html>

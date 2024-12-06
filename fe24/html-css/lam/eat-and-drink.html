@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonz.ai - Ditt hållbara futuristiska hotell</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <!-- HEADER - EAT AND DRINK PAGE -->
+  <header class="header">
+    <figure class="logo" aria-label="Bonz.ai logo">
+      <a href="index.html" class="header__favicon">
+        <img
+            src="assets/logo/bonz.ai-logo-white-portrait.png"
+            alt="logo"
+            class="logo__favicon"
+        />
+      </a>
+    </figure>
+
+    <input
+        type="checkbox"
+        class="header__hamburger-menu"
+        id="hamburger-menu"
+        aria-label="Öppna huvudmeny"
+        tabindex="-1"
+    />
+    <label 
+        class="header__hamburger-btn" for="hamburger-menu" 
+        tabindex="0"
+        aria-label="Huvudmeny öppen">
+      <span></span>
+    </label>
+
+    <nav class="header__navigation">
+      <ul class="header__nav-list">
+        <li class="header__nav-titles">
+            <a 
+                href="about-bonzai.html" class="header__links">
+                OM BONZ.AI
+            </a>
+        </li>
+        <li class="header__nav-titles">
+          <a href="ai.html" class="header__links">DIN AI</a>
+        </li>
+        <li class="header__nav-titles">
+          <a href="eat-and-drink.html" class="header__links header__links--active">ÄT & DRICK</a>
+        </li>
+        <li class="header__nav-titles header__nav-titles--more-margin header__nav-titles--padding">
+            <a href="booking-room.html" class="btn">BOKA RUM</a>
+          </li>
+      </ul>
+    </nav>
+  </header>
+    
+    <!-- WRAPPER - EAT AND DRING PAGE -->
+    <main class="wrapper">
+        <section class="image-info__block image-info__block--column">            
+                <section class="gallery gallery--two-column">
+                    <img class="gallery__img" src="assets/photos/kitchen/image1.jpg" alt="Image of AI in kitchen">
+                    <img class="gallery__img" src="assets/photos/kitchen/food.jpg" alt="Image of food">
+                    <img class="gallery__img" src="assets/photos/kitchen/restaurant.jpg" alt="Image of hotel breakfast">
+                    <img class="gallery__img" src="assets/photos/kitchen/dinner.jpg" alt="Image of hotel dinner room">
+                </section>
+                <section class="image-info__text">
+                    <h1 class="content__title">Upptäck Zero Waste-köket</h1>
+                    <p>
+                        På Bonz.ai är hållbarhet en del av varje detalj, och vårt Zero Waste-kök är inget undantag. Här kombinerar vi modern AI-teknologi med en passion för miljön för att minimera matsvinn och maximera smakupplevelser. Våra AI-drivna system analyserar noggrant varje steg i matlagningen, från inköp till portionering, för att säkerställa att inget går till spillo. Samtidigt ser vi till att varje måltid som lämnar köket är en kulinarisk upplevelse, skapad med färska, lokalt producerade råvaror.
+                    </p>
+                </section>
+                <section class="image-info__text">
+                    <h2 class="content__title">Smart teknik möter gröna ambitioner</h2>
+                    <p>
+                        I Zero Waste-köket arbetar våra kockar tillsammans med AI-assistenter som optimerar menyer baserat på säsongens tillgång och gästernas preferenser. Överblivna ingredienser återanvänds kreativt i nya rätter eller komposteras på plats, vilket bidrar till vårt cirkulära matsystem. Resultatet? Ett kök som inte bara smakar gott utan också gör gott för planeten. Välkommen att njuta av en matupplevelse som är lika innovativ som den är hållbar!
+                    </p>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <!-- FOOTER - EAT AND DRINK PAGE -->
+    <footer class="footer grid-wrapping">
+        <figure class="footer__logo grid-wrapping__span-two grid-wrapping__span-full" aria-label="Bonz.ai logo">
+            <a href="index.html" class="header__favicon">
+                <img src="assets/logo/bonz.ai-logo-white-portrait.png" alt="logo" class="logo__favicon">
+            </a>
+        </figure>
+
+        <section class="footer__text grid-wrapping__span-two grid-wrapping__span-full">
+            <h2 class="footer__title">Bonz.AI hotel</h2>
+            <p class="footer__contact-text">
+                By 80<br>
+                686 93 Sunne
+            </p>
+            <section class="footer__contact">
+                <img class="footer__icon" src="assets/icons/phone3.png" alt="Phone icon">
+                <p class="footer__contact-text">+46 54 152 35</p>
+            </section>
+            <section class="footer__contact">
+                <img class="footer__icon" src="assets/icons/email3.png" alt="Email icon">
+                <p class="footer__contact-text">info@bonzai.com</p>
+            </section>
+        </section>
+
+        <section class="footer__media-links grid-wrapping__span-two grid-wrapping__span-full">
+            <h2 class="footer__title">Medialänkar</h2>
+            <figure class="footer_link-box">
+                <a 
+                    href="" 
+                    class="footer__links" 
+                    aria-label="Link to Bonz.ai facebook">
+                        <img
+                            class="footer__link-image" 
+                            src="assets/icons/facebook.png" alt="Facebook link icon">
+                </a>
+                <a 
+                    href=""
+                    class="footer__links" 
+                    aria-label="Link to Bonz.ai instagram">
+                    <img 
+                        class="footer__link-image"
+                        src="assets/icons/instagram.png" alt="Instagram link icon">
+                </a>
+                <a 
+                    href="" 
+                    class="footer__links" 
+                    aria-label="Link to green key">
+                    <img
+                        class="footer__link-image" 
+                        src="assets/icons/Green-Key-Logo.png" alt="Green Key link icon">
+                </a>
+            </figure>
+        </section>
+
+        <iframe 
+            class="footer__map grid-wrapping__span-two grid-wrapping__span-full"
+            aria-label="Map direction to hotell with Google maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64055.63902158073!2d12.988436222076409!3d59.88668696960804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464320da325046bd%3A0xb8b6d14d9b43dcd6!2sHotell%20Frykenstrand%2C%20Sure%20Hotel%20Collection%20by%20Best%20Western!5e0!3m2!1ssv!2sse!4v1732962781687!5m2!1ssv!2sse"  
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </footer>
+</body>
+</html>

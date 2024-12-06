@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Om Bonz.ai</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- hamburgarmeny -->
+    <input type="checkbox" class="burger" id="burger" />
+    <label for="burger" class="burger-btn">
+      <span class="burger__line"></span>
+    </label>
+    <header>
+      <nav id="navigation-start" class="navigation">
+        <img
+          class="navigation__logo"
+          src="assets/logo/bonz.ai-logo-white-landscape.png"
+          alt="Bonz.ai logotyp -startsida"
+        />
+        <ul class="navigation__list">
+          <li class="navigation__list-item">
+            <a href="index.html" class="navigation__link">Hem</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="booking.html" class="navigation__link">Boka rum</a>
+          </li>
+          <li class="navigation__list-item btn--active">
+            <a href="about.html" class="navigation__link">Om Hotellet</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <section class="hero hero--about">
+        <section class="hero__block hero__block--grid">
+          <h1 class="hotel-info__title hotel-info__title--big">
+            Bonz.ai Hotell
+          </h1>
+          <ul class="hotel-info__stars">
+            <li class="hotel-info__star">
+              <i
+                class="hotel-info__icon hotel-info__icon--big fa-solid fa-star"
+              ></i>
+            </li>
+            <li class="hotel-info__star">
+              <i
+                class="hotel-info__icon hotel-info__icon--big fa-solid fa-star"
+              ></i>
+            </li>
+            <li class="hotel-info__star">
+              <i
+                class="hotel-info__icon hotel-info__icon--big fa-solid fa-star"
+              ></i>
+            </li>
+            <li class="hotel-info__star">
+              <i
+                class="hotel-info__icon hotel-info__icon--big fa-solid fa-star"
+              ></i>
+            </li>
+          </ul>
+          <p
+            class="hotel-info__paragraph hotel-info__paragraph--center hotel-info__paragraph--margin"
+          >
+            Bonz-ai Hotell Teknologigatan 1A 123 45 Borås
+          </p>
+          <p
+            class="hotel-info__paragraph hotel-info__paragraph--big hotel-info__paragraph--center hotel-info__paragraph--margin"
+          >
+            Vid Bytorpsjöns strand i centrala Borås ligger Bonz.ai Hotell. Bo på
+            ett högteknologiskt hotell i Borås med 46 rum och vackra lokaler
+            till konferens, möten och fest. På hotellet finns även Bonz-ai spa
+            med hamam samt pool och bar. Gångavstånd till centralstationen,
+            shopping, nöjen och aktiviteter.
+          </p>
+        </section>
+        <!--------------------Anchar för hotellet akutella info------------------->
+
+        <a href="#hotel-info" class="anchar anchar--top anchar--home"
+          ><p class="anchar__visability">Mer information om Bonz.ai Hotell</p>
+          <i class="anchar__arrow fa-solid fa-chevron-down"></i
+        ></a>
+      </section>
+
+      <section id="hotel-info" class="hotel-info hotel-info--auto-rows">
+        <section class="hotel-info__section hotel-info__section--dark">
+          <h2 class="hotel-info__title hotel-info__title--margin">
+            Välkommen till Bonz.ai Hotell
+          </h2>
+          <p class="hotel-info__paragraph hotel-info__paragraph--big">
+            En upplevelse där varje detalj är skapad med tanke på dig och vår
+            planet. Hos oss är vi måna om att varje steg är ett medvetet sådant
+            för att minimera vårt avtryck på vår planet.
+          </p>
+          <p
+            class="hotel-info__paragraph hotel-info__paragraph--margin hotel-info__paragraph--big"
+          >
+            Detta i kombination med AI gör vårt hotell unikt och till en
+            upplevelse som gör att våra nöjda gäster återkommer år efter år.
+          </p>
+        </section>
+        <article
+          class="hotel-info__article hotel-info__article--virtual hotel-info__article--full-column"
+        ></article>
+        <!-- carousel -->
+        <section class="carousel carousel--grid">
+          <input
+            type="radio"
+            name="position"
+            class="carousel__radio"
+            id="carousel__radio-1"
+            aria-label="Kort överblick om våra sängar"
+            checked
+          />
+          <input
+            type="radio"
+            name="position"
+            class="carousel__radio"
+            id="carousel__radio-2"
+            aria-label="Kort överblick om våra badrum"
+          />
+          <input
+            type="radio"
+            name="position"
+            class="carousel__radio"
+            id="carousel__radio-3"
+            aria-label="Kort överblick om hotellets användning av solenergi"
+          />
+          <input
+            type="radio"
+            name="position"
+            class="carousel__radio"
+            id="carousel__radio-4"
+            aria-label="Kort överblick om hotellets app som anpassar ljud"
+          />
+          <input
+            type="radio"
+            name="position"
+            class="carousel__radio"
+            id="carousel__radio-5"
+            aria-label="Kort överblick om rummens hållbara inredning"
+          />
+
+          <section id="carousel__cards" class="carousel__cards">
+            <article class="carousel__card carousel__card--1">
+              <img src="bed.svg" alt="Sängikon" class="carousel__image" />
+              <h2 class="carousel__title">Våra sängar...</h2>
+              <p class="carousel__paragraph carousel__paragraph--desktop">
+                är tillverkade av hållbara material och bäddade med ekologiska
+                sängkläder, medan AI-teknologi sköter allt från belysning till
+                temperatur för att skapa den perfekta atmosfären.
+              </p>
+              <p class="carousel__paragraph carousel__paragraph--mobile">
+                Skapade i hållbara material med ekologiska sängkläder
+              </p>
+            </article>
+            <article class="carousel__card carousel__card--2">
+              <img src="bathtub.svg" alt="Badkarikon" class="carousel__image" />
+              <h2 class="carousel__title">I våra badrum...</h2>
+              <p class="carousel__paragraph carousel__paragraph--desktop">
+                hittar du vattenbesparande duschar och miljövänliga produkter
+                som är skonsamma för både dig och planeten.
+              </p>
+              <p class="carousel__paragraph carousel__paragraph--mobile">
+                Vattenbesparande duschar och miljövänliga produkter
+              </p>
+            </article>
+            <article class="carousel__card carousel__card--3">
+              <img src="sun.svg" alt="Solikon" class="carousel__image" />
+              <h2 class="carousel__title">Solenergi...</h2>
+              <p class="carousel__paragraph carousel__paragraph--desktop">
+                Driver vårt hotell. Våra rum är optimerade för att minska
+                klimatpåverkan utan att kompromissa på komfort och kvalitet.
+              </p>
+              <p class="carousel__paragraph carousel__paragraph--mobile">
+                Optimerade rum för att minska klimatpåverkan
+              </p>
+            </article>
+            <article class="carousel__card carousel__card--4">
+              <img src="music.svg" alt="Musikikon" class="carousel__image" />
+              <h2 class="carousel__title">Den perfekta stämningen...</h2>
+              <p class="carousel__paragraph carousel__paragraph--desktop">
+                Skapar du enkelt genom hotellets smarta app. Bonz.ai gör ditt
+                rum levande, anpassar sig efter dig och skapar en stämning som
+                matchar varje ögonblick.
+              </p>
+              <p class="carousel__paragraph carousel__paragraph--mobile">
+                Styr enkelt ljud och ljus med hjälp vår smarta app
+              </p>
+            </article>
+            <article class="carousel__card carousel__card--5">
+              <img src="leaf.svg" alt="Bladikon" class="carousel__image" />
+              <h2 class="carousel__title">Rummet är inrett...</h2>
+              <p class="carousel__paragraph carousel__paragraph--desktop">
+                med naturliga och återvunna material – från bambugolvet till den
+                växtbaserade dekoren.
+              </p>
+              <p class="carousel__paragraph carousel__paragraph--mobile">
+                med naturligt och återvunnet material
+              </p>
+            </article>
+          </section>
+        </section>
+        <article
+          class="hotel-info__article hotel-info__article--spa hotel-info__article--full-column"
+        ></article>
+        <section class="hotel-info__section hotel-info__section--dark">
+          <h2 class="hotel-info__title hotel-info__title--margin">
+            Ekologiskt tänk med AI twist
+          </h2>
+          <p
+            class="hotel-info__paragraph hotel-info__paragraph--big hotel-info__paragraph--desktop"
+          >
+            På Bonz.ai Hotell är hållbarhet inte bara ett mål, utan en
+            integrerad del av vår verksamhet. Vi strävar efter att minimera vårt
+            ekologiska avtryck genom att införa innovativa lösningar som både
+            respekterar vår planet och förbättrar våra gästers upplevelse. Genom
+            att kombinera ekologiska principer med avancerad AI-teknologi har vi
+            skapat en miljö som är både hållbar och futuristisk.
+          </p>
+          <p
+            class="hotel-info__paragraph hotel-info__paragraph--big hotel-info__paragraph--margin hotel-info__paragraph--mobile"
+          >
+            Vi strävar efter att minimera vårt ekologiska avtryck genom att
+            införa innovativa lösningar som både respekterar vår planet och
+            förbättrar våra gästers upplevelse. Genom att kombinera ekologiska
+            principer med avancerad AI-teknologi har vi skapat en miljö som är
+            både hållbar och futuristisk.
+          </p>
+          <figure class="border border--light"></figure>
+          <p
+            class="hotel-info__paragraph hotel-info__paragraph--big hotel-info__paragraph--margin hotel-info__paragraph--desktop"
+          >
+            Vår användning av AI sträcker sig över hela hotellet, från
+            energieffektivisering till personalisering av gästupplevelser. Med
+            hjälp av smarta system kan vi noggrant justera belysning, temperatur
+            och ventilation i varje rum baserat på individuella preferenser,
+            vilket sparar energi utan att kompromissa på komfort. AI övervakar
+            också vår användning av resurser, vilket gör det möjligt för oss att
+            optimera vatten- och energiförbrukning på ett sätt som minskar spill
+            och resursanvändning.
+          </p>
+          <p
+            class="hotel-info__paragraph hotel-info__paragraph--big hotel-info__paragraph--margin hotel-info__paragraph--mobile"
+          >
+            Smarta system hjälper oss att noggrant justera belysning, temperatur
+            och ventilation i varje rum baserat på individuella preferenser,
+            vilket sparar energi utan att kompromissa på komfort.
+          </p>
+        </section>
+
+        <section
+          class="hotel-info__section hotel-info__section--light hotel-info__section--long"
+        >
+          <h2 class="hotel-info__dark-title">Bekvämligheter</h2>
+          <ul class="hotel-info__list">
+            <li class="hotel-info__list-item">
+              <i class="hotel-info__icon fa-solid fa-spa"></i> Bonz.ai Spa
+            </li>
+            <li class="hotel-info__list-item">
+              <i class="hotel-info__icon fa-solid fa-wine-glass"></i>Bar
+            </li>
+            <li class="hotel-info__list-item">
+              <i class="hotel-info__icon fa-solid fa-utensils"></i>Restaurang
+            </li>
+            <li class="hotel-info__list-item">
+              <i class="hotel-info__icon fa-solid fa-seedling"></i>Miljömärkt
+            </li>
+            <li class="hotel-info__list-item">
+              <i class="hotel-info__icon fa-solid fa-robot"></i>AI assistent
+            </li>
+            <li class="hotel-info__list-item">
+              <i class="hotel-info__icon fa-solid fa-square-parking"></i
+              >Parkering
+            </li>
+            <li class="hotel-info__list-item">
+              <i class="hotel-info__icon fa-solid fa-bell-concierge"></i
+              >Roomservice
+            </li>
+          </ul>
+        </section>
+      </section>
+      <!-- ÅTERANVÄND hotell-info-grid -->
+    </div>
+    <!---------------------------PAGE-FOOTER------------------------>
+    <footer class="page-footer">
+      <section class="footer__wrapper">
+        <section class="link-list">
+          <h2 class="link-list__title">Kontakt</h2>
+          <ul class="link-list_items">
+            <li class="link-list__item">Bonz-ai Hotell</li>
+            <li class="link-list__item">Teknologigatan 1A</li>
+            <li class="link-list__item">123 45 Borås</li>
+            <li class="link-list__item link-list__item--phone">
+              <i class="fa-solid fa-phone"></i>+46 70 123 45 67
+            </li>
+          </ul>
+        </section>
+        <section class="link-list">
+          <h2 class="link-list__title">Bokning</h2>
+          <ul class="link-list_items">
+            <li class="link-list__item link-list__item--cursor">
+              Våra hotellpaket
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              Hantera din bokning
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              Villkor & policys
+            </li>
+          </ul>
+        </section>
+        <section class="link-list">
+          <h2 class="link-list__title">Sociala medier</h2>
+          <ul class="link-list_items">
+            <li class="link-list__item link-list__item--cursor">
+              <i class="fa-brands fa-square-facebook"></i> Facebook
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              <i class="fa-brands fa-square-instagram"></i> Instagram
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              <i class="fa-brands fa-square-x-twitter"></i> X
+            </li>
+          </ul>
+        </section>
+      </section>
+      <a href="#navigation-start" class="anchar anchar--bottom"
+        ><i class="fa-solid fa-chevron-up"></i>Tillbaka till start</a
+      >
+    </footer>
+  </body>
+</html>

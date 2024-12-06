@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Erbjudanden och utbud hos hotellet Bonzai"
+    />
+    <title>About Bonzai</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/logo/bonzai-favicon.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1915f4dc40.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="global__bg">
+    <!-- Header -->
+
+    <!-- Medveten om att allt inom blocket main-header inte ligger innanför headerelementet. Behövde flytta ut nav-delen för att kunna göra den sticky och inte logo-delen. Bedömde ändå att både loggan och navigationen hörde till headern rent visuellt. Anledningen till att jag valde att lägga navigationen i en div är att det som div:en gör inte har någon semantisk betydelse. Elementet är endast till för att ge en färg åt hela skärmens bredd och innehåller inga rubriker. Om div:en hade innehållit rubriker hade jag istället valt en section. -->
+    <header class="grid main-header">
+      <img
+        class="main-header__logo"
+        src="assets/logo/bonz.ai-logo-black-portrait.png"
+        alt="Bonzai AB"
+      />
+    </header>
+    <div class="wrapper--width100 global__bg--blue main-header__sticky-nav">
+      <nav class="wrapper wrapper--no-margin main-header__nav">
+        <ul class="main-header__nav-list">
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="bokning-datum.html"
+              >Boka</a
+            >
+          </li>
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="about.html"
+              >Om hotellet</a
+            >
+          </li>
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="">Konferens</a>
+          </li>
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="">Jul och nyår</a>
+          </li>
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="">Restaurangen</a>
+          </li>
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="">Kontakt</a>
+          </li>
+
+          <!-- Dropdown "Mer" -->
+          <li
+            class="main-header__nav-list-item main-header__more"
+            aria-expanded="false"
+          >
+            <input
+              type="checkbox"
+              class="main-header__hidden-checkbox"
+              id="main-header__hidden-checkbox"
+            />
+            <label
+              class="main-header__more-label main-header__nav-list-item-link"
+              for="main-header__hidden-checkbox"
+            >
+              Mer
+              <i
+                class="main-header__arrow fa-solid fa-caret-down"
+                aria-hidden="true"
+              ></i>
+            </label>
+
+            <ul class="main-header__dropdown">
+              <li class="main-header__dropdown-list-item">
+                <a
+                  class="dropdown__list-link main-footer__nav-list-link global--white-text"
+                  href="#"
+                  >Konferens</a
+                >
+              </li>
+              <li class="main-header__dropdown-list-item">
+                <a
+                  class="dropdown__list-link main-footer__nav-list-link global--white-text"
+                  href="#"
+                  >Jul och nyår</a
+                >
+              </li>
+              <li class="main-header__dropdown-list-item">
+                <a
+                  class="dropdown__list-link main-footer__nav-list-link global--white-text"
+                  href="#"
+                  >Restaurangen</a
+                >
+              </li>
+              <li class="main-header__dropdown-list-item">
+                <a
+                  class="dropdown__list-link main-footer__nav-list-link global--white-text"
+                  href="#"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Main -->
+
+    <main>
+      <!-- Helgerbjudande -->
+      <figure class="highlight-offer">
+        <img
+          class="highlight-offer__image"
+          src="assets/bonzai-photos/23-bonzai-dinner.jpeg"
+          alt="Bonzais restaurang ligger vid sjön och rymmer stora grupper."
+        />
+
+        <section
+          class="highlight-offer__text wrapper--width100 global__bg--dark-grey"
+        >
+          <h1 class="global__title global--white-text">Helgerbjudande</h1>
+          <p class="global__description-big global--white-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis, similique?
+          </p>
+          <button class="global__btn global__btn--black-white">Boka</button>
+        </section>
+      </figure>
+
+      <!-- Rummen, maten, omgivningarna -->
+
+      <figure class="wrapper grid hotel-overview">
+        <!-- Rummen -->
+        <img
+          class="hotel-overview__item hotel-overview__image"
+          src="assets/bonzai-photos/06-bonzai-double-room.jpeg"
+          alt="Dubbelrum med panoramafönster"
+        />
+        <section class="hotel-overview__item hotel-overview__text">
+          <h2 class="global__subtitle">Rummen</h2>
+          <p class="global__description-medium">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+            blanditis!
+          </p>
+          <button class="global__btn global__btn--small">Läs mer</button>
+        </section>
+        <img
+          class="hotel-overview__item hotel-overview__image"
+          src="assets/bonzai-photos/02-bonzai-bathroom.jpeg"
+          alt="Badrum med badkar och egen bastu"
+        />
+
+        <!-- Maten -->
+        <img
+          class="hotel-overview__item hotel-overview__image"
+          src="assets/bonzai-photos/13-bonzai-restaurant-dinner.jpeg"
+          alt="Middagen avnjuts i lugn miljö i Bonzais restaurang"
+        />
+        <section
+          class="hotel-overview__item hotel-overview__text global__bg--green"
+        >
+          <h2 class="global__subtitle global--white-text">Maten</h2>
+          <p class="global__description-medium global--white-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+            blanditis!
+          </p>
+          <button
+            class="global__btn global__btn--small global__btn--black-white"
+          >
+            Läs mer
+          </button>
+        </section>
+        <img
+          class="hotel-overview__item hotel-overview__image"
+          src="assets/bonzai-photos/12-bonzai-restaurant-breakfast.jpeg"
+          alt="Varje morgon serveras en frukostbuffe med fokus på säsongens råvaror"
+        />
+
+        <!-- Aktiviteterna -->
+        <img
+          class="hotel-overview__item hotel-overview__image"
+          src="assets/bonzai-photos/01-bonzai-golf.jpeg"
+          alt="Golfbana 4 km från hotellet"
+        />
+        <section class="hotel-overview__item hotel-overview__text">
+          <h2 class="global__subtitle">Aktiviteterna</h2>
+          <p class="global__description-medium">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo,
+            blanditis!
+          </p>
+          <button class="global__btn global__btn--small">Läs mer</button>
+        </section>
+        <img
+          class="hotel-overview__item hotel-overview__image"
+          src="assets/bonzai-photos/04-bonzai-picnic.jpeg"
+          alt="Picknick vid sjön nära hotellet och ekobyn"
+        />
+      </figure>
+
+      <!-- Möten -->
+      <figure class="highlight-offer">
+        <section
+          class="highlight-offer__text wrapper--width100 global__bg--dark-grey"
+        >
+          <h2 class="global__title global--white-text">Möten</h2>
+          <p class="global__description-big global--white-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis, similique?
+          </p>
+          <button class="global__btn global__btn--black-white">Boka</button>
+        </section>
+        <img
+          class="highlight-offer__image"
+          src="assets/bonzai-photos/29-bonzai-conferense-room.jpeg"
+          alt="Bonzai erbjuder lösningar för såväl stora konferanser som mindre möten"
+        />
+      </figure>
+
+      <!-- Footer -->
+
+      <!-- De delar av min footer som har en rubrik är placerade i en section eller nav. Övriga delar saknar rubrik och har ingen egen semantisk betydelse. Därför har jag, i samråd med Aizo och ok från Jacob :D, valt att använda div:ar för att kunna styla t ex bakgrundsfärgerna. -->
+
+      <footer class="main-footer">
+        <!-- Footer: navigation -->
+        <div class="wrapper--width100 global__bg--light-grey">
+          <div class="wrapper global__bg--light-grey main-footer__top grid">
+            <img
+              class="main-footer__logo"
+              src="assets/logo/bonz.ai-logo-black-portrait.png"
+              alt="Bonzai AB"
+            />
+
+            <div class="main-footer__contact">
+              <figure class="main-footer__contact-kit">
+                <i
+                  class="fa-solid fa-mobile main-footer__icon"
+                  aria-hidden="true"
+                ></i>
+                <a
+                  href="tel:+46935413156"
+                  class="main-footer__contact-item global__description-big"
+                  >093-5413156</a
+                >
+              </figure>
+              <figure class="main-footer__contact-kit">
+                <i
+                  class="fa-solid fa-envelope main-footer__icon"
+                  aria-hidden="true"
+                ></i>
+                <a
+                  href="mailto:info@bonzai.se"
+                  class="main-footer__contact-item global__description-big"
+                  >info@bonzai.se</a
+                >
+              </figure>
+              <figure class="main-footer__contact-kit">
+                <i
+                  class="fa-solid fa-location-dot main-footer__icon"
+                  aria-hidden="true"
+                ></i
+                ><a
+                  href="https://www.google.com/maps"
+                  class="main-footer__contact-item global__description-big"
+                  >Bonzai AB, 358 54 Skogen</a
+                >
+              </figure>
+            </div>
+            <nav class="main-footer__navigation">
+              <section class="main-footer__nav-col">
+                <h3 class="main-footer__nav-title">Events</h3>
+                <ul class="main-footer__nav-list">
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href="">
+                      Konferenser
+                    </a>
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""
+                      >Jul och nyår</a
+                    >
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href="">Konserter</a>
+                  </li>
+                </ul>
+              </section>
+
+              <section class="main-footer__nav-col">
+                <h3 class="main-footer__nav-title">Om bonzai</h3>
+                <ul class="main-footer__nav-list">
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""
+                      >Vår historia</a
+                    >
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""> Press</a>
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""
+                      >Hållbarhet och miljö</a
+                    >
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""
+                      >Jobba hos oss</a
+                    >
+                  </li>
+                </ul>
+              </section>
+
+              <section class="main-footer__nav-col">
+                <h3 class="main-footer__nav-title">Kundservice</h3>
+                <ul class="main-footer__nav-list">
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href="">FAQ</a>
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href="">Villkor</a>
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""
+                      >Self-check in</a
+                    >
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href="">Kontakt</a>
+                  </li>
+                </ul>
+              </section>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Footer: nyhetsbrev -->
+        <div class="wrapper--width100 global__bg--blue main-footer__middle">
+          <section class="wrapper global__bg--blue main-footer__news">
+            <h2 class="global__subtitle global--white-text">Nyhetsbrev</h2>
+            <p class="global__description-medium global--white-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet.
+            </p>
+            <button
+              class="global__btn global__btn--black-white global__btn--small"
+            >
+              Prenumerera
+            </button>
+          </section>
+        </div>
+
+        <!-- Footer: SoMe -->
+        <figure class="wrapper--width100 global__bg--green main-footer__some">
+          <a
+            href="https://youtube.com"
+            class="global--white-text"
+            aria-label="Youtube"
+            ><i
+              class="fa-brands fa-youtube main-footer__some-icons"
+              aria-hidden="true"
+            ></i
+          ></a>
+          <a
+            href="https://instagram.com"
+            class="global--white-text"
+            aria-label="Instagram"
+          >
+            <i
+              class="fa-brands fa-square-instagram main-footer__some-icons"
+              aria-hidden="true"
+            ></i>
+          </a>
+
+          <a
+            href="https://facebook.com"
+            class="global--white-text"
+            aria-label="Facebook"
+          >
+            <i
+              class="fa-brands fa-square-facebook main-footer__some-icons"
+              aria-hidden="true"
+            ></i>
+          </a>
+        </figure>
+      </footer>
+    </main>
+  </body>
+</html>

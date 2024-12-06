@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hitta ledigt rum</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- hamburgarmeny -->
+    <input type="checkbox" class="burger" id="burger" />
+    <label for="burger" class="burger-btn">
+      <span class="burger__line"></span>
+    </label>
+    <!-------------------------Navigationsbar------------------------->
+    <header>
+      <nav id="navigation-start" class="navigation">
+        <img
+          class="navigation__logo"
+          src="assets/logo/bonz.ai-logo-white-landscape.png"
+          alt="Bonz.ai logotyp -startsida"
+        />
+        <ul class="navigation__list">
+          <li class="navigation__list-item">
+            <a href="index.html" class="navigation__link">Hem</a>
+          </li>
+          <li class="navigation__list-item btn--active">
+            <a href="booking.html" class="navigation__link">Boka rum</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="about.html" class="navigation__link">Om Hotellet</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="wrapper">
+      <section class="hero hero--booking">
+        <h1 class="page-title">Hitta ett ledigt rum</h1>
+        <form class="check-room check-room--grid check-room--sizing">
+          <label class="check-room__info">
+            Ankomst
+            <input type="date" class="check-room__input" />
+          </label>
+          <label class="check-room__info">
+            Hemgång
+            <input
+              type="date"
+              placeholder="Välj datum"
+              class="check-room__input"
+            />
+          </label>
+          <label class="check-room__info">
+            Gäster
+            <input
+              type="number"
+              placeholder="Välj antal"
+              class="check-room__input"
+              min="1"
+              max="12"
+            />
+          </label>
+          <label class="check-room__info">
+            Rum
+            <input
+              type="number"
+              placeholder="Välj antal"
+              class="check-room__input"
+              min="1"
+              max="5"
+            />
+          </label>
+          <!-- anchar-section -->
+
+          <a href="#room-section" class="main-btn--long main-btn">Sök</a>
+        </form>
+      </section>
+
+      <!-----------------------Section för rumsalternativ---------------------->
+      <section id="room-section" class="rooms">
+        <section class="room">
+          <!-----------------------Room-1-------------------->
+          <section class="gallery">
+            <input
+              type="radio"
+              id="thumbnail-1"
+              name="gallery"
+              class="gallery__thumbnail-input"
+              checked
+              aria-label="Knapp 1 för val av bild"
+            />
+            <label
+              for="thumbnail-1"
+              class="gallery__thumbnail gallery__thumbnail--label-1"
+            >
+            </label>
+            <input
+              type="radio"
+              id="thumbnail-2"
+              name="gallery"
+              class="gallery__thumbnail-input"
+              aria-label="Knapp 2 för val av bild"
+            />
+            <label
+              for="thumbnail-2"
+              class="gallery__thumbnail gallery__thumbnail--label-2"
+            >
+            </label>
+            <input
+              type="radio"
+              id="thumbnail-3"
+              name="gallery"
+              class="gallery__thumbnail-input"
+              aria-label="Knapp 3 för val av bild"
+            />
+            <label
+              for="thumbnail-3"
+              class="gallery__thumbnail gallery__thumbnail--label-3"
+            >
+            </label>
+
+            <img
+              src="assets/photos/01-day.jpg"
+              alt="Bild 1"
+              class="gallery__image gallery__image--1"
+            />
+            <img
+              src="assets/photos/03-day.jpg"
+              alt="Bild 2"
+              class="gallery__image gallery__image--2"
+            />
+            <img
+              src="assets/photos/07-day.jpg"
+              alt="Bild 3"
+              class="gallery__image gallery__image--3"
+            />
+          </section>
+          <section class="room__info-box">
+            <h2 class="room__title">Enkelrum</h2>
+            <ul class="room__list">
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-mug-saucer"></i>
+                <p class="room__item-paragraph">Frukost</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-children"></i>
+                <p class="room__item-paragraph">2 personer</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-bed"></i>
+                <p class="room__item-paragraph">2x90 säng</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-wifi"></i>
+                <p class="room__item-paragraph">Wifi</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-bath"></i>
+                <p class="room__item-paragraph">Eget badrum</p>
+                <p></p>
+              </li>
+            </ul>
+            <figure class="border border--dark"></figure>
+            <p class="room__information">
+              Naturligt ljusinsläpp och inrett med återvunna material och
+              jordnära färger, och erbjuder en AI-assistent som anpassar
+              belysning, temperatur och musik efter dina önskemål. Badrum med
+              dusch samt ekologiska badprodukter.
+            </p>
+            <p class="room__information">
+              En smart-TV med streamingmöjligheter och ett kompakt skrivbord med
+              ergonomisk stol gör rummet lika lämpligt för arbete som för
+              avkoppling.
+            </p>
+
+            <p class="room__price">/ från 899kr per natt</p>
+            <button class="main-btn room__btn">Läs mer och boka</button>
+          </section>
+        </section>
+        <section class="room">
+          <!-----------------------Room-2---------------->
+          <section class="gallery">
+            <input
+              type="radio"
+              id="thumbnail-4"
+              name="gallery-2"
+              class="gallery__thumbnail-input"
+              aria-label="Knapp 1 för val av bild"
+              checked
+            />
+            <label
+              for="thumbnail-4"
+              class="gallery__thumbnail gallery__thumbnail--label-3"
+            >
+            </label>
+            <input
+              type="radio"
+              id="thumbnail-5"
+              name="gallery-2"
+              class="gallery__thumbnail-input"
+              aria-label="Knapp 2 för val av bild"
+            />
+            <label
+              for="thumbnail-5"
+              class="gallery__thumbnail gallery__thumbnail--label-1"
+            >
+            </label>
+            <input
+              type="radio"
+              id="thumbnail-6"
+              name="gallery-2"
+              class="gallery__thumbnail-input"
+              aria-label="Knapp 3 för val av bild"
+            />
+            <label
+              for="thumbnail-6"
+              class="gallery__thumbnail gallery__thumbnail--label-2"
+            >
+            </label>
+
+            <img
+              src="assets/photos/01-day.jpg"
+              alt="Bild 1"
+              class="gallery__image gallery__image--1"
+            />
+            <img
+              src="assets/photos/03-day.jpg"
+              alt="Bild 2"
+              class="gallery__image gallery__image--2"
+            />
+            <img
+              src="assets/photos/07-day.jpg"
+              alt="Bild 3"
+              class="gallery__image gallery__image--3"
+            />
+          </section>
+          <section class="room__info-box">
+            <h2 class="room__title">Dubbelrum</h2>
+            <ul class="room__list">
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-mug-saucer"></i>
+                <p class="room__item-paragraph">Frukost</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-children"></i>
+                <p class="room__item-paragraph">2 personer</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-bed"></i>
+                <p class="room__item-paragraph">180 säng</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-wifi"></i>
+                <p class="room__item-paragraph">Wifi</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-bath"></i>
+                <p class="room__item-paragraph">Eget badrum</p>
+              </li>
+            </ul>
+            <figure class="border border--dark"></figure>
+            <p class="room__information">
+              Rummet är inrett i harmoniska färger med hållbara material och en
+              smart TV som enkelt kopplas till dina enheter. Det privata
+              badrummet är utrustat med regndusch och ekologiska badprodukter
+              för en skön start eller avslutning på dagen.
+            </p>
+            <p class="room__information">
+              Dubbelrummet är perfekt för både par och ensamresenärer som söker
+              komfort och modernitet. Rummets tekniska funktioner, såsom
+              AI-styrd belysning och temperatur, säkerställer en anpassad och
+              smidig upplevelse.
+            </p>
+
+            <p class="room__price">/ från 1199kr per natt</p>
+            <button class="main-btn room__btn">Läs mer och boka</button>
+          </section>
+        </section>
+        <section class="room">
+          <!-----------------------Room-3----------------->
+          <section class="gallery">
+            <input
+              type="radio"
+              id="thumbnail-7"
+              name="gallery-3"
+              class="gallery__thumbnail-input"
+              checked
+              aria-label="Knapp 1 för val av bild"
+            />
+            <label
+              for="thumbnail-7"
+              class="gallery__thumbnail gallery__thumbnail--label-2"
+            >
+            </label>
+            <input
+              type="radio"
+              id="thumbnail-8"
+              name="gallery-3"
+              class="gallery__thumbnail-input"
+              aria-label="Knapp 2 för val av bild"
+            />
+            <label
+              for="thumbnail-8"
+              class="gallery__thumbnail gallery__thumbnail--label-3"
+            >
+            </label>
+            <input
+              type="radio"
+              id="thumbnail-9"
+              name="gallery-3"
+              class="gallery__thumbnail-input"
+              aria-label="Knapp 3 för val av bild"
+            />
+            <label
+              for="thumbnail-9"
+              class="gallery__thumbnail gallery__thumbnail--label-1"
+            >
+            </label>
+
+            <img
+              src="assets/photos/01-day.jpg"
+              alt="Bild 1"
+              class="gallery__image gallery__image--1"
+            />
+            <img
+              src="assets/photos/03-day.jpg"
+              alt="Bild 2"
+              class="gallery__image gallery__image--2"
+            />
+            <img
+              src="assets/photos/07-day.jpg"
+              alt="Bild 3"
+              class="gallery__image gallery__image--3"
+            />
+          </section>
+          <section class="room__info-box">
+            <h2 class="room__title">Superior Suite</h2>
+            <ul class="room__list">
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-mug-saucer"></i>
+                <p class="room__item-paragraph">Frukost</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-children"></i>
+                <p class="room__item-paragraph">2 personer</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-bed"></i>
+                <p class="room__item-paragraph">180 säng</p>
+              </li>
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-wifi"></i>
+                <p class="room__item-paragraph">Wifi</p>
+              </li>
+
+              <li class="room__list-item">
+                <i class="hotel-info__icon fa-solid fa-spa"></i>
+                <p class="room__item-paragraph">Spa</p>
+              </li>
+            </ul>
+            <figure class="border border--dark"></figure>
+            <p class="room__information">
+              Som gäst i vår Superior Suite får du fri tillgång till vårt
+              förstklassiga spa, där du kan njuta av både pool och bastu. För
+              den teknikintresserade finns smart spegel, trådlös laddning och en
+              avancerad ljudanläggning för en fulländad upplevelse.
+            </p>
+            <p class="room__information">
+              Sviten är en perfekt oas inredd i jordnära färger med naturligt
+              ljusinsläpp för både avkoppling och arbete, och varje detalj är
+              utformad för att skapa en minnesvärd vistelse.
+            </p>
+
+            <p class="room__price">/ från 1499kr per natt</p>
+            <button class="main-btn room__btn">Läs mer och boka</button>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!---------------------------PAGE-FOOTER------------------------>
+    <footer class="page-footer">
+      <section class="footer__wrapper">
+        <section class="link-list">
+          <h2 class="link-list__title">Kontakt</h2>
+          <ul class="link-list_items">
+            <li class="link-list__item">Bonz-ai Hotell</li>
+            <li class="link-list__item">Teknologigatan 1A</li>
+            <li class="link-list__item">123 45 Borås</li>
+            <li class="link-list__item link-list__item--phone">
+              <i class="fa-solid fa-phone"></i>+46 70 123 45 67
+            </li>
+          </ul>
+        </section>
+        <section class="link-list">
+          <h2 class="link-list__title">Bokning</h2>
+          <ul class="link-list_items">
+            <li class="link-list__item link-list__item--cursor">
+              Våra hotellpaket
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              Hantera din bokning
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              Villkor & policys
+            </li>
+          </ul>
+        </section>
+        <section class="link-list">
+          <h2 class="link-list__title">Sociala medier</h2>
+          <ul class="link-list_items">
+            <li class="link-list__item link-list__item--cursor">
+              <i class="fa-brands fa-square-facebook"></i> Facebook
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              <i class="fa-brands fa-square-instagram"></i> Instagram
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              <i class="fa-brands fa-square-x-twitter"></i> X
+            </li>
+          </ul>
+        </section>
+      </section>
+      <!-- Anchar-tillbaka-till-top -->
+      <a href="#navigation-start" class="anchar anchar--bottom"
+        ><i class="fa-solid fa-chevron-up"></i>Tillbaka till start</a
+      >
+    </footer>
+  </body>
+</html>

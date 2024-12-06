@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Välkommen till Bonz.ai!</title>
+  </head>
+  <body>
+    <!-- hamburgarmeny -->
+
+    <input type="checkbox" class="burger" id="burger" />
+    <label for="burger" class="burger-btn">
+      <span class="burger__line"></span>
+    </label>
+
+    <!-------------------------Navigationsbar------------------------->
+    <header>
+      <nav id="navigation-start" class="navigation">
+        <img
+          class="navigation__logo"
+          src="assets/logo/bonz.ai-logo-white-landscape.png"
+          alt="Bonz.ai logotyp -startsida"
+        />
+        <ul class="navigation__list">
+          <li class="navigation__list-item btn--active">
+            <a href="index.html" class="navigation__link">Hem</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="booking.html" class="navigation__link">Boka rum</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="about.html" class="navigation__link">Om Hotellet</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="wrapper">
+      <!-------------------------Hero-section------------------------->
+
+      <!--------------------check-room------------------->
+
+      <section class="hero hero--home">
+        <form class="check-room check-room--grid">
+          <h1 class="check-room__title">Hitta ett ledigt rum</h1>
+          <label class="check-room__info">
+            Ankomst
+            <input type="date" class="check-room__input" />
+          </label>
+          <label class="check-room__info">
+            Hemgång
+            <input
+              type="date"
+              placeholder="Välj datum"
+              class="check-room__input"
+            />
+          </label>
+          <label class="check-room__info">
+            Gäster
+            <input
+              type="number"
+              placeholder="Välj antal"
+              class="check-room__input"
+              min="1"
+              max="12"
+            />
+          </label>
+          <label class="check-room__info">
+            Rum
+            <input
+              type="number"
+              placeholder="Välj antal"
+              class="check-room__input"
+              min="1"
+              max="5"
+            />
+          </label>
+          <button class="main-btn--long main-btn">
+            <a href="booking.html#room-section" class="room__anchar">Sök</a>
+          </button>
+        </form>
+        <!--------------------Logotyp------------------->
+
+        <section class="hero__bonzai-logo">
+          <img
+            src="assets/logo/bonz.ai-logo-white-portrait-full.png"
+            alt="bonzai-full-logo"
+          />
+        </section>
+        <!--------------------Anchar för hotellet akutella info------------------->
+
+        <a href="#hotel-info" class="anchar anchar--top anchar--home"
+          ><p class="anchar__visability">
+            Om Bonz.ai Hotell och vad vi erbjuder just nu
+          </p>
+          <i class="anchar__arrow fa-solid fa-chevron-down"></i
+        ></a>
+      </section>
+
+      <!-----------------------Hotellet akutella info--------------------------->
+
+      <section id="hotel-info" class="hotel-info hotel-info--set-rows">
+        <section class="hotel-info__section hotel-info__section--dark">
+          <h2 class="hotel-info__title hotel-info__title--margin">
+            Välkommen till Bonz.ai Hotell
+          </h2>
+          <p class="hotel-info__paragraph hotel-info__paragraph--big">
+            En upplevelse där varje detalj är skapad med tanke på dig och vår
+            planet. Hos oss är vi måna om att varje steg är ett medvetet sådant
+            för att minimera vårt avtryck på vår planet. Detta i kombination med
+            AI gör vårt hotell unikt och till en upplevelse som gör att våra
+            nöjda gäster återkommer år efter år.
+          </p>
+        </section>
+        <section
+          class="hotel-info__article hotel-info__btn hotel-info__article--map"
+        >
+          <h3 class="hotel-info__title">Hitta hit</h3>
+        </section>
+        <h2 class="hotel-info__divide-title">Aktuella erbjudanden</h2>
+        <article
+          class="hotel-info__article hotel-info__btn hotel-info__article--julbord"
+        >
+          <h3 class="hotel-info__title hotel-info__title">Årets julbord</h3>
+        </article>
+        <article
+          class="hotel-info__article hotel-info__btn hotel-info__article--virtual"
+        >
+          <h3 class="hotel-info__title">AI Healing Event</h3>
+        </article>
+        <article
+          class="hotel-info__article hotel-info__btn hotel-info__article--spa"
+        >
+          <h3 class="hotel-info__title">SPA paket</h3>
+        </article>
+        <h2 class="hotel-info__divide-title">Recensioner</h2>
+
+        <section class="hotel-info__review">
+          <h3 class="hotel-info__subtitle">Recensioner</h3>
+          <p class="hotel-info__paragraph hotel-info__paragraph--review">
+            "Aldrig sovit så bra! Skulle till Borås för ett bröllop, höll på att
+            missa vigseln för jag var så avslappnad!"
+          </p>
+
+          <p class="hotel-info__paragraph hotel-info__paragraph--review">
+            "Mysig get-away med god mat. Jag fick gå på spa och gubben fick
+            prova på lite ai-teknik. Kunde inte bli bättre!"
+          </p>
+
+          <p class="hotel-info__paragraph hotel-info__paragraph--review">
+            "Bokade ett par nätter med min vän, vi hade det jättetrevligt och
+            personalen var så hjälpsamma"
+          </p>
+        </section>
+
+        <article class="hotel-info__article hotel-info__article--green-key">
+          <img
+            src="assets/photos/eco-logo.png"
+            alt="Green key certifikat"
+            class="certificats__cert"
+          />
+          <h3 class="hotel-info__title">Vi är ECO certifierade</h3>
+        </article>
+      </section>
+    </main>
+
+    <!---------------------------PAGE-FOOTER------------------------>
+    <footer class="page-footer">
+      <section class="footer__wrapper">
+        <section class="link-list">
+          <h2 class="link-list__title">Kontakt</h2>
+          <ul class="link-list_items">
+            <li class="link-list__item">Bonz-ai Hotell</li>
+            <li class="link-list__item">Teknologigatan 1A</li>
+            <li class="link-list__item">123 45 Borås</li>
+            <li class="link-list__item link-list__item--phone">
+              <i class="link.list__icon--phone fa-solid fa-phone"></i>+46 70 123
+              45 67
+            </li>
+          </ul>
+        </section>
+        <section class="link-list">
+          <h2 class="link-list__title">Bokning</h2>
+          <ul class="link-list_items">
+            <li class="link-list__item link-list__item--cursor">
+              Våra hotellpaket
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              Hantera din bokning
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              Villkor & policys
+            </li>
+          </ul>
+        </section>
+        <section class="link-list">
+          <h2 class="link-list__title">Sociala medier</h2>
+          <ul class="link-list_items">
+            <li class="link-list__item link-list__item--cursor">
+              <i class="fa-brands fa-square-facebook"></i> Facebook
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              <i class="fa-brands fa-square-instagram"></i> Instagram
+            </li>
+            <li class="link-list__item link-list__item--cursor">
+              <i class="fa-brands fa-square-x-twitter"></i> X
+            </li>
+          </ul>
+        </section>
+      </section>
+      <a href="#navigation-start" class="anchar anchar--bottom"
+        ><i class="fa-solid fa-chevron-up"></i>Tillbaka till start</a
+      >
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonz.ai - Ditt hållbara futuristiska hotell</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<!-- WAVE/LIGHTHOUSE GIVES ERROR FOR STARS COLOR BUT IT DOESNT SHOW ANY CONTRAS INFORMATION IN INSPECTOR AND THERE IS A SIGNIFICANT CONTRAST BETWEEN THE COLORS IN COLORBLINDLY -->
+<body>
+    <!-- HEADER  - BOOKING PAGE  -->
+    <header class="header header--grid">
+        <figure class="logo logo--align">
+            <a href="index.html" class="header__favicon">
+                <img 
+                    src="assets/logo/bonz.ai-logo-white-portrait.png" 
+                    alt="logo" 
+                    class="logo__favicon"
+                />
+            </a>
+        </figure>
+
+        <nav class="header__navigation--center">
+            <h1 class="header__links header__links--no-hover header__links--active">RUMSBOKNING</h1>
+        </nav>
+    </header>
+
+    <!-- MAIN - BOOKING ROOM PAGE-->
+    <main class="wrapper wrapper--gap">
+
+        <!-- SEARCHED BOOKING - BOOKING PAGE -->
+        <section>
+            <form class="booking booking--wider booking__input-field--padding">
+                <section class="booking__titles">
+                    <h2 class="booking__head-title">Din sökning</h2>
+                </section>
+                <section class="booking__input-field booking__input-field--wide grid-wrapping">
+                    <label class="booking__input booking__input--width">
+                        <h3 class="booking__input-title">Startdatum</h3>   
+                        <input type="date" class="booking__input-box" value="2024-12-01">
+                    </label>
+                    <label class="booking__input booking__input--width">
+                        <h3 class="booking__input-title">Slutdatum</h3>   
+                        <input type="date" class="booking__input-box" value="2024-12-02">
+                    </label>
+                    <label class="booking__input booking__input--width">
+                        <h3 class="booking__input-title">Vuxna</h3>   
+                        <input type="number" class="booking__input-box" min="0" value="2">
+                    </label>
+                    <label class="booking__input booking__input--width">
+                        <h3 class="booking__input-title">Barn (0-15 år)</h3>   
+                        <input type="number" class="booking__input-box" min="0" value="0">
+                    </label>
+                </section>
+                <button class="btn">Ny sökning</button>
+            </form>
+        </section>
+
+        <!-- ROOM BOOKING INFO - BOOKING PAGE -->
+        <section class="overview-room">
+            <h1>Välj rum</h1>
+            <section class="room">
+                <section class="room__card">
+                    <figure class="room__gallery">
+                        <img class="room__image room__image--large" src="assets/photos/02-day.jpg" alt="Standard room image view">
+                        <figure class="room__image-small">
+                            <img class="room__image-small-box" src="assets/photos/01-day.jpg" alt="Standard room image desk">
+                            <img class="room__image-small-box" src="assets/photos/03-day.jpg" alt="Standard room image view from bed">
+                            <img class="room__image-small-box" src="assets/photos/04-day.jpg" alt="Standard room image bed">
+                        </figure>
+                    </figure>
+                    <section class="room__info">
+                        <section class="room__header">
+                            <section class="room__titles">
+                                <h2 class="room__head-title">Standard</h2>
+                                <h3 class="room__sub-title">Dubbelsäng</h3>
+                            </section>
+                            <section class="room__review">
+                                <h3 class="room__sub-title">
+                                    Prisvärd
+                                </h3>
+                                <section class="room__star">
+                                    <p>★</p>
+                                    <p>★</p>
+                                    <p>★</p>
+                                </section>
+                            </section>
+                        </section>
+                        <p class="room__description">Vårt Standardrum med dubbelsäng kombinerar modern teknologi med en bekväm och lyxig miljö. Med en <strong>egen AI-assistent</strong> som alltid är redo att hjälpa dig oavsett om det handlar om att anpassa rumsbelysningen, boka aktiviteter eller svara på frågor.
+                        </p>
+                        <h4>Bekvämligheter</h4>
+                        <section class="room__list">
+                            <ul class="room__list-box">
+                                <li class="room__list-item">Privat entre</li>
+                                <li class="room__list-item">Dusch</li>
+                                <li class="room__list-item">Minibar</li>
+                                <li class="room__list-item">Egen AI-assistent</li>
+                                <li class="room__list-item">Gratis WiFi</li>
+                            </ul>
+                            <ul class="room__list-bo">
+                                <li class="room__list-item">Eget kök</li>
+                                <li class="room__list-item">Vy mot solnedgång</li>
+                                <li class="room__list-item">Egen balkong</li>
+                                <li class="room__list-item">Dygnet runt service</li>
+                                <li class="room__list-item">Dubbelsäng</li>
+                            </ul>
+                        </section>
+                        <hr>
+                        <section class="room__btn">
+                            <section class="price">
+                                <h2>Totalt 940 kr</h2>
+                                <h3>Inkl. skatter och avgifter</h3>
+                            </section>
+                            <button class="room__book-btn btn">BOKA NU</button>
+                        </section>
+                    </section>
+                </section>
+            </section> 
+
+            <section class="room">
+                <section class="room__card">
+                    <figure class="room__gallery">
+                        <img class="room__image room__image--large" src="assets/photos/02-night.jpg" alt="Standard room image view">
+                        <figure class="room__image-small">
+                            <img class="room__image-small-box" src="assets/photos/01-night.jpg" alt="Standard room image desk">
+                            <img class="room__image-small-box" src="assets/photos/03-night.jpg" alt="Standard room image view from bed">
+                            <img class="room__image-small-box" src="assets/photos/04-night.jpg" alt="Standard room image bed">
+                        </figure>
+                    </figure>
+                    <section class="room__info">
+                        <section class="room__header">
+                            <section class="room__titles">
+                                <h2 class="room__head-title">Premium</h2>
+                                <h3 class="room__sub-title">Dubbelsäng</h3>
+                            </section>
+                            <section class="room__review">
+                                <h3 class="room__sub-title">
+                                    Favorit
+                                </h3>
+                                <section class="room__star">
+                                    <p>★</p>
+                                    <p>★</p>
+                                    <p>★</p>
+                                    <p>★</p>
+                                </section>
+                            </section>
+                        </section>
+                        <p class="room__description">Vårt Premiumrum erbjuder en lyxig och modern vistelse med <strong>två AI-assistenter</strong> som sätter en ny standard för bekvämlighet och service. Koppla av i stil och njut av exklusiva detaljer som gör din vistelse oförglömlig.
+                        </p>
+
+                        <h4>Bekvämligheter</h4>
+                        <section class="room__list">
+                            <ul class="room__list-box">
+                                <li class="room__list-item">2 AI-assistenter</li>
+                                <li class="room__list-item">Premiumlakan</li>
+                                <li class="room__list-item">Minibar</li>
+                                <li class="room__list-item">Egen AI-assistent</li>
+                                <li class="room__list-item">Gratis WiFi</li>
+                            </ul>
+
+                            <ul class="room__list-bo">
+                                <li class="room__list-item">Eget kök</li>
+                                <li class="room__list-item">Vy mot solnedgång</li>
+                                <li class="room__list-item">Egen balkong</li>
+                                <li class="room__list-item">Dygnet runt service</li>
+                                <li class="room__list-item">Dubbelsäng</li>
+                            </ul>
+                        </section>
+                        <hr>
+                        <section class="room__btn">
+                            <section class="price">
+                                <h2>Totalt 1 350 kr</h2>
+                                <h3>Inkl. skatter och avgifter</h3>
+                            </section>
+                            <button class="room__book-btn btn">BOKA NU</button>
+                        </section>
+                    </section>
+                </section>
+            </section>    
+
+            <section class="room">
+                <section class="room__card">
+                    <figure class="room__gallery">
+                        <img class="room__image room__image--large" src="assets/photos/05-day.jpg" alt="Standard room image view">
+                        <figure class="room__image-small">
+                            <img class="room__image-small-box" src="assets/photos/06-day.jpg" alt="Standard room image desk">
+                            <img class="room__image-small-box" src="assets/photos/07-day.jpg" alt="Standard room image view from bed">
+                            <img class="room__image-small-box" src="assets/photos/08-day.jpg" alt="Standard room image bed">
+                        </figure>
+                    </figure>
+                    <section class="room__info">
+                        <section class="room__header">
+                            <section class="room__titles">
+                                <h2 class="room__head-title">Supreme</h2>
+                                <h3 class="room__sub-title">Dubbelsäng</h3>
+                            </section>
+                            <section class="room__review">
+                                <h3 class="room__sub-title">
+                                    Toppval
+                                </h3>
+                                <section class="room__star">
+                                    <p>★</p>
+                                    <p>★</p>
+                                    <p>★</p>
+                                    <p>★</p>
+                                    <p>★</p>
+                                </section>
+                            </section>
+                        </section>
+                        <p class="room__description">Supremerummet erbjuder en lyxig och innovativ upplevelse som överträffar alla förväntningar. Här möts toppmodern teknologi och sofistikerad design i perfekt harmoni. Rummet är utrustat med <strong>tre avancerade AI-assistenter</strong> som står redo att ta din vistelse till nästa nivå.
+                        </p>
+
+                        <h4>Bekvämligheter</h4>
+                        <section class="room__list">
+                            <ul class="room__list-box">
+                                <li class="room__list-item">3 AI-assistenter</li>
+                                <li class="room__list-item">Supremelakan</li>
+                                <li class="room__list-item">Minibar</li>
+                                <li class="room__list-item">Egen AI-assistent</li>
+                                <li class="room__list-item">Gratis WiFi</li>
+                            </ul>
+
+                            <ul class="room__list-bo">
+                                <li class="room__list-item">Eget kök</li>
+                                <li class="room__list-item">Vy mot solnedgång</li>
+                                <li class="room__list-item">Egen balkong</li>
+                                <li class="room__list-item">Dygnet runt service</li>
+                                <li class="room__list-item">Dubbelsäng</li>
+                            </ul>
+                        </section>
+                        <hr>
+                        <section class="room__btn">
+                            <section class="price">
+                                <h2>Totalt 1 950 kr</h2>
+                                <h3>Inkl. skatter och avgifter</h3>
+                            </section>
+                            <button class="room__book-btn btn">BOKA NU</button>
+                        </section>
+                    </section>
+                </section>
+            </section>    
+        </section>
+    </main>
+
+    <!-- FOOTER - BOOKING ROOM PAGE -->
+    <footer class="footer grid-wrapping">
+        <figure class="footer__logo grid-wrapping__span-two grid-wrapping__span-full" aria-label="Bonz.ai logo">
+            <a href="index.html" class="header__favicon">
+                <img src="assets/logo/bonz.ai-logo-white-portrait.png" alt="logo" class="logo__favicon">
+            </a>
+        </figure>
+
+        <section class="footer__text grid-wrapping__span-two grid-wrapping__span-full">
+            <h2 class="footer__title">Bonz.AI hotel</h2>
+            <p class="footer__contact-text">
+                By 80<br>
+                686 93 Sunne
+            </p>
+            <section class="footer__contact">
+                <img class="footer__icon" src="assets/icons/phone3.png" alt="Phone icon">
+                <p class="footer__contact-text">+46 54 152 35</p>
+            </section>
+            <section class="footer__contact">
+                <img class="footer__icon" src="assets/icons/email3.png" alt="Email icon">
+                <p class="footer__contact-text">info@bonzai.com</p>
+            </section>
+        </section>
+
+        <section class="footer__media-links grid-wrapping__span-two grid-wrapping__span-full">
+            <h2 class="footer__title">Medialänkar</h2>
+            <figure class="footer_link-box">
+                <a 
+                    href="" 
+                    class="footer__links" 
+                    aria-label="Link to Bonz.ai facebook">
+                        <img
+                            class="footer__link-image" 
+                            src="assets/icons/facebook.png" alt="Facebook link icon">
+                </a>
+                <a 
+                    href=""
+                    class="footer__links" 
+                    aria-label="Link to Bonz.ai instagram">
+                    <img 
+                        class="footer__link-image"
+                        src="assets/icons/instagram.png" alt="Instagram link icon">
+                </a>
+                <a 
+                    href="" 
+                    class="footer__links" 
+                    aria-label="Link to green key">
+                    <img
+                        class="footer__link-image" 
+                        src="assets/icons/Green-Key-Logo.png" alt="Green Key link icon">
+                </a>
+            </figure>
+        </section>
+
+        <iframe 
+            class="footer__map grid-wrapping__span-two grid-wrapping__span-full"
+            aria-label="Map direction to hotell with Google maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64055.63902158073!2d12.988436222076409!3d59.88668696960804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464320da325046bd%3A0xb8b6d14d9b43dcd6!2sHotell%20Frykenstrand%2C%20Sure%20Hotel%20Collection%20by%20Best%20Western!5e0!3m2!1ssv!2sse!4v1732962781687!5m2!1ssv!2sse"  
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </footer>
+</body>
+</html>

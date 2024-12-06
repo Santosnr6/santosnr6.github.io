@@ -1,0 +1,862 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid pink; */
+}
+
+/* OM BILDER
+Bilder som inte kommer från projektets bildbank är skapade med hjälp av Deep AI.
+*/
+
+/* Variables font and colors */
+:root {
+  --font-family-lato: "Lato";
+  --font-family-karla: "Karla";
+  --color-blue: #2c3e50;
+  --color-green: #274946;
+  --color-dark-beige: #c7c4be;
+  --color-light-beige: #edebe6;
+  --color-dark-grey: rgb(36, 36, 36);
+  --color-light-grey: #e4e3e3;
+}
+
+/* === General === */
+.wrapper--width100 {
+  max-width: 100vw;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* === Header navigation === */
+
+.main-header__sticky-nav {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.main-header__nav {
+  background-color: var(--color-blue);
+}
+
+.main-header__nav-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-header__nav-list-item:hover {
+  background-color: #364d64;
+  transition: 10ms ease-in-out;
+  cursor: pointer;
+}
+
+.main-header__nav-list-item {
+  list-style: none;
+  color: var(--color-light-beige);
+  padding: 1.5rem 2rem;
+}
+
+.main-header__nav-list-item-link {
+  text-decoration: none;
+  color: var(--color-light-beige);
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.main-header__logo {
+  margin: 3rem 0rem;
+  max-height: 8rem;
+}
+
+/* === Drop down menu === */
+/* Jag hade helst velat att drop down-menyn låg nedanför den vanliga navigationen. Nu fälls ett stort blått fält ut. Inte så snyggt, men fick inte till någon bättre lösning tyvärr */
+
+.main-header__more {
+  display: none;
+}
+
+.main-header__dropdown {
+  opacity: 0;
+  display: none;
+  margin-top: 1rem;
+}
+
+.main-header__hidden-checkbox {
+  display: none;
+}
+
+.main-header__hidden-checkbox:checked ~ .main-header__dropdown {
+  display: block;
+  opacity: 1;
+}
+.main-header__hidden-checkbox:checked
+  + .main-header__more-label
+  .main-header__arrow {
+  transform: rotate(180deg);
+}
+
+.main-header__dropdown-list-item {
+  display: flex;
+  flex-direction: column;
+}
+.dropdown__list-link {
+  text-decoration: none;
+  color: var(--color-light-beige);
+}
+
+.main-header__arrow {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+/* === Footer === */
+
+.main-footer {
+  margin-top: 8rem;
+}
+
+.main-footer__top {
+  padding: 4rem 0rem;
+}
+
+.main-footer__logo {
+  max-width: 100px;
+}
+
+.main-footer__contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.main-footer__contact-kit {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-footer__icon {
+  color: var(--color-dark-grey);
+  font-size: 2rem;
+}
+
+.main-footer__contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 0rem;
+}
+.main-footer__contact-item {
+  text-decoration: none;
+}
+
+/* === Footer navigation === */
+.main-footer__navigation {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 100vw;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.main-footer__nav-col {
+  grid-column: span 1;
+}
+
+.main-footer__nav-col:nth-child(2) {
+  justify-self: center;
+}
+.main-footer__nav-col:last-child {
+  justify-self: end;
+}
+
+.main-footer__nav-title {
+  font-family: var(--font-family-lato);
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.main-footer__nav-list {
+  list-style-position: inside;
+}
+
+/* .main-footer__nav-list-item {
+} */
+.main-footer__nav-list-link {
+  text-decoration: none;
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-karla);
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.main-footer__nav-list-link:hover {
+  text-decoration: underline solid 3px;
+  transition: 10ms ease-in-out;
+}
+
+/* === Footer nyhetsbrev === */
+
+.main-footer__middle {
+  padding: 4rem 0rem;
+}
+
+.main-footer__news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 75ch;
+  gap: 1rem;
+}
+
+/* Footer SoMe */
+.main-footer__some {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem 0rem;
+}
+.main-footer__some-icons {
+  font-size: 4rem;
+}
+
+/* === Layout grid === */
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.grid__2-columns {
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.grid__span-1col {
+  grid-column: span 1;
+}
+.grid__span-2col {
+  grid-column: span 2;
+}
+
+/* === Hotel overview === */
+
+.hotel-overview {
+  margin: 8rem auto 12rem auto;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hotel-overview__item {
+  grid-column: span 1;
+  border-radius: 1.5%;
+  aspect-ratio: 1.2/1;
+}
+
+.hotel-overview__text {
+  width: 100%;
+  text-align: center;
+  padding: 0rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: var(--color-dark-beige);
+}
+
+.hotel-overview__image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* === Global fonts and buttons === */
+
+.global__title {
+  font-family: var(--font-family-lato);
+  font-size: 4rem;
+  color: var(--color-dark-grey);
+}
+.global__subtitle {
+  font-family: var(--font-family-lato);
+  font-size: 2.25rem;
+}
+
+.global__subtitle--small {
+  font-size: 1.75rem;
+}
+
+.global__description-big {
+  font-family: var(--font-family-karla);
+  color: var(--color-dark-grey);
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.global__description-big--maxwidth {
+  max-width: 45ch;
+}
+
+.global__description-medium {
+  font-family: var(--font-family-karla);
+  color: var(--color-dark-grey);
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.global--white-text {
+  color: var(--color-light-beige);
+}
+
+.global__btn {
+  border: none;
+  border-radius: 5px;
+  font-family: var(--font-family-lato);
+  font-size: 1.75rem;
+  font-weight: 500;
+  background: var(--color-green);
+  color: var(--color-light-beige);
+  box-shadow: 5px 5px 8px 0px rgb(84, 84, 84);
+  padding: 1rem 4rem;
+  max-width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.global__btn--wide100 {
+  max-width: 100%;
+}
+.global__btn--margin-top {
+  margin-top: 3rem;
+}
+
+.global__btn--small {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 0.75rem 3rem;
+}
+
+.global__btn--black-white {
+  background: var(--color-light-beige);
+  color: var(--color-dark-grey);
+}
+
+.global__btn:hover {
+  background-color: #33605c;
+  transition: 10ms ease-in-out;
+}
+
+.global__btn--black-white:hover {
+  background-color: #bdbbb1;
+  transition: 10ms ease-in-out;
+}
+
+/* === Backgrounds === */
+.global__bg {
+  background: var(--color-light-beige);
+  height: 100vh;
+}
+
+.global__bg--blue {
+  background: var(--color-blue);
+}
+.global__bg--green {
+  background: var(--color-green);
+}
+.global__bg--light-grey {
+  background: var(--color-light-grey);
+}
+.global__bg--dark-grey {
+  background: var(--color-dark-grey);
+}
+
+/* === Start page === */
+
+.start-page {
+  height: 100vh;
+  background: url(assets/bonzai-photos/33-bonzai-start-page.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.start-page__wrapper {
+  text-align: center;
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+.start-page__logo {
+  margin: 2rem;
+  max-height: 10rem;
+}
+
+/* === About page === */
+
+.highlight-offer {
+  display: flex;
+}
+
+.highlight-offer__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+  padding: 4rem 0.5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.highlight-offer__image {
+  flex: 1;
+  max-width: 50vw;
+  max-height: 580px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* === Slider images === */
+
+.slider {
+  background: url(assets/bonzai-photos/03-bonzai-lobby.jpeg), no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
+.slider__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 1.5rem;
+}
+
+.slider__arrow {
+  font-size: 4rem;
+
+  color: var(--color-light-beige);
+}
+
+.slider__pagination {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.slider__pag-link {
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background: var(--color-dark-grey);
+  border: var(--color-light-beige) solid 2px;
+}
+
+.slider__pag-link--current {
+  background: var(--color-light-beige);
+}
+
+/* === Check out - steps === */
+
+.checkout-steps {
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-steps__list {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  margin: 3rem 0rem;
+}
+
+.checkout-steps__list-item {
+  background: var(--color-light-beige);
+
+  border: solid 4px var(--color-green);
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.checkout-steps__list-item--current {
+  color: var(--color-light-beige);
+  background-color: var(--color-green);
+}
+
+.checkout-steps__link {
+  text-decoration: none;
+  font-family: var(--font-family-karla);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.checkout-steps__link--darkgrey-text {
+  color: var(--color-dark-grey);
+}
+
+/* === Booking steg 1 - välj datum === */
+.booking {
+  display: flex;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.booking__left {
+  font-family: var(--font-family-lato);
+  color: var(--color-dark-grey);
+  flex: 1;
+  border: none;
+}
+
+.booking__right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+  border: none;
+}
+
+.booking__cal {
+  border-spacing: 0.25rem;
+  width: 100%;
+}
+
+/* .booking__cal-row {
+} */
+
+.booking__cal-cell {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+
+  border: 2px solid var(--color-green);
+}
+.booking__cal-cell:hover {
+  background-color: var(--color-green);
+  transition: 10ms ease-in-out;
+  color: var(--color-light-beige);
+}
+
+.booking__cal-cell--noborder {
+  border: none;
+}
+
+.booking__cal-cell--choosen {
+  background: var(--color-green);
+  color: var(--color-light-beige);
+}
+.booking__cal-cell--unavailable {
+  position: relative;
+}
+.booking__cal-cell--unavailable:hover {
+  background-color: none;
+  color: var(--color-dark-grey);
+}
+
+.booking__xmark {
+  position: absolute;
+  font-size: 2rem;
+  color: darkred;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.booking__cal-cell--unavailable:hover {
+  background-color: var(--color-light-beige);
+}
+
+.booking__cal-title {
+  display: flex;
+
+  padding: 0.5rem 0rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+
+  width: 100%;
+}
+
+.booking__cal-arrow {
+  font-size: 2rem;
+}
+
+.booking__num-btn {
+  background: var(--color-dark-beige);
+  border: none;
+  font-family: var(--font-family-karla);
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 50px;
+  aspect-ratio: 1;
+}
+
+.booking__num-btn:last-child {
+  margin-left: 0.75rem;
+}
+
+.booking__num-btn:hover {
+  background-color: var(--color-light-grey);
+  transition: 10ms ease-in-out;
+}
+
+.booking__details {
+  display: flex;
+  align-items: center;
+
+  margin-top: 2rem;
+}
+
+.booking__details-title {
+  margin-right: 1.5rem;
+}
+
+.booking__num-value {
+  width: 50px;
+  background: none;
+  aspect-ratio: 1;
+  border: 1px solid var(--color-dark-grey);
+  font-family: var(--font-family-karla);
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-left: 1.5rem;
+}
+
+/* === Booking step 2 - Välj rum === */
+.booking__dates {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.booking__change-date-btn {
+  display: flex;
+
+  gap: 1.5rem;
+}
+
+.rooms {
+  width: 100%;
+  list-style: none;
+}
+
+.rooms__title {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+/* .rooms__subtitle {
+} */
+
+.rooms__outer-list-item {
+  margin-bottom: 10rem;
+}
+
+.rooms__image {
+  width: 100%;
+  min-height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.rooms__text {
+  display: grid;
+  gap: 1rem;
+}
+
+.rooms__inner-list {
+  list-style-position: inside;
+  justify-self: flex-start;
+  align-self: flex-start;
+  list-style: none;
+  line-height: 2rem;
+}
+.rooms__inner-list-item {
+  background-image: url(assets/icons/check.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 1.5rem;
+}
+
+.rooms__price-section {
+  display: grid;
+  gap: 0.5rem;
+  justify-self: flex-end;
+  text-align: end;
+}
+
+.rooms__subtitle {
+  font-family: var(--font-family-karla);
+}
+
+/* --------------------------------------- */
+/* === Media queries === */
+
+/* === 1200px === */
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    padding: 0rem 1rem;
+  }
+
+  .wrapper--no-margin {
+    padding: 0rem;
+  }
+  .hotel-overview {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hotel-overview > :nth-child(3),
+  .hotel-overview > :nth-child(6),
+  .hotel-overview > :nth-child(9) {
+    display: none;
+  }
+}
+
+/* === 1105px === */
+
+@media screen and (max-width: 1105px) {
+  .main-header__more {
+    display: block;
+  }
+
+  .main-header__nav-list-item:nth-child(6) {
+    display: none;
+  }
+
+  .rooms_outer-list-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* === 1184px === */
+
+@media screen and (max-width: 1084px) {
+  .global__title {
+    font-size: 2.5rem;
+  }
+
+  .global__description-big {
+    font-size: 1.25rem;
+  }
+
+  .main-header__nav-list-item:nth-child(5) {
+    display: none;
+  }
+  .main-header__nav-list-item:nth-child(4) {
+    display: none;
+  }
+
+  .main-footer__nav-col {
+    justify-self: start;
+  }
+  .main-footer__nav-col:nth-child(2) {
+    justify-self: start;
+  }
+  .main-footer__nav-col:last-child {
+    justify-self: start;
+  }
+}
+
+/* === 768px === */
+@media screen and (max-width: 768px) {
+  .main-header__nav-list-item:nth-child(3) {
+    display: none;
+  }
+
+  .main-header__nav-list {
+    justify-content: space-around;
+  }
+
+  .highlight-offer {
+    flex-direction: column;
+  }
+
+  .highlight-offer__image {
+    max-width: 100vw;
+  }
+
+  .hotel-overview {
+    grid-template-columns: 1fr;
+  }
+
+  .booking {
+    flex-direction: column;
+  }
+}
+
+/* === 640px === */
+
+@media screen and (max-width: 640px) {
+  .global__title {
+    font-size: 2rem;
+  }
+
+  .global__description-big {
+    font-size: 1.25rem;
+  }
+  .global__btn {
+    font-size: 1rem;
+    padding: 1rem 3rem;
+  }
+
+  .main-header__nav-list-item:nth-child(2) {
+    display: none;
+  }
+
+  .main-footer__navigation {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .start-page__wrapper {
+    gap: 1rem;
+  }
+
+  .global__description-big--space {
+    line-height: 1.75rem;
+    margin: 1rem 0rem;
+  }
+
+  .start-page__logo {
+    max-height: 6rem;
+  }
+
+  .rooms__outer-list-item {
+    grid-template-columns: 1fr;
+  }
+}

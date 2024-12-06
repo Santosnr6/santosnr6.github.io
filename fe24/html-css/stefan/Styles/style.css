@@ -1,0 +1,559 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gainsboro;
+}
+
+.header__img {
+    max-width: 100px;
+}
+
+.header__navigation {
+    width: 100%;
+    max-width: 900px;
+}
+
+.header__unordered-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header__list-item {
+    flex: 1 1 140px;
+    margin: 1rem;
+}
+
+.header__list-item-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.header__button {
+    background: none;
+    border: none;
+    height: 3rem;
+    width: 3rem;
+    border-top: double;
+    border-bottom: double;
+    border-width: 20px;
+    justify-self: right;
+}
+
+.header__checkbox {
+    display: none;
+}
+
+.header__button--display {
+    display: none;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+/* Huvudinnehållet börjar här */
+.main-content {
+    padding: 1rem;
+}
+
+
+/* Alla titlar och undertitlar */
+.main-content__title {
+    font-size: 4rem;
+    grid-column: span 12;
+    text-align: center;
+}
+
+.main-content__sub-title {
+    font-size: 3rem;
+}
+
+.main-content__sub-title--text-align-center {
+    text-align: center;
+}
+
+.main-content__sub-title--font-size-2 {
+    font-size: 2rem;
+}
+
+.main-content__sub-title--font-size-1-5 {
+    font-size: 1.5rem;
+}
+
+.main-content__sub-title--background-color {
+    background-color: azure;
+}
+
+.main-content__sub-title--span-5 {
+    grid-column: span 5;
+}
+
+/* Alla texter */
+.main-content__text {
+    font-size: 1.2rem;
+    hyphens: auto;
+}
+
+.main-content__text--flex-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-content__text--color-white {
+    color: white;
+}
+
+.main-content__text--padding-1 {
+    padding: 1rem;
+}
+
+.main-content__text--span-4 {
+    grid-column: span 4;
+}
+.main-content__text--float-right {
+    float: right;
+}
+
+
+/* Alla grid */
+/* Alla grid */
+.main-content__grid {
+    display: grid;
+    gap: 2rem;
+    margin: 2rem 0;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.main-content__grid--align-center {
+    align-items: center;
+}
+
+.main-content__grid--margin-1 {
+    margin: 1rem 0;
+}
+
+.main-content__grid--padding {
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.main-content__grid--border-left {
+    border-left: 1px solid black;
+}
+
+.main-content__grid--background-color {
+    background-color: antiquewhite;
+}
+
+.main-content__grid--background-color-black {
+    background-color: black;
+}
+
+.main-content__grid--background-color-aliceblue {
+    background-color:aliceblue;
+}
+
+.main-content__grid--grid-column-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* klassen under är tom med flit. Används som behållare. Modifiers ger den extra effekter */
+/* .main-content__container {
+} */
+
+.main-content__container--margin-1 {
+    margin: 1rem;
+}
+
+.main-content__container--padding-1 {
+    padding: 1rem;
+}
+
+.main-content__container--background-color {
+    background-color: rgb(124, 199, 199);
+}
+
+.main-content__container--text-align-center {
+    text-align: center;
+}
+
+.main-content__container--position-relative {
+    position: relative;
+}
+
+.main-content__container--inner-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.main-content__container--span-3 {
+    grid-column: span 3;
+}
+
+.main-content__container--span-4 {
+    grid-column: span 4;
+}
+
+.main-content__container--span-5 {
+    grid-column: span 5;
+}
+
+.main-content__container--span-6 {
+    grid-column: span 6;
+}
+
+.main-content__container--span-7 {
+    grid-column: span 7;
+}
+
+.main-content__inner-grid {
+    grid-column: span 7;
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-content__inner-grid--columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main-content__flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.main-content__img {
+    width: 100%;
+    background-color: aliceblue;
+    align-self: center;
+}
+
+.main-content__img--span-5 {
+    grid-column: span 5;
+}
+
+.main-content__img--span-6 {
+    grid-column: span 6;
+}
+
+.main-content__img--span-7 {
+    grid-column: span 7;
+}
+
+.main-content__separator {
+    border: 1px black solid;
+    grid-column: span 12;
+}
+
+.main-content__separator--margin {
+    margin: 2rem 0;
+}
+
+.main-content__button--padding {
+    padding: 0 1rem;
+}
+
+.main-content__button--font {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.main-content__button--font-size-2 {
+    font-size: 2rem;
+}
+
+.main-content__button--position {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-content__button--translate-x {
+    transform: translate(-100%, -50%);
+}
+
+.main-content__button--background-none {
+    background: none;
+}
+
+
+.main-content__button--span-12 {
+    grid-column: span 12;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.main-content__unordered-list {
+    margin: 1rem;
+    column-count: 2;
+}
+
+.main-content__list-item {
+    font-size: 1.1rem;
+}
+
+.main-content__empty-figure {
+    width: 35px;
+    height: 35px;
+    left: 50%;
+    margin-top: -1rem;
+    background-color: black;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.call-to-action {
+    padding: 1rem;
+    grid-column: span 12;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.call-to-action__unordered-list {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.call-to-action__list-item-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.call-to-action__title {
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.call-to-action__grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 8fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.call-to-action__inner-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem 1rem;
+}
+
+.call-to-action__legend {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.call-to-action__input {
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+.footer-grid {
+    /* margin-top: 1rem; */
+    padding: 1rem;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    background-color: gainsboro;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.footer-grid__container {
+    grid-column: span 1;
+}
+
+.footer-grid__img {
+    width: 40px;
+}
+
+.footer-grid__img--width-50 {
+    width: 50%;
+}
+
+.footer-grid__title {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 750px) {
+    
+    .header__unordered-list {
+        display: none;
+    }
+    
+    .header__list-item {
+        margin: 0;
+        flex: none;
+    }
+    
+    .header__button--display {
+        display: block;
+    }
+    
+    .header__checkbox {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 2.8rem;
+        width: 3rem;
+        height: 3rem;
+        opacity: 0;
+    }
+    
+    /* Jag fuskar och använder en "osynlig" checkbox ovanpå min hamburgermeny för att få navigationslistan att både dyka upp och vara klickbar. */
+    /* Detta är för att jag kunde inte få den vanliga knappen till att göra samma sak. */
+    /* Hade vi haft tillgång till JavaScript så hade detta varit löst med enbart knappen. */
+    .header__checkbox:checked~.header__unordered-list {
+        position: absolute;
+        background-color: gainsboro;
+        width: 100%;
+        right: 0;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 2rem;
+    }
+    
+    .header__list-item-link {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .main-content__grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .main-content__grid--grid-column-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .main-content__container--span-3 {
+        grid-column: span 6;
+    }
+    
+    .main-content__container--span-5 {
+        grid-column: span 6;
+    }
+    
+    .main-content__container--span-6 {
+        grid-column: span 6;
+    }
+    
+    .main-content__container--span-7 {
+        grid-column: span 6;
+    }
+    
+    .main-content__button--span-12 {
+        grid-column: span 6;
+    }
+    
+    .main-content__text--span-4 {
+        grid-column: span 3;
+    }
+    
+    .main-content__button--font-size-2 {
+        font-size: 4rem;
+    }
+    
+    .main-content__title {
+        font-size: 3rem;
+    }
+    
+    .main-content__sub-title {
+        font-size: 2rem;
+    }
+    
+    .call-to-action__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .call-to-action__unordered-list {
+        display: none;
+    }
+    
+    .call-to-action__inner-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: 
+        "date-from"
+        "date-to"
+        "number-of-guests"
+        "number-of-rooms";
+    } 
+    
+    .call-to-action__fieldset {
+        padding-top: 1rem;
+        grid-column: span 2;
+    }
+    
+    .call-to-action__input {
+        height: 4rem;
+    }
+    
+    .call-to-action__fieldset--grid-area-one {
+        grid-area: date-from;
+    }
+    
+    .call-to-action__fieldset--grid-area-two {
+        grid-area: number-of-guests;
+    }
+    
+    .call-to-action__fieldset--grid-area-three {
+        grid-area: date-to;
+    }
+    
+    .call-to-action__fieldset--grid-area-four {
+        grid-area: number-of-rooms;
+    } 
+    
+    .footer-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 1rem;
+        grid-template-areas:
+        "social-media"
+        "address"
+        "bonzai-logo";
+    }
+    
+    .footer-grid__container--grid-area-one {
+        grid-area: address;
+    }
+    
+    .footer-grid__container--grid-area-two {
+        grid-area: bonzai-logo;
+    }
+    
+    .footer-grid__container--grid-area-three {
+        grid-area: social-media;
+    }
+
+        .footer-grid__img--width-50 {
+            width: 150px;
+        }
+    
+}

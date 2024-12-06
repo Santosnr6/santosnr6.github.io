@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rumsbokning hotell Bonzai: välj datum" />
+    <title>Bokning datum</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/logo/bonzai-favicon.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1915f4dc40.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="global__bg">
+    <!-- Header -->
+
+    <!-- Medveten om att allt inom blocket main-header inte ligger innanför headerelementet. Behövde flytta ut nav-delen för att kunna göra den sticky och inte logo-delen. Bedömde ändå att både loggan och navigationen hörde till headern rent visuellt. Anledningen till att jag valde att lägga navigationen i en div är att det som div:en gör inte har någon semantisk betydelse. Elementet är endast till för att ge en färg åt hela skärmens bredd och innehåller inga rubriker. Om div:en hade innehållit rubriker hade jag istället valt en section. -->
+    <header class="grid main-header">
+      <img
+        class="main-header__logo"
+        src="assets/logo/bonz.ai-logo-black-portrait.png"
+        alt="Bonzai AB"
+      />
+    </header>
+
+    <div class="wrapper--width100 global__bg--blue main-header__sticky-nav">
+      <nav class="wrapper wrapper--no-margin main-header__nav">
+        <ul class="main-header__nav-list">
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="bokning-datum.html"
+              >Boka</a
+            >
+          </li>
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="about.html"
+              >Om hotellet</a
+            >
+          </li>
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="">Konferens</a>
+          </li>
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="">Jul och nyår</a>
+          </li>
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="">Restaurangen</a>
+          </li>
+          <li class="main-header__nav-list-item">
+            <a class="main-header__nav-list-item-link" href="">Kontakt</a>
+          </li>
+
+          <!-- Dropdown "Mer" -->
+          <li
+            class="main-header__nav-list-item main-header__more"
+            aria-expanded="false"
+          >
+            <input
+              type="checkbox"
+              class="main-header__hidden-checkbox"
+              id="main-header__hidden-checkbox"
+            />
+            <label
+              class="main-header__more-label main-header__nav-list-item-link"
+              for="main-header__hidden-checkbox"
+            >
+              Mer
+              <i
+                class="main-header__arrow fa-solid fa-caret-down"
+                aria-hidden="true"
+              ></i>
+            </label>
+
+            <ul class="main-header__dropdown">
+              <li class="main-header__dropdown-list-item">
+                <a
+                  class="dropdown__list-link main-footer__nav-list-link global--white-text"
+                  href="#"
+                  >Konferens</a
+                >
+              </li>
+              <li class="main-header__dropdown-list-item">
+                <a
+                  class="dropdown__list-link main-footer__nav-list-link global--white-text"
+                  href="#"
+                  >Jul och nyår</a
+                >
+              </li>
+              <li class="main-header__dropdown-list-item">
+                <a
+                  class="dropdown__list-link main-footer__nav-list-link global--white-text"
+                  href="#"
+                  >Restaurangen</a
+                >
+              </li>
+              <li class="main-header__dropdown-list-item">
+                <a
+                  class="dropdown__list-link main-footer__nav-list-link global--white-text"
+                  href="#"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Main -->
+
+    <main>
+      <!-- Slider hero-images -->
+      <figure class="wrapper wrapper--no-margin slider">
+        <figure class="slider__buttons">
+          <button class="slider__button" aria-label="Föregående bild">
+            <i class="fa-solid fa-chevron-left slider__arrow"></i>
+          </button>
+          <button class="slider__button" aria-label="Nästa bild">
+            <i class="fa-solid fa-chevron-right slider__arrow"></i>
+          </button>
+        </figure>
+        <figure class="slider__pagination">
+          <button
+            class="slider__pag-link slider__pag-link--current"
+            aria-label="Nuvarande bild"
+          ></button
+          ><button
+            class="slider__pag-link"
+            aria-label="Gå till nästa bild"
+          ></button
+          ><button
+            class="slider__pag-link"
+            aria-label="Gå till nästa bild"
+          ></button>
+        </figure>
+      </figure>
+
+      <!-- Step indicator check out -->
+      <nav class="checkout-steps wrapper">
+        <ul class="checkout-steps__list">
+          <li
+            class="checkout-steps__list-item grid checkout-steps__list-item--current"
+          >
+            <a href="" class="checkout-steps__link global--white-text">1</a>
+          </li>
+          <li class="checkout-steps__list-item grid">
+            <a
+              href=""
+              class="checkout-steps__link checkout-steps__link--darkgrey-text"
+              >2</a
+            >
+          </li>
+
+          <li class="checkout-steps__list-item grid">
+            <a
+              href=""
+              class="checkout-steps__link checkout-steps__link--darkgrey-text"
+              >3</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Booking -->
+      <h1 class="wrapper global__title rooms__title">Välj datum</h1>
+      <form class="wrapper booking">
+        <!-- Booking calender left/top -->
+        <fieldset class="booking__left">
+          <legend class="booking__cal-title booking__left">
+            <i class="fa-solid fa-caret-left booking__cal-arrow"></i>
+            <h2>December</h2>
+            <i class="fa-solid fa-caret-right booking__cal-arrow"></i>
+          </legend>
+          <table class="booking__cal">
+            <tr
+              class="booking__cal-row booking__cal-weekday global__description-medium"
+            >
+              <th
+                class="booking__cal-cell booking__cal-weekday booking__cal-cell--noborder booking__cal-cell--unavailable"
+              >
+                Mån
+              </th>
+              <th
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              >
+                Tis
+              </th>
+              <th
+                class="booking__cal-cell booking__cal-weekday booking__cal-cell--noborder booking__cal-cell--unavailable"
+              >
+                Ons
+              </th>
+              <th
+                class="booking__cal-cell booking__cal-weekday booking__cal-cell--noborder booking__cal-cell--unavailable"
+              >
+                Tors
+              </th>
+              <th
+                class="booking__cal-cell booking__cal-weekday booking__cal-cell--noborder booking__cal-cell--unavailable"
+              >
+                Fre
+              </th>
+              <th
+                class="booking__cal-cell booking__cal-weekday booking__cal-cell--noborder booking__cal-cell--unavailable"
+              >
+                Lör
+              </th>
+              <th
+                class="booking__cal-cell booking__cal-weekday booking__cal-cell--noborder booking__cal-cell--unavailable"
+              >
+                Sön
+              </th>
+            </tr>
+
+            <!-- Veckodagar rad 1 -->
+
+            <tr class="booking__cal-row">
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+              <td class="booking__cal-cell">1</td>
+            </tr>
+
+            <!-- Veckodagar rad 2 -->
+
+            <tr class="booking__cal-row">
+              <td class="booking__cal-cell">2</td>
+              <td class="booking__cal-cell">3</td>
+              <td class="booking__cal-cell">4</td>
+              <td class="booking__cal-cell">5</td>
+              <td class="booking__cal-cell">6</td>
+              <td class="booking__cal-cell">7</td>
+              <td class="booking__cal-cell">8</td>
+            </tr>
+
+            <!-- Veckodagar rad 3 -->
+
+            <tr class="booking__cal-row">
+              <td class="booking__cal-cell">9</td>
+              <td class="booking__cal-cell">10</td>
+              <td class="booking__cal-cell">11</td>
+              <td class="booking__cal-cell">12</td>
+              <td class="booking__cal-cell">13</td>
+              <td class="booking__cal-cell">14</td>
+              <td class="booking__cal-cell">15</td>
+            </tr>
+
+            <!-- Veckodagar rad 4 -->
+
+            <tr class="booking__cal-row">
+              <td
+                class="booking__cal-cell booking__cal-cell--unavailable"
+                aria-label="Detta datum går inte att boka"
+              >
+                <i class="fa-solid fa-xmark booking__xmark"></i>
+                16
+              </td>
+              <td class="booking__cal-cell">17</td>
+              <td class="booking__cal-cell booking__cal-cell--choosen">18</td>
+              <td class="booking__cal-cell booking__cal-cell--choosen">19</td>
+              <td class="booking__cal-cell">20</td>
+              <td class="booking__cal-cell">21</td>
+              <td class="booking__cal-cell">22</td>
+            </tr>
+
+            <!-- Veckodagar rad 5 -->
+
+            <tr class="booking__cal-row">
+              <td class="booking__cal-cell">23</td>
+              <td class="booking__cal-cell">24</td>
+              <td class="booking__cal-cell">25</td>
+              <td class="booking__cal-cell">26</td>
+              <td class="booking__cal-cell">27</td>
+              <td class="booking__cal-cell">28</td>
+              <td class="booking__cal-cell">29</td>
+            </tr>
+
+            <!-- Veckdagar rad 6 -->
+
+            <tr class="booking__cal-row">
+              <td class="booking__cal-cell">30</td>
+              <td class="booking__cal-cell">31</td>
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+              <td
+                class="booking__cal-cell booking__cal-cell--noborder booking__cal-cell--unavailable"
+              ></td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <!-- Booking right/bottom -->
+
+        <fieldset class="booking__right">
+          <legend class="global__subtitle global__subtitle--small grid">
+            Antal personer och rum
+          </legend>
+
+          <!-- Personer -->
+          <aside class="booking__details">
+            <label class="global__description-medium booking__details-title"
+              >Personer<input
+                class="booking__num-value"
+                type="number"
+                value="1"
+            /></label>
+            <button class="booking__num-btn">-</button>
+
+            <button class="booking__num-btn">+</button>
+          </aside>
+
+          <!-- Rum -->
+          <aside class="booking__details">
+            <label class="global__description-medium booking__details-title"
+              >Rum<input class="booking__num-value" type="number" value="1"
+            /></label>
+            <button class="booking__num-btn">-</button>
+
+            <button class="booking__num-btn">+</button>
+          </aside>
+          <button
+            class="global__btn global__btn--wide100 global__btn--margin-top"
+          >
+            Se lediga rum och priser
+          </button>
+        </fieldset>
+      </form>
+
+      <!-- Footer -->
+
+      <!-- De delar av min footer som har en rubrik är placerade i en section eller nav. Övriga delar saknar rubrik och har ingen egen semantisk betydelse. Därför har jag, i samråd med Aizo och ok från Jacob :D, valt att använda div:ar för att kunna styla t ex bakgrundsfärgerna. -->
+
+      <footer class="main-footer">
+        <!-- Footer: navigation -->
+        <div class="wrapper--width100 global__bg--light-grey">
+          <div class="wrapper global__bg--light-grey main-footer__top grid">
+            <img
+              class="main-footer__logo"
+              src="assets/logo/bonz.ai-logo-black-portrait.png"
+              alt="Bonzai AB"
+            />
+
+            <div class="main-footer__contact">
+              <figure class="main-footer__contact-kit">
+                <i
+                  class="fa-solid fa-mobile main-footer__icon"
+                  aria-hidden="true"
+                ></i>
+                <a
+                  href="tel:+46935413156"
+                  class="main-footer__contact-item global__description-big"
+                  >093-5413156</a
+                >
+              </figure>
+              <figure class="main-footer__contact-kit">
+                <i
+                  class="fa-solid fa-envelope main-footer__icon"
+                  aria-hidden="true"
+                ></i>
+                <a
+                  href="mailto:info@bonzai.se"
+                  class="main-footer__contact-item global__description-big"
+                  >info@bonzai.se</a
+                >
+              </figure>
+              <figure class="main-footer__contact-kit">
+                <i
+                  class="fa-solid fa-location-dot main-footer__icon"
+                  aria-hidden="true"
+                ></i
+                ><a
+                  href="https://www.google.com/maps"
+                  class="main-footer__contact-item global__description-big"
+                  >Bonzai AB, 358 54 Skogen</a
+                >
+              </figure>
+            </div>
+            <nav
+              class="main-footer__navigation grid__3-columns grid__3-columns--small"
+            >
+              <section class="main-footer__nav-col">
+                <h3 class="main-footer__nav-title">Events</h3>
+                <ul class="main-footer__nav-list">
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href="">
+                      Konferenser
+                    </a>
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""
+                      >Jul och nyår</a
+                    >
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href="">Konserter</a>
+                  </li>
+                </ul>
+              </section>
+
+              <section class="main-footer__nav-col">
+                <h3 class="main-footer__nav-title">Om bonzai</h3>
+                <ul class="main-footer__nav-list">
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""
+                      >Vår historia</a
+                    >
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""> Press</a>
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""
+                      >Hållbarhet och miljö</a
+                    >
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""
+                      >Jobba hos oss</a
+                    >
+                  </li>
+                </ul>
+              </section>
+
+              <section class="main-footer__nav-col">
+                <h3 class="main-footer__nav-title">Kundservice</h3>
+                <ul class="main-footer__nav-list">
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href="">FAQ</a>
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href="">Villkor</a>
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href=""
+                      >Self-check in</a
+                    >
+                  </li>
+                  <li class="main-footer__nav-list-item">
+                    <a class="main-footer__nav-list-link" href="">Kontakt</a>
+                  </li>
+                </ul>
+              </section>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Footer: nyhetsbrev -->
+
+        <div class="wrapper--width100 global__bg--blue main-footer__middle">
+          <section class="wrapper global__bg--blue main-footer__news">
+            <h2 class="global__subtitle global--white-text">Nyhetsbrev</h2>
+            <p class="global__description-medium global--white-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet.
+            </p>
+            <button
+              class="global__btn global__btn--black-white global__btn--small"
+            >
+              Prenumerera
+            </button>
+          </section>
+        </div>
+
+        <!-- Footer: SoMe -->
+
+        <figure class="wrapper--width100 global__bg--green main-footer__some">
+          <a
+            href="https://youtube.com"
+            class="global--white-text"
+            aria-label="Youtube"
+            ><i
+              class="fa-brands fa-youtube main-footer__some-icons"
+              aria-hidden="true"
+            ></i
+          ></a>
+          <a
+            href="https://instagram.com"
+            class="global--white-text"
+            aria-label="Instagram"
+          >
+            <i
+              class="fa-brands fa-square-instagram main-footer__some-icons"
+              aria-hidden="true"
+            ></i>
+          </a>
+
+          <a
+            href="https://facebook.com"
+            class="global--white-text"
+            aria-label="Facebook"
+          >
+            <i
+              class="fa-brands fa-square-facebook main-footer__some-icons"
+              aria-hidden="true"
+            ></i>
+          </a>
+        </figure>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet"
+        />
+        <title>Bonz.AI - Book Your Stay</title>
+    </head>
+    <body>
+        <!-- header -->
+        <section class="header-container header-container-img-3">
+            <!-- header scroll -->
+            <header id="header-scroll" class="header">
+                <img
+                    src="./assets/logo/bonz.ai-logo-black-landscape.png"
+                    alt="Bonz.ai black landscape logo"
+                    class="header__logo"
+                />
+                <h2 class="header__title">Menu</h2>
+                <nav class="hamburger-menu">
+                    <span class="hamburger-menu__line"></span>
+                    <span class="hamburger-menu__line"></span>
+                    <span class="hamburger-menu__line"></span>
+                </nav>
+            </header>
+            <img
+                src="./assets/logo/bonz.ai-logo-white-symbol.png"
+                alt="Bonz.ai white logo"
+                class="header-container__logo"
+            />
+            <!-- header title -->
+            <h1 class="header-container__title">Book Your Stay at Bonz.ai</h1>
+        </section>
+
+        <div class="wrapper">
+            <!--  main content -->
+            <section class="booking">
+                <h2 class="booking__title">Available Rooms & Suites</h2>
+                <section class="booking__grid">
+                    <!-- room Card 1 -->
+                    <article class="room">
+                        <img
+                            src="./assets/photos/01-day.jpg"
+                            alt="Deluxe Room"
+                            class="room__image"
+                        />
+                        <article class="room__info">
+                            <h3 class="room__name">Deluxe Room</h3>
+                            <p class="room__description">
+                                A luxurious space with a king-sized bed, private
+                                balcony, and modern amenities for ultimate
+                                relaxation.
+                            </p>
+                            <p class="room__price">
+                                <strong>From $200/night</strong>
+                            </p>
+                        </article>
+                        <button class="btn btn--center">Book Now</button>
+                    </article>
+
+                    <!-- Room Card 2 -->
+                    <article class="room">
+                        <img
+                            src="./assets/photos/03-day.jpg"
+                            alt="Eco Suite"
+                            class="room__image"
+                        />
+                        <article class="room__info">
+                            <h3 class="room__name">Eco Suite</h3>
+                            <p class="room__description">
+                                A spacious suite featuring eco-friendly
+                                materials and stunning views of the surrounding
+                                nature.
+                            </p>
+                            <p class="room__price">
+                                <strong>From $300/night</strong>
+                            </p>
+                        </article>
+                        <button class="btn btn--center">Book Now</button>
+                    </article>
+
+                    <!-- Room Card 3 -->
+                    <article class="room">
+                        <img
+                            src="./assets/photos/04-day.jpg"
+                            alt="Family Room"
+                            class="room__image"
+                        />
+                        <article class="room__info">
+                            <h3 class="room__name">Family Room</h3>
+                            <p class="room__description">
+                                Perfect for families, this room includes two
+                                queen-sized beds and a separate living area.
+                            </p>
+                            <p class="room__price">
+                                <strong>From $250/night</strong>
+                            </p>
+                        </article>
+                        <button class="btn btn--center">Book Now</button>
+                    </article>
+
+                    <!-- Room Card 4 -->
+                    <article class="room">
+                        <img
+                            src="./assets/photos/07-day.jpg"
+                            alt="Deluxe Suite"
+                            class="room__image"
+                        />
+                        <article class="room__info">
+                            <h3 class="room__name">Deluxe Suite</h3>
+                            <p class="room__description">
+                                Spacious suite with smart technology and
+                                luxurious amenities, ideal for families or
+                                business trips.
+                            </p>
+                            <p class="room__price">
+                                <strong>From $400/night</strong>
+                            </p>
+                        </article>
+                        <button class="btn btn--center">Book Now</button>
+                    </article>
+
+                    <!-- Room Card 5 -->
+                    <article class="room">
+                        <img
+                            src="./assets/photos/05-day.jpg"
+                            alt="Penthouse Suite"
+                            class="room__image"
+                        />
+                        <article class="room__info">
+                            <h3 class="room__name">Penthouse Suite</h3>
+                            <p class="room__description">
+                                Experience unmatched luxury with a private
+                                rooftop terrace, jacuzzi, and premium services.
+                            </p>
+                            <p class="room__price">
+                                <strong>From $500/night</strong>
+                            </p>
+                        </article>
+                        <button class="btn btn--center">Book Now</button>
+                    </article>
+
+                    <!-- Room Card 6 -->
+                    <article class="room">
+                        <img
+                            src="./assets/photos/06-day.jpg"
+                            alt="Studio Room"
+                            class="room__image"
+                        />
+                        <article class="room__info">
+                            <h3 class="room__name">Studio Room</h3>
+                            <p class="room__description">
+                                A cozy and modern space designed for solo
+                                travelers or couples seeking simplicity and
+                                comfort.
+                            </p>
+                            <p class="room__price">
+                                <strong>From $150/night</strong>
+                            </p>
+                        </article>
+                        <button class="btn btn--center">Book Now</button>
+                    </article>
+                </section>
+            </section>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+            <figure class="waves">
+                <span class="wave" id="wave1"></span>
+                <span class="wave" id="wave2"></span>
+                <span class="wave" id="wave3"></span>
+                <span class="wave" id="wave4"></span>
+            </figure>
+            <ul class="social-icon">
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-icon__item">
+                    <a class="social-icon__link" href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" href="./index.html">Home</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./hotel-info.html">About Us</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./booking.html"
+                        >Rooms & Suites</a
+                    >
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Dining</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Contact</a>
+                </li>
+            </ul>
+            <p class="footer_copyright">
+                &copy; 2024 Bonz.ai. All rights reserved.
+            </p>
+        </footer>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
