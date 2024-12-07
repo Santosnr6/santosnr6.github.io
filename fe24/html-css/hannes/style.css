@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan+SC&display=swap');
+
+
+/* Definierar lite variabler */
+:root {
+    --text-color: white;
+    --main-font: 'Poppins';
+    --button-color: #587F59;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-family: var(--main-font);
+    color: var(--text-color);
+}
+
+/* Sätter bakgrundsbild för sidan och width + height */
+body {
+    background-image: url(/assets/photos/09-night.jpg);
+    background-size: cover ;
+    background-position:center ;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+/* Header styling på bonz.ai ikonen och texten */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    
+    .header__img {
+        width: 6rem;
+        height: 6rem;
+        margin: 2rem 1rem;
+    }
+}
+
+/* Styling för hamburger meny till mobilvy */
+.header__hamburger-menu {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    display: none;
+
+    .header__lines {
+        width: 2.5rem;
+        height: 6px;
+        background-color: white;
+        border: none;
+        margin: 6.5px 0;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+}
+
+/* Styling på min meny på alla sidor */
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-size: 1.2vmax;
+
+    .menu__title, .menu__item {
+        text-decoration: none;
+    }
+}
+
+/* En liten hover effekt som jag tyckte om */
+.menu__item:hover {
+    opacity: 0.5;
+}
+
+/* Styling för huvudinnehållet på index.html */
+.main-section {
+    gap: 8rem;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding: 10rem 0;
+
+    .main-section__title {
+        font-size: 2rem;
+    }
+    .main-section__description{
+        font-size: 1.5rem;
+    }
+    .text--smaller {
+        font-weight: 400;
+    }
+
+    /* Styling på alla bilder */
+    .main-section__image {
+        width: 100%;
+        height: 100%;
+        border-radius: 10%;
+    }
+}
+
+/* Styling av innehåll på vänster sida i index.html och info.html */
+.main-section__hotel-info {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 23rem));
+    padding: 0 1rem;
+    gap: 1rem;
+    grid-template-rows: 2rem 15rem;
+
+    .main-section__image {
+        grid-row: 2;
+    }
+
+    .main-section__title {
+        grid-row: 1;
+    }
+
+    .main-section__description{
+        grid-column: 1/3;
+        grid-row: 3;
+        font-weight: 400;
+    }
+}
+
+/* Styling av höger sida på index.html sidan */
+.main-section__review {
+    display: flex;
+    padding: 0.5rem 0;
+    align-items: center;
+    
+    .main-section__profile-icon {
+        margin-right: 1rem;
+        font-size: 4rem;
+    }
+
+    .main-section---bigger {
+        padding-right: 1rem;
+    }
+}
+
+/* Styling på footer */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top:1px solid white ;
+    align-items: center;
+    min-height: 16rem;
+    flex-wrap: wrap;
+    
+        .footer__list {
+            font-size:1.25rem;
+            list-style: none;
+    
+        .footer-list__title {
+            font-size: 2rem;
+            }
+        }
+
+        /* Flexbox för att få ikonenerna i rad */
+        .social--list {
+            display: flex;
+            gap: 0.7rem;
+            font-size: 2.5rem;
+            cursor: pointer;
+        }
+}
+
+/* Styling av höger sida på info.html sidan */
+.main-section__facility {
+    display: grid;
+    grid-template-columns: minmax(10rem, 16rem) minmax(10rem, 21rem);
+    gap: 1rem;
+    grid-template-rows: 10rem 10rem 4rem 10rem;
+
+    .image--top {
+        grid-column: 1;
+        grid-row: 1/2;
+    }
+
+    .image--middle {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .main-section__text--top {
+        grid-column: 2;
+        grid-row: 1;
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    .image--bottom {
+        grid-row: 4;
+    }
+
+    .main-section__text--bottom {
+        grid-row: 4;
+        grid-column: 2;
+        font-weight: 400;
+    }
+}
+
+/* Modifier på main-section */
+.book--room {
+    padding-top: 4rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+/* Styling av input */
+.main-section__input-section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 30rem));
+    column-gap: 2rem;
+    margin-right: 5rem;
+
+    .main-section__input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    #incheckning {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #utcheckning {
+        grid-column: 2;
+        grid-row: 1;
+    }
+}
+
+/* Gömmer labels från sidan */
+.main-section__hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Gemensam styling på knapparna */
+.main-section__button {
+    background-color: var(--button-color);
+    width: 10rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+/* Huvudinnehållet på book.html */
+.main-section__results {
+    display: grid;
+    grid-template-columns: minmax(15rem, 22rem) minmax(20rem, 45rem);
+    gap: 1rem;
+
+    .main-section__title {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .image--top {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .info--top {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .info--middle {
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    .image--middle {
+        grid-row: 3;
+        grid-column: 1;
+    
+    }
+    .image--bottom {
+        grid-row: 4;
+        grid-column: 1;
+    }
+
+    .info--bottom {
+        grid-row: 4;
+        grid-column: 2;
+    }
+}
+
+/* Media queries */
+@media (max-width: 1350px) {
+    .main-section__results {
+        .main-section__description {
+        font-size: 1.2rem;
+    }
+    }
+}
+
+@media (max-width: 1100px) {
+    .book--room {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .main-section__results {
+        .main-section__description {
+        font-size: 1rem;
+    }
+    }
+}
+
+@media (max-width: 790px) {
+
+    .main-section {
+        flex-direction: column;
+        padding: 4rem 1rem;
+        gap: 3rem;
+
+        .main-section__description {
+            font-size: 1rem;
+        }
+
+        .main-section__title {
+            justify-self: center;
+        }
+    }
+
+    .book--room {
+        padding: 2rem 2rem;
+        padding-bottom: 4rem;
+        gap: 0;
+    }
+
+    .main-section__hotel-info{
+        grid-template-columns: 1fr;
+        padding: 0;
+        column-gap: 0;
+
+        .img--left {
+            display: none;
+        }
+
+        .img--right {
+            grid-column: 1;
+        }
+    }
+
+    .footer {
+
+        .footer__list {
+            font-size: 1rem;
+    
+            .footer-list__title {
+                font-size: 1.5rem;
+            }
+            
+            .social--list {
+                font-size: 2rem;
+                gap: 0.5rem;
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    
+    .header__text {
+        display: none;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .header__hamburger-menu {
+        display: block;
+    }
+
+    .main-section {
+        gap: 4rem;
+        padding: 0 1rem;
+        padding-bottom: 4rem;
+
+        .main-section__title {
+            font-size: 1.5rem;
+        }
+    }
+
+    .main-section__facility {
+        column-gap: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15rem 15rem 15rem;
+        padding-bottom: 5rem;
+
+        .image--top {
+            display: none;
+        }
+
+        .image--middle {
+            grid-row: 1;
+        }
+
+        .main-section__text--top {
+            grid-row: 2;
+            grid-column: 1/2;
+            font-size: 0.9rem;
+        }
+
+        .image--bottom {
+            grid-row: 3;
+        }
+
+        .main-section__text--bottom {
+            grid-row: 4;
+            grid-column: 1;
+        }
+    }
+
+    .book--room {
+        padding: 0 2rem;
+        padding-bottom: 6rem;
+        gap: 0rem;
+    }
+
+
+    .main-section__results {
+        padding-top: 1rem;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+        .main-section__title {
+            grid-column: 1;
+        }
+
+        .image--top {
+            grid-row: 2;
+        }
+        .info--top {
+            grid-row: 3;
+            grid-column: 1;
+        }
+        
+        .image--middle {
+            grid-row: 4;
+        }
+        
+        .info--middle {
+            grid-row: 5;
+            grid-column: 1;
+        }
+        .image--bottom {
+            grid-row: 6;
+        }
+
+        .info--bottom {
+            grid-row: 7;
+            grid-column: 1;
+        }
+    }
+
+    .main-section__input-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+
+        .main-section__input {
+            width: 100%;
+            font-size: 1.2rem;
+        }
+    }
+}
