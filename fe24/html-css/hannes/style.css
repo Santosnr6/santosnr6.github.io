@@ -19,7 +19,7 @@
 
 /* Sätter bakgrundsbild för sidan och width + height */
 body {
-    background-image: url(/assets/photos/09-night.jpg);
+    background-image: url("./assets/photos/09-night.jpg");
     background-size: cover ;
     background-position:center ;
     background-repeat: no-repeat;
