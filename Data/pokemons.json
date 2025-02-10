@@ -243,7 +243,7 @@
      "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/e/e3/027.png/revision/latest?cb=20230420234004"
   },
   {
-     "name": "sandslash",
+     "name": "Sandslash",
      "id": "#0028",
      "japanese": "サンドパン",
      "type": ["ground"],
@@ -1100,15 +1100,6 @@
   {
     "name": "Scyther",
     "id": "#0123",
-    "japanese": "ストライク",
-    "type": ["bug", "flying"],
-    "image": "https://static.wikia.nocookie.net/pokemon/images/2/23/123Scyther.png/revision/latest/scale-to-width-down/200?cb=20200620231710",
-    "info": "Scyther is a Bug/Flying-type Pokémon that evolves into Scizor when traded holding a Metal Coat. It is known for its sharp scythes and agility.",
-    "pixel-image": "https://static.wikia.nocookie.net/pokemon/images/5/5b/123.png/revision/latest?cb=20230418021719"
-  },
-  {
-    "name": "Starmie",
-    "id": "#0124",
     "japanese": "ストライク",
     "type": ["bug", "flying"],
     "image": "https://static.wikia.nocookie.net/pokemon/images/2/23/123Scyther.png/revision/latest/scale-to-width-down/200?cb=20200620231710",
