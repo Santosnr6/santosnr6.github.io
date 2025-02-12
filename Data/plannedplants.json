@@ -4,83 +4,95 @@
         "name" : "Gurka",
         "user" : "Rico Coolio",
         "image" : "https://images.unsplash.com/photo-1518568403628-df55701ade9e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-15"
+        "date" : "2024-04-15",
+        "status" : "planned"
     },
     {
         "id" : 2,
         "name" : "Tomat",
         "user" : "Jocke",
         "image" : "https://images.unsplash.com/photo-1596199050105-6d5d32222916?q=80&w=2639&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-01"
+        "date" : "2024-04-01",
+        "status" : "planted"
     },
     {
         "id" : 3,
         "name" : "Tomat",
         "user" : "Majvor",
         "image" : "https://images.unsplash.com/photo-1565698228480-eec300c9679b?q=80&w=2806&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-01"
+        "date" : "2024-04-01",
+        "status" : "planted"
     },
     {
         "id" : 4,
         "name" : "Sockerärtor",
         "user" : "Frippe",
         "image" : "https://images.unsplash.com/photo-1687878269804-63e8b50e3ddc?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-15"
+        "date" : "2024-04-15",
+        "status" : "planned"
     },
     {
         "id" : 5,
         "name" : "Majrova",
         "user" : "Emma på 4an",
         "image" : "https://images.unsplash.com/photo-1555447740-03e40562af94?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-01"
+        "date" : "2024-04-01",
+        "status" : "planned"
     },
     {
         "id" : 6,
         "name" : "Squash",
         "user" : "Perra J",
         "image" : "https://images.unsplash.com/photo-1627989230968-d0b8e2d1a398?q=80&w=2962&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-15"
+        "date" : "2024-04-15",
+        "status" : "planned"
     },
     {
         "id" : 7,
         "name" : "Gurka",
         "user" : "Jesper",
         "image" : "https://images.unsplash.com/photo-1518568403628-df55701ade9e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-30"
+        "date" : "2024-03-30",
+        "status" : "planted"
     },
     {
         "id" : 8,
         "name" : "Majrova",
         "user" : "Jesper",
         "image" : "https://images.unsplash.com/photo-1555447740-03e40562af94?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-30"
+        "date" : "2024-04-30",
+        "status" : "planned"
     },
     {
         "id" : 9,
         "name" : "Squash",
         "user" : "Rico Coolio",
         "image" : "https://images.unsplash.com/photo-1627989230968-d0b8e2d1a398?q=80&w=2962&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-05-11"
+        "date" : "2024-05-11",
+        "status" : "planned"
     },
     {
         "id" : 10,
         "name" : "Sockerärtor",
         "user" : "Jesper",
         "image" : "https://images.unsplash.com/photo-1687878269804-63e8b50e3ddc?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-15"
+        "date" : "2024-04-15",
+        "status" : "planned"
     },
     {
         "id" : 11,
         "name" : "Tomat",
         "user" : "Jesper",
         "image" : "https://images.unsplash.com/photo-1596199050105-6d5d32222916?q=80&w=2639&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-30"
+        "date" : "2024-04-30",
+        "status" : "planned"
     },
     {
         "id" : 12,
         "name" : "Gurka",
         "user" : "Majvor",
         "image" : "https://images.unsplash.com/photo-1518568403628-df55701ade9e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "date" : "2024-04-30"
+        "date" : "2024-04-30",
+        "status" : "planned"
     }
 ]
