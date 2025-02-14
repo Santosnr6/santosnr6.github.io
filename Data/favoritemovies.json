@@ -214,5 +214,11 @@
         "imdbID": "tt0119081",
         "Poster": "https://m.media-amazon.com/images/M/MV5BM2M4ZTI2MjMtYjVlNy00Y2E3LTgzM2EtNDA0NTUzZmQxZjY3XkEyXkFqcGc@._V1_SX300.jpg",
         "Trailer_link": "https://www.youtube.com/embed/pCtk3KN_ylM"
+    },
+    {
+        "Title": "Samsara",
+        "imdbID": "tt0770802",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNjY3NzM4MTI5NF5BMl5BanBnXkFtZTcwMjk3NTA5Nw@@._V1_SX300.jpg",
+        "Trailer_link": "https://www.youtube.com/embed/HCkEILshUyU"
     }
 ]
