@@ -202,5 +202,17 @@
         "imdbID": "tt16360006",
         "Poster": "https://m.media-amazon.com/images/M/MV5BNWNkMzk0M2QtMTUyZi00OTE2LTkxZmMtYTYxNmYyN2IyMzg5XkEyXkFqcGc@._V1_SX300.jpg",
         "Trailer_link": "https://www.youtube.com/embed/8pbWblLkHHk"
+    },
+    {
+        "Title": "The Prestige",
+        "imdbID": "tt0482571",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg",
+        "Trailer_link": "https://www.youtube.com/embed/ELq7V8vkekI"
+    },
+    {
+        "Title": "Event Horizon",
+        "imdbID": "tt0119081",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BM2M4ZTI2MjMtYjVlNy00Y2E3LTgzM2EtNDA0NTUzZmQxZjY3XkEyXkFqcGc@._V1_SX300.jpg",
+        "Trailer_link": "https://www.youtube.com/embed/pCtk3KN_ylM"
     }
 ]
