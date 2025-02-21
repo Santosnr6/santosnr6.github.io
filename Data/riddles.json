@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Vad kan flyga utan vingar och gråta utan ögon?",
+        "hints": [
+            "Det rör sig i vinden.",
+            "Det kan vara både mjukt och våldsamt.",
+            "Du ser det ofta på himlen.",
+            "Det förknippas med regn och stormar."
+        ],
+        "answer": "Moln"
+    },
+    {
+        "question": "Vad blir blötare ju mer du torkar?",
+        "hints": [
+            "Det används ofta efter en dusch.",
+            "Det finns i olika färger och storlekar.",
+            "Det är mjukt att ta på.",
+            "Det finns ofta på badrum."
+        ],
+        "answer": "Handduk"
+    },
+    {
+        "question": "Ju mer du tar, desto mer lämnar du efter dig. Vad är det?",
+        "hints": [
+            "Det är något du gör när du rör dig.",
+            "Det är svårt att ta på.",
+            "Det kan vara synligt i snö.",
+            "Det finns överallt där du går."
+        ],
+        "answer": "Fotspår"
+    },
+    {
+        "question": "Vad går upp men kommer aldrig ner?",
+        "hints": [
+            "Det är något som alla människor har.",
+            "Det ökar med tiden.",
+            "Det kan mätas i år.",
+            "Det är relaterat till hur gammal man är."
+        ],
+        "answer": "Ålder"
+    },
+    {
+        "question": "Jag har nycklar men inga lås. Vad är jag?",
+        "hints": [
+            "Det finns olika storlekar och märken.",
+            "Det har ofta svarta och vita tangenter.",
+            "Det kan skapa musik.",
+            "Det kan vara akustiskt eller elektroniskt."
+        ],
+        "answer": "Piano"
+    },
+    {
+        "question": "Vad går in i vatten men blir aldrig blött?",
+        "hints": [
+            "Det kan visa var du är.",
+            "Det är något du alltid har med dig.",
+            "Det rör sig inte, men visar vägen.",
+            "Det förknippas med skuggor."
+        ],
+        "answer": "Skugga"
+    },
+    {
+        "question": "Jag har många ansikten men inga ögon. Vad är jag?",
+        "hints": [
+            "Det visar tiden.",
+            "Du har det ofta på armen eller väggen.",
+            "Det finns analoga och digitala versioner.",
+            "Det har siffror eller visare."
+        ],
+        "answer": "Klocka"
+    },
+    {
+        "question": "Vad har ett huvud, en fot och fyra ben men kan inte gå?",
+        "hints": [
+            "Du hittar det ofta i sovrummet.",
+            "Det används för att sova.",
+            "Det är mjukt och bekvämt.",
+            "Det har en kudde på huvudet."
+        ],
+        "answer": "Säng"
+    },
+    {
+        "question": "Vad har ögon men kan inte se?",
+        "hints": [
+            "Det växer i naturen.",
+            "Det är ett livsmedel.",
+            "Det har ett grönt huvud och små prickar.",
+            "Det finns i olika färger."
+        ],
+        "answer": "Potatis"
+    },
+    {
+        "question": "Vad kan gå men har inga ben?",
+        "hints": [
+            "Det är något som kan ses på en klocka.",
+            "Det rör sig konstant framåt.",
+            "Det stannar aldrig.",
+            "Det finns i timmar, minuter och sekunder."
+        ],
+        "answer": "Tid"
+    },
+    {
+        "question": "Vad går upp och ner utan att röra sig?",
+        "hints": [
+            "Det är vanligt på byggnader.",
+            "Det används för att ta sig mellan våningar.",
+            "Det kan ha olika antal steg.",
+            "Det kan vara både inomhus och utomhus."
+        ],
+        "answer": "Trappa"
+    },
+    {
+        "question": "Vad är fullt av hål men kan fortfarande hålla vatten?",
+        "hints": [
+            "Det används ofta i köket.",
+            "Det är vanligt att ha det i diskhon.",
+            "Det är mjukt och poröst.",
+            "Det kan absorbera vatten."
+        ],
+        "answer": "Svamp"
+    },
+    {
+        "question": "Vad är så skört att man kan förstöra det genom att säga dess namn?",
+        "hints": [
+            "Det är något man ofta uppskattar i naturen.",
+            "Det kan vara svårt att hitta.",
+            "Det försvinner om det bryts.",
+            "Det är motsatsen till buller."
+        ],
+        "answer": "Tystnad"
+    },
+    {
+        "question": "Ju mer du har av mig, desto mindre ser du. Vad är jag?",
+        "hints": [
+            "Det kommer på natten.",
+            "Det försvinner med ljus.",
+            "Det förknippas med mörker.",
+            "Det kan vara lite skrämmande."
+        ],
+        "answer": "Mörker"
+    },
+    {
+        "question": "Vad går upp på morgonen och ner på kvällen?",
+        "hints": [
+            "Det syns på himlen.",
+            "Det ger ljus och värme.",
+            "Det är viktigt för livet på jorden.",
+            "Det är en stjärna."
+        ],
+        "answer": "Solen"
+    },
+    {
+        "question": "Jag har tänder men inga ögon. Vad är jag?",
+        "hints": [
+            "Det används i badrummet.",
+            "Det hjälper till att hålla något rent.",
+            "Det är viktigt för munhygien.",
+            "Det har små borst."
+        ],
+        "answer": "Tandborste"
+    },
+    {
+        "question": "Jag blir högre när jag är yngre och mindre när jag är äldre. Vad är jag?",
+        "hints": [
+            "Det används ofta för att skapa en mysig stämning.",
+            "Det brinner och ger ljus.",
+            "Det smälter när det används.",
+            "Det har en veke i mitten."
+        ],
+        "answer": "Ljus"
+    },
+    {
+        "question": "Vad är alltid framför dig men kan aldrig ses?",
+        "hints": [
+            "Det är nära relaterat till tid.",
+            "Du kan planera för det, men inte kontrollera det.",
+            "Det kommer alltid efter nutid.",
+            "Det kallas ofta för morgondagen."
+        ],
+        "answer": "Framtiden"
+    },
+    {
+        "question": "Vad har ett hjärta men inga andra kroppsdelar?",
+        "hints": [
+            "Det är något du kan ha i fickan.",
+            "Det används i spel.",
+            "Det finns i olika färger och former.",
+            "Det ingår i en kortlek."
+        ],
+        "answer": "Kortlek"
+    },
+    {
+        "question": "Vad kan kastas men aldrig fångas?",
+        "hints": [
+            "Det är något du ofta ser i naturen.",
+            "Det rör sig över himlen.",
+            "Det kommer oftast på hösten.",
+            "Det är en del av ett väderfenomen."
+        ],
+        "answer": "Vind"
+    }
+]
