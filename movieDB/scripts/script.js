@@ -9,21 +9,21 @@ window.addEventListener('load', async () => {
     console.log('loaded');
     console.log(window.location.pathname);
     
-    if(window.location.pathname === '/' || window.location.pathname === '/index.html') {
+    if(window.location.pathname === '/movieDB/' || window.location.pathname === '/movieDB/index.html') {
         console.log('index.html');
         await fetchMovies();
         updateStartPageCards();
         addFavoriteListeners('.movies__favorite-star');
         setupSearch();
-    } else if(window.location.pathname === '/favorites.html') {
+    } else if(window.location.pathname === '/movieDB/favorites.html') {
         console.log('favorites.html');
         updateFavoritePageCards();
         addFavoriteListeners('.movies__favorite-star');
-    } else if(window.location.pathname === '/movie.html') {
+    } else if(window.location.pathname === '/movieDB/movie.html') {
         console.log('movie.html');
         await setupActiveMoviePage();
         addFavoriteListeners('.movie-information__favorite-star');
-    } else if(window.location.pathname === '/search.html') {
+    } else if(window.location.pathname === '/movieDB/search.html') {
         console.log('search.html');
         await setupSearchResultsPage();
         addFavoriteListeners('.movies__favorite-star');
