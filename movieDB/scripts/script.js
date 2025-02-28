@@ -5,26 +5,30 @@ import { updateStartPageCards, updateFavoritePageCards, setupActiveMoviePage, se
 import { shuffleArray } from "./utils/utils.js";
 import { addFavoriteListeners, setupSearch } from "./modules/eventHandlers.js";
 
-if(window.location.pathname === '/' || window.location.pathname === '/index.html') {
-    console.log('index.html');
-    await fetchMovies();
-    updateStartPageCards();
-    addFavoriteListeners('.movies__favorite-star');
-    setupSearch();
-} else if(window.location.pathname === '/favorites.html') {
-    console.log('favorites.html');
-    updateFavoritePageCards();
-    addFavoriteListeners('.movies__favorite-star');
-} else if(window.location.pathname === '/movie.html') {
-    console.log('movie.html');
-    await setupActiveMoviePage();
-    addFavoriteListeners('.movie-information__favorite-star');
-} else if(window.location.pathname === '/search.html') {
-    console.log('search.html');
-    await setupSearchResultsPage();
-    addFavoriteListeners('.movies__favorite-star');
-}
-
+window.addEventListener('load', async () => {
+    console.log('loaded');
+    
+    if(window.location.pathname === '/' || window.location.pathname === '/index.html') {
+        console.log('index.html');
+        await fetchMovies();
+        updateStartPageCards();
+        addFavoriteListeners('.movies__favorite-star');
+        setupSearch();
+    } else if(window.location.pathname === '/favorites.html') {
+        console.log('favorites.html');
+        updateFavoritePageCards();
+        addFavoriteListeners('.movies__favorite-star');
+    } else if(window.location.pathname === '/movie.html') {
+        console.log('movie.html');
+        await setupActiveMoviePage();
+        addFavoriteListeners('.movie-information__favorite-star');
+    } else if(window.location.pathname === '/search.html') {
+        console.log('search.html');
+        await setupSearchResultsPage();
+        addFavoriteListeners('.movies__favorite-star');
+    }
+});
+    
 async function fetchMovies() {
     await fetchTopMovies();
     console.log(oData.topMovieList);
