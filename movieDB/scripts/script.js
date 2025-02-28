@@ -7,6 +7,7 @@ import { addFavoriteListeners, setupSearch } from "./modules/eventHandlers.js";
 
 window.addEventListener('load', async () => {
     console.log('loaded');
+    console.log(window.location.pathname);
     
     if(window.location.pathname === '/' || window.location.pathname === '/index.html') {
         console.log('index.html');
