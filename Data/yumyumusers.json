@@ -1,0 +1,46 @@
+{
+    "users": [
+        {
+            "username": "jesperdaking",
+            "password": "fisnils123",
+            "role": "admin",
+            "email": "jesper123@airbean.com",
+            "profile_image": "https://randomuser.me/api/portraits/men/1.jpg"
+        },
+        {
+            "username": "bradpitt",
+            "password": "fightclub9",
+            "role": "user",
+            "email": "bradpitt@coffeeclique.com",
+            "profile_image": "https://randomuser.me/api/portraits/men/2.jpg"
+        },
+        {
+            "username": "fotbollskungen",
+            "password": "legomast3r",
+            "role": "user",
+            "email": "fotbollskungen@brewbuddies.com",
+            "profile_image": "https://randomuser.me/api/portraits/men/3.jpg"
+        },
+        {
+            "username": "bergwallz",
+            "password": "ilovepizza",
+            "role": "user",
+            "email": "bergwallz@beancraze.com",
+            "profile_image": "https://randomuser.me/api/portraits/men/4.jpg"
+        },
+        {
+            "username": "tumlaren",
+            "password": "magont456",
+            "role": "admin",
+            "email": "tumlaren@airbean.com",
+            "profile_image": "https://randomuser.me/api/portraits/men/5.jpg"
+        },
+        {
+            "username": "test",
+            "password": "test123",
+            "role": "user",
+            "email": "frivillig@caffeinecrew.com",
+            "profile_image": "https://randomuser.me/api/portraits/men/6.jpg"
+        }
+    ]    
+}
