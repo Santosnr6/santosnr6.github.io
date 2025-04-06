@@ -1,5 +1,5 @@
 [
-    {
+    {   "id" : 1,
         "title" : "The fellowship of the ring",
         "author" : "J.R.R Tolkien",
         "pages" : 432,
@@ -7,6 +7,7 @@
         "about": "En episk berättelse om en broderskapets resa för att förstöra en ond ring och rädda Midgård från mörkrets krafter."
     },
     {
+        "id" : 2,
         "title": "Harry Potter and the Philosopher's Stone",
         "author": "J.K. Rowling",
         "pages": 320,
@@ -14,6 +15,7 @@
         "about": "En ung trollkarl, Harry Potter, upptäcker sin arv och en värld av magi när han börjar på Hogwarts skola för häxkonster och trolldom."
     },
     {
+        "id" : 3,
         "title": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "pages": 281,
@@ -21,6 +23,7 @@
         "about": "En gripande skildring av rasism och orättvisa genom ögonen på en ung flicka och hennes far, en modig advokat som kämpar för rättvisa."
     },
     {
+        "id" : 4,
         "title": "1984",
         "author": "George Orwell",
         "pages": 328,
@@ -28,6 +31,7 @@
         "about": "En dystopisk framtid där regeringen styr varje aspekt av människors liv och ensamhet och övervakning är normen."
     },
     {
+        "id" : 5,
         "title": "Pride and Prejudice",
         "author": "Jane Austen",
         "pages": 279,
@@ -35,13 +39,15 @@
         "about": "En klassisk kärlekshistoria där Elizabeth Bennet navigerar genom de sociala konventionerna i det tidiga 1800-talets England för att finna sann kärlek."
     },
     {
+        "id" : 6,
         "title": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "pages": 180,
         "genre": "fiction",
         "about": "En fängslande berättelse om dekadens och tomhet i 1920-talets Amerika, sedd genom ögonen på den mystiske Jay Gatsby."
     },
-    {
+    {   
+        "id" : 7,
         "title": "The Catcher in the Rye",
         "author": "J.D. Salinger",
         "pages": 277,
@@ -49,6 +55,7 @@
         "about": "En ung mans resa genom alienation och vuxenhetens värld, fylld med sinnesstörningar och en längtan efter äkthet."
     },
     {
+        "id" : 8,
         "title": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "pages": 310,
@@ -56,6 +63,7 @@
         "about": "En äventyrsfylld resa av en hobbit som heter Bilbo Baggins, när han går med en grupp dvärgar för att återta deras hem från en drake."
     },
     {
+        "id" : 9,
         "title": "The Hunger Games",
         "author": "Suzanne Collins",
         "pages": 374,
@@ -63,6 +71,7 @@
         "about": "I en framtid där ungdomar kämpar till döden i en årlig strid för underhållning, utmanar en flicka vid namn Katniss Everdeen reglerna och systemet."
     },
     {
+        "id" : 10,
         "title": "The Lord of the Rings: The Two Towers",
         "author": "J.R.R. Tolkien",
         "pages": 352,
@@ -70,6 +79,7 @@
         "about": "I den andra delen av Sagan om ringen står broderskapet inför ökade faror när de strävar efter att förgöra ringen och besegra Sauron."
     },
     {
+        "id" : 11,
         "title": "The Da Vinci Code",
         "author": "Dan Brown",
         "pages": 454,
@@ -77,13 +87,15 @@
         "about": "En spännande katt-och-råtta jakt genom konst, historia och religion när en symbolistisk professor och en kryptolog spårar en dödlig hemlighet."
     },
     {
+        "id" : 12,
         "title": "The Girl with the Dragon Tattoo",
         "author": "Stieg Larsson",
         "pages": 672,
         "genre": "mystery",
         "about": "En mörk och komplex deckare där journalisten Mikael Blomkvist och hackeran Lisbeth Salander förenas för att lösa en gammal familjehemlighet."
     },
-    {
+    {   
+        "id" : 13,
         "title": "Gone with the Wind",
         "author": "Margaret Mitchell",
         "pages": 1037,
@@ -91,6 +103,7 @@
         "about": "En episk saga om kärlek, förlust och överlevnad under det amerikanska inbördeskriget, med Scarlett O'Hara i centrum för stormen."
     },
     {
+        "id" : 14,
         "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
         "author": "C.S. Lewis",
         "pages": 208,
@@ -98,13 +111,15 @@
         "about": "Fyra syskon upptäcker en magisk värld bakom en garderob där de måste kämpa mot en ond häxa med hjälp av lejonet Aslan."
     },
     {
+        "id" : 15,
         "title": "The Hitchhiker's Guide to the Galaxy",
         "author": "Douglas Adams",
         "pages": 216,
         "genre": "science fiction",
         "about": "En absurd och underhållande resa genom rymden där jordens enda överlevande, Arthur Dent, utforskar universum med sin udda följeslagare."
     },
-    {
+    {   
+        "id" : 16,
         "title": "The Alchemist",
         "author": "Paulo Coelho",
         "pages": 197,
@@ -112,27 +127,31 @@
         "about": "En inspirerande berättelse om en herdpojkes resa för att upptäcka sin öde och uppfylla sina drömmar, ledd av en mystisk alchemist."
     },
     {
+        "id" : 17,
         "title": "The Book Thief",
         "author": "Markus Zusak",
         "pages": 552,
         "genre": "historical fiction",
         "about": "Berättad av Döden, följer denna gripande historia en flicka som stjäl böcker och delar kärlek och hopp i Nazityskland under andra världskriget."
     },
-    {
+    {   
+        "id" : 18,
         "title": "Brave New World",
         "author": "Aldous Huxley",
         "pages": 288,
         "genre": "dystopian",
         "about": "I en framtid där mänskligheten är kontrollerad och lyckliggjord genom droger och manipulation, ifrågasätter en man det totalitära samhällets värden."
     },
-    {
+    {   
+        "id" : 19,
         "title": "The Road",
         "author": "Cormac McCarthy",
         "pages": 287,
         "genre": "post-apocalyptic",
         "about": "I en ödelagd värld kämpar en far och hans son för att överleva och bevara sin mänsklighet medan de vandrar genom en öde landskap."
     },
-    {
+    {   
+        "id" : 20,
         "title": "The Picture of Dorian Gray",
         "author": "Oscar Wilde",
         "pages": 253,
@@ -140,6 +159,7 @@
         "about": "En ung man förbannar sitt porträtt för att bevara sin ungdomsamhet medan han själv fördärvas av synd och dekadens."
     },
     {
+        "id" : 21,
         "title": "The Shining",
         "author": "Stephen King",
         "pages": 447,
@@ -147,6 +167,7 @@
         "about": "En familj isoleras på ett ödsligt hotell under vintern, där faderns mentala förfall och hotellets onda närvaro hotar att förgöra dem alla."
     },
     {
+        "id" : 22,
         "title": "The Kite Runner",
         "author": "Khaled Hosseini",
         "pages": 371,
@@ -154,6 +175,7 @@
         "about": "En gripande berättelse om vänskap, förlåtelse och återfödelse, som spänner över årtionden och kulturer i ett krigshärjat Afghanistan."
     },
     {
+        "id" : 23,
         "title": "The Night Circus",
         "author": "Erin Morgenstern",
         "pages": 387,
@@ -161,6 +183,7 @@
         "about": "En magisk cirkus dyker upp över natten och blir skådeplatsen för en intensivt romantisk strid mellan två unga illusionister."
     },
     {
+        "id" : 24,
         "title": "Sapiens: A Brief History of Humankind",
         "author": "Yuval Noah Harari",
         "pages": 443,
@@ -168,6 +191,7 @@
         "about": "En djupdykning i mänsklighetens evolution och historia, som utforskar hur kultur, religion och teknologi har format vår värld."
     },
     {
+        "id" : 25,
         "title": "The Martian",
         "author": "Andy Weir",
         "pages": 369,
