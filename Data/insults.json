@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "insult": "Thou art as fat as butter.",
+      "play": "Henry IV, Part 1"
+    },
+    {
+      "id": 2,
+      "insult": "Peace, filthy worm!",
+      "play": "Timon of Athens"
+    },
+    {
+      "id": 3,
+      "insult": "More of your conversation would infect my brain.",
+      "play": "Coriolanus"
+    },
+    {
+      "id": 4,
+      "insult": "Thou art unfit for any place but hell.",
+      "play": "Richard III"
+    },
+    {
+      "id": 5,
+      "insult": "Away, you three-inch fool!",
+      "play": "The Taming of the Shrew"
+    }
+]
