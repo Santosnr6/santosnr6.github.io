@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rufina:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(./animations.css);
+
+:root {
+    --green-dark: #38846D;
+    --pink: #F3E4E1;
+    --brown: #2F2926;
+    --orange: #E5674E;
+
+    --white: #fff;
+    --black: #000;
+
+    --font-rufina: "Rufina", serif;
+    --font-pt: "PT Serif", serif;
+    --font-work: "Work Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+    position: relative;
+
+    .page__leafs {
+        position: absolute;
+        width: 100%;
+    }
+
+    .page__leafs--left {
+        top: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .page__leafs--right {
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .page__leafs--top {
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .page__leafs--bottom {
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.burger {
+    position: sticky;
+    z-index: 3;
+    top: 1rem;
+    left: 1rem;
+    background-color: var(--white);
+    width: 4rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    .burger__line,
+    .burger__line::before,
+    .burger__line::after {
+        content: '';
+        width: 2rem;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        transition: all .3s ease;
+    }
+
+    .burger__line::before {
+        top: -8px;
+    }
+
+    .burger__line::after {
+        top: 8px;
+    }
+}
+
+.burger.open {
+    .burger__line {
+        transform: rotate(45deg);
+    }
+
+    .burger__line::before {
+        top: 0;
+        opacity: 0;
+    }
+
+    .burger__line::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+}
+
+.burger.open ~ .nav {
+    transform: translateX(0);
+}
+
+.nav {
+    z-index: 2;
+    background-color: var(--brown);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: all .5s ease;
+
+    .nav__link {
+        text-decoration: none;
+        font-family: var(--font-pt);
+        font-size: 2rem;
+        color: var(--white);
+        padding: 1.5rem;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .nav__link::after {
+        content: '';
+        width: 100px;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.cart {
+    background-color: var(--brown);
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 4rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    .cart__icon {
+
+    }
+
+    .cart__indicator {
+        position: absolute;
+        color: var(--white);
+        top: -.5rem;
+        right: -.5rem;
+        background-color: var(--orange);
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        display: grid;
+        place-content: center;
+    }
+}
+
+.home-page {
+    background-color: var(--green-dark);
+    display: grid;
+    place-items: center;
+
+    .home-page__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-decoration: none;
+        animation: bounce 4s cubic-bezier(.34,1.56,.64,1) infinite;
+        
+        .home-page__logo {
+            padding: 1rem;
+            border-radius: 50%;
+            background-color: #4C907C;
+            aspect-ratio: 1;
+        }
+        
+        .home-page__title {
+            font-family: var(--font-rufina);
+            font-weight: 700;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            color: var(--white);
+            text-transform: uppercase;
+        }
+        
+        .home-page__subtitle {
+            font-family: var(--font-work);
+            font-size: .75rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--white);
+            font-weight: 400;
+        }
+    }
+}
+
+.menu-page {
+    background-color: var(--pink);
+
+    .menu-page__title {
+        padding-top: 4rem;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-family: var(--font-pt);
+        color: var(--brown);
+    }
+
+    .menu {
+        padding: 2rem;
+        padding-bottom: 7rem;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .menu__item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            .menu__add-btn {
+                background-color: var(--brown);
+                padding: .75rem;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            .menu__item-content {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                color: var(--brown);
+                flex: 1;
+
+                .menu__item-name {
+                    grid-column: auto / span 3;
+                    font-family: var(--font-pt);
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                }
+                
+                .menu__item-price {
+                    grid-column: auto / span 1;
+                    font-family: var(--font-pt);
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                }
+
+                .menu__item-description {
+                    grid-column: auto / span 5;
+                }
+            }
+        }
+    }
+}

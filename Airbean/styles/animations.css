@@ -1,0 +1,31 @@
+@keyframes bounce {
+   0%,
+  75% {
+    transform: translateY(0);
+  }
+
+  /* Bounce start – 1 sekund */
+  80% {
+    transform: translateY(2rem);
+  }
+
+  84% {
+    transform: translateY(0);
+  }
+
+  88% {
+    transform: translateY(1.2rem);
+  }
+
+  92% {
+    transform: translateY(0);
+  }
+
+  96% {
+    transform: translateY(0.6rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

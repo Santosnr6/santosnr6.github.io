@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="../assets/logo.svg" />
+        <link rel="stylesheet" href="../styles/index.css" />
+        <script type="module" src="../scripts/index.js"></script>
+        <title>Menu - Airbean</title>
+    </head>
+    <body>
+        <section class="menu-page page">
+            <img
+                src="../assets/leafs-top.svg"
+                alt="Decorative leafs on the top of the screen"
+                class="page__leafs page__leafs--top"
+            />
+            <img
+                src="../assets/leafs-bottom.svg"
+                alt="Decorative leafs on the bottom of the screen"
+                class="page__leafs page__leafs--bottom"
+            />
+            <figure class="burger" id="burgerBtn">
+                <span class="burger__line"></span>
+            </figure>
+
+            <figure class="cart" id="cartBtn">
+                <img
+                    src="../assets/bag.svg"
+                    alt="Cart icon"
+                    class="cart__icon"
+                />
+                <p class="cart__indicator" id="cartIndicator">0</p>
+            </figure>
+            <nav class="nav">
+                <a href="" class="nav__link">Home</a>
+                <a href="" class="nav__link">Meny</a>
+                <a href="" class="nav__link">Vårt Kaffe</a>
+                <a href="" class="nav__link">Min Profil</a>
+                <a href="" class="nav__link">Orderstatus</a>
+            </nav>
+
+            <h1 class="menu-page__title">Menu</h1>
+            <ul class="menu" id="coffeeMenu"></ul>
+        </section>
+    </body>
+</html>
