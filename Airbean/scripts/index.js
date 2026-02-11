@@ -5,7 +5,7 @@ import { setupBurger, setupCoffeeMenu } from "./modules/gui.js";
 console.log(location.pathname);
 
 
-if(location.pathname === '/pages/menu.html') {
+if(location.pathname.includes('menu.html')) {
     setMenuItems(await fetchMenu());
     setupBurger();
     setupCoffeeMenu();
