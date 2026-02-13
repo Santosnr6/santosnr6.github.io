@@ -226,5 +226,35 @@
         "imdbID": "tt0382932",
         "Poster": "https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg",
         "Trailer_link": "https://www.youtube.com/embed/NgsQ8mVkN8w"
+    },
+    {
+        "Title": "Man on fire",
+        "imdbID": "tt0328107",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMGMzNjg3ZDgtOGNlNy00NTdjLWI2NDEtMjI1MmEwMTBmMjMxXkEyXkFqcGc@._V1_SX300.jpg",
+        "Trailer_link": "https://www.youtube.com/embed/6V0TQAzZWOM"
+    },
+    {
+        "Title": "The Matrix",
+        "imdbID": "tt0133093",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg",
+        "Trailer_link": "https://www.youtube.com/embed/m8e-FF8MsqU"
+    },
+    {
+        "Title": "Office Space",
+        "imdbID": "tt0151804",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTA5MzQ3MzI1NV5BMl5BanBnXkFtZTgwNTcxNTYxMTE@._V1_SX300.jpg",
+        "Trailer_link": "https://www.youtube.com/embed/rPJUXZvX6UI"
+    },
+    {
+        "Title": "Once upo a time in Hollywood",
+        "imdbID": "tt7131622",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMzMzNmViNjYtN2ViNi00NDM3LWFlMmItNDYyMGIzY2EzZjE2XkEyXkFqcGc@._V1_SX300.jpg",
+        "Trailer_link": "https://www.youtube.com/embed/ELeMaP8EPAA"
+    },
+    {
+        "Title": "The Lighthouse",
+        "imdbID": "tt7984734",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTI4MjFhMjAtNmQxYi00N2IxLWJjMGEtYWY1YmU3OTQ0Zjk3XkEyXkFqcGc@._V1_SX300.jpg",
+        "Trailer_link": "https://www.youtube.com/embed/Hyag7lR8CPA"
     }
 ]
