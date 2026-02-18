@@ -282,51 +282,9 @@
         "Trailer_link": "https://www.youtube.com/embed/1Fg5iWmQjwk"
     },
     {
-        "Title": "Alien",
-        "imdbID": "tt0078748",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BN2NhMDk2MmEtZDQzOC00MmY5LThhYzAtMDdjZGFjOGZjMjdjXkEyXkFqcGc@._V1_SX300.jpg",
-        "Trailer_link": "https://www.youtube.com/embed/jQ5lPt9edzQ"
-    },
-    {
-        "Title": "Parasite",
-        "imdbID": "tt6751668",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGc@._V1_SX300.jpg",
-        "Trailer_link": "https://www.youtube.com/embed/5xH0HfJHsaY"
-    },
-    {
-        "Title": "Talk to me!",
-        "imdbID": "tt10638522",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BY2I2NzJmY2YtYTM3Ni00ZGJhLThkZTItODFhMzhlZjZkMDQ5XkEyXkFqcGc@._V1_SX300.jpg",
-        "Trailer_link": "https://www.youtube.com/embed/aLAKJu9aJys"
-    },
-    {
         "Title": "The last samurai",
         "imdbID": "tt0325710",
         "Poster": "https://m.media-amazon.com/images/M/MV5BMzkyNzQ1Mzc0NV5BMl5BanBnXkFtZTcwODg3MzUzMw@@._V1_SX300.jpg",
         "Trailer_link": "https://www.youtube.com/embed/T50_qHEOahQ"
-    },
-    {
-        "Title": "Next friday",
-        "imdbID": "tt0195945",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BZmU0MTAwNDAtYmU1Zi00NDViLThkZDYtYmVhZGJhM2E4NzMxXkEyXkFqcGc@._V1_SX300.jpg",
-        "Trailer_link": "https://www.youtube.com/embed/Uu7qV57UKSo"
-    },
-    {
-        "Title": "The nightmare before christmas",
-        "imdbID": "tt0107688",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BNmYxOTAzZWYtOGI3Yi00ODc3LTk5ZjYtZTY0MzVkZTg3YmRiXkEyXkFqcGc@._V1_SX300.jpg",
-        "Trailer_link": "https://www.youtube.com/embed/wr6N_hZyBCk"
-    },
-    {
-        "Title": "Coraline",
-        "imdbID": "tt0327597",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg",
-        "Trailer_link": "https://www.youtube.com/embed/m9bOpeuvNwY"
-    },
-    {
-        "Title": "Flow",
-        "imdbID": "tt4772188",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BOTM5ODBlOTAtYjcwZi00YzkzLWIzODEtMTM2MTZlNDFmMWU2XkEyXkFqcGc@._V1_SX300.jpg",
-        "Trailer_link": "https://www.youtube.com/embed/82WW9dVbglI"
     }
 ]
