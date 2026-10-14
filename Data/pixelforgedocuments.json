@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": "doc-001",
+    "slug": "shipping-information",
+    "title": "Shipping Information",
+    "category": "Orders & Delivery",
+    "description": "Learn about our shipping options, delivery areas, and shipping costs.",
+    "content": "# Shipping Information\n\nPixelForge delivers gaming hardware and accessories to customers throughout Sweden.\n\n## Shipping Options\n\nWe offer standard home delivery and delivery to selected pickup points. Available options are displayed during checkout.\n\n## Shipping Costs\n\nStandard shipping costs 69 SEK. Orders exceeding 1,500 SEK qualify for free standard shipping.\n\n## Delivery Areas\n\nWe currently deliver within Sweden only. International shipping is not available.\n\n## Important Information\n\nLarge products, including prebuilt gaming PCs, may require special handling and could have different delivery conditions."
+  },
+  {
+    "id": "doc-002",
+    "slug": "delivery-times",
+    "title": "Delivery Times",
+    "category": "Orders & Delivery",
+    "description": "Find out how long your PixelForge order will take to arrive.",
+    "content": "# Delivery Times\n\nDelivery times depend on product availability, order processing, and the selected shipping method.\n\n## Standard Delivery\n\nProducts that are in stock are normally delivered within 2–4 business days after dispatch.\n\n## Order Processing\n\nOrders are generally processed within one business day. Orders placed during weekends or public holidays are processed on the next business day.\n\n## Prebuilt Gaming PCs\n\nCertain gaming PCs require additional preparation and testing before shipping. These orders may take 5–8 business days to arrive.\n\n## Delays\n\nDelivery times may be affected by holidays, high order volumes, or unexpected transportation issues. Customers will be notified if a significant delay occurs."
+  },
+  {
+    "id": "doc-003",
+    "slug": "order-tracking",
+    "title": "Order Tracking",
+    "category": "Orders & Delivery",
+    "description": "Learn how to track your order and check its delivery status.",
+    "content": "# Order Tracking\n\nCustomers can follow the progress of their PixelForge orders using the tracking information provided after dispatch.\n\n## Tracking Your Shipment\n\nOnce your order has been shipped, you will receive an email containing a tracking number and a link to the delivery provider.\n\n## Order Status\n\nOrders may have the following statuses:\n\n- Processing: Your order is being prepared.\n- Shipped: Your package has left our warehouse.\n- In Transit: Your package is on its way.\n- Delivered: Your package has reached its destination.\n\n## Missing Tracking Information\n\nTracking information may take up to 24 hours to become available after dispatch.\n\n## Contact Support\n\nIf your tracking information has not updated for several business days, please contact PixelForge customer support."
+  }
+]
